@@ -1,0 +1,6199 @@
+# ::id 0
+# ::snt NA
+(xv0 / throw-01
+      :ARG1 (xv1 / cat)
+      :ARG0 (xv2 / ceiling)
+      :ARG2 (xv3 / person))
+
+# ::id 1
+# ::snt NA
+(xv0 / throw-01
+      :ARG0 (xv3 / person)
+      :ARG1 (xv1 / cat)
+      :ARG2 (xv2 / ceiling))
+
+# ::id 2
+# ::snt NA
+(xv0 / slide-01
+      :ARG1 (xv2 / bear
+            :mod (xv3 / polar))
+      :ARG2 (xv1 / across
+            :op1 (xv4 / snow)))
+
+# ::id 3
+# ::snt NA
+(xv0 / slide-01
+      :ARG1 (xv2 / bear
+            :mod (xv3 / polar))
+      :ARG2 (xv1 / across
+            :op1 (xv4 / snow)))
+
+# ::id 4
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / horse)
+      :ARG1 (xv2 / man))
+
+# ::id 5
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / horse))
+
+# ::id 6
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / potato)
+      :ARG1 (xv2 / woman))
+
+# ::id 7
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 8
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / flute)
+      :ARG1 (xv2 / woman))
+
+# ::id 9
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / flute))
+
+# ::id 10
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / skateboard)
+      :ARG1 (xv1 / dog))
+
+# ::id 11
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv2 / skateboard))
+
+# ::id 12
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / shrimp)
+      :ARG1 (xv2 / woman))
+
+# ::id 13
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / shrimp))
+
+# ::id 14
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 15
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 16
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / drum)
+      :ARG1 (xv2 / man))
+
+# ::id 17
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / drum))
+
+# ::id 18
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / horse)
+      :ARG1 (xv2 / woman))
+
+# ::id 19
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / horse))
+
+# ::id 20
+# ::snt NA
+(xv0 / tie-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / shoe
+            :poss xv1))
+
+# ::id 21
+# ::snt NA
+(xv0 / tie-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / shoe
+            :poss xv1))
+
+# ::id 22
+# ::snt NA
+(xv0 / sew-01
+      :ARG0 (xv1 / machine)
+      :ARG2 (xv2 / woman))
+
+# ::id 23
+# ::snt NA
+(xv0 / sew-01
+      :ARG0 (xv2 / woman)
+      :ARG2 (xv1 / machine))
+
+# ::id 24
+# ::snt NA
+(xv0 / climb-01
+      :ARG0 (xv2 / rope)
+      :ARG1 (xv1 / man)
+      :direction (xv3 / up))
+
+# ::id 25
+# ::snt NA
+(xv0 / climb-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / rope)
+      :direction (xv3 / up))
+
+# ::id 26
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / flute)
+      :ARG1 (xv2 / man))
+
+# ::id 27
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / flute))
+
+# ::id 28
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / tofu))
+
+# ::id 29
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / tofu))
+
+# ::id 30
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / keyboard)
+      :ARG1 (xv2 / someone))
+
+# ::id 31
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / someone)
+      :ARG1 (xv1 / keyboard))
+
+# ::id 32
+# ::snt NA
+(xv0 / sprinkle-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / cheese)
+      :ARG2 (xv3 / pizza))
+
+# ::id 33
+# ::snt NA
+(xv0 / sprinkle-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / cheese)
+      :ARG2 (xv3 / pizza))
+
+# ::id 34
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / piano)
+      :ARG1 (xv1 / boy))
+
+# ::id 35
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv2 / piano))
+
+# ::id 36
+# ::snt NA
+(xv0 / apply-02
+      :ARG1 (xv1 / butter)
+      :ARG0 (xv2 / bread)
+      :ARG2 (xv3 / man))
+
+# ::id 37
+# ::snt NA
+(xv0 / apply-02
+      :ARG0 (xv3 / man)
+      :ARG1 (xv1 / butter)
+      :ARG2 (xv2 / bread))
+
+# ::id 38
+# ::snt NA
+(xv0 / add-02
+      :ARG0 (xv2 / man)
+      :ARG1 (xv3 / season-01)
+      :ARG2 (xv4 / water
+            :location (xv1 / bowl)))
+
+# ::id 39
+# ::snt NA
+(xv0 / add-02
+      :ARG0 (xv2 / man)
+      :ARG1 (xv3 / season-01)
+      :ARG2 (xv4 / water
+            :location (xv1 / bowl)))
+
+# ::id 40
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / bike))
+
+# ::id 41
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / bike))
+
+# ::id 42
+# ::snt NA
+(xv0 / cut-through-04
+      :ARG0 (xv1 / onion)
+      :ARG1 (xv2 / woman))
+
+# ::id 43
+# ::snt NA
+(xv0 / cut-through-04
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / onion))
+
+# ::id 44
+# ::snt NA
+(xv0 / strike-01
+      :ARG0 (xv1 / car
+            :mod (xv4 / toy))
+      :ARG1 (xv2 / train
+            :mod (xv3 / toy)))
+
+# ::id 45
+# ::snt NA
+(xv0 / strike-01
+      :ARG0 (xv2 / train
+            :mod (xv3 / toy))
+      :ARG1 (xv1 / car
+            :mod (xv4 / toy)))
+
+# ::id 46
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / open-01
+            :ARG0 (xv3 / drawer)
+            :ARG1 (xv1 / cat
+                  :ARG1-of xv2))
+      :op2 (xv2 / climb-01
+            :ARG0 xv3))
+
+# ::id 47
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / open-01
+            :ARG0 (xv1 / cat)
+            :ARG1 (xv3 / drawer))
+      :op2 (xv2 / climb-01
+            :ARG0 xv1
+            :ARG1 xv3))
+
+# ::id 48
+# ::snt NA
+(xv0 / brush-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / shrimp
+            :quant (xv2 / some)))
+
+# ::id 49
+# ::snt NA
+(xv0 / brush-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / shrimp
+            :quant (xv2 / some)))
+
+# ::id 50
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / keyboard))
+
+# ::id 51
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / keyboard))
+
+# ::id 52
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / guitar)
+      :ARG1 (xv2 / man))
+
+# ::id 53
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 54
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / potato)
+      :ARG1 (xv2 / woman))
+
+# ::id 55
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 56
+# ::snt NA
+(xv0 / bark-01
+      :ARG0 (xv1 / dog)
+      :ARG2 (xv2 / toy))
+
+# ::id 57
+# ::snt NA
+(xv0 / bark-01
+      :ARG0 (xv1 / dog)
+      :ARG2 (xv2 / toy))
+
+# ::id 58
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 59
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 60
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / drum))
+
+# ::id 61
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / drum))
+
+# ::id 62
+# ::snt NA
+(xv0 / dive-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / pool))
+
+# ::id 63
+# ::snt NA
+(xv0 / dive-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / pool))
+
+# ::id 64
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv1 / down
+            :op1 (xv3 / staircase))
+      :ARG1 (xv2 / man))
+
+# ::id 65
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / down
+            :op1 (xv3 / staircase)))
+
+# ::id 66
+# ::snt NA
+(xv0 / grate-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / onion))
+
+# ::id 67
+# ::snt NA
+(xv0 / grate-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / onion))
+
+# ::id 68
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / broccoli))
+
+# ::id 69
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / broccoli))
+
+# ::id 70
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / apple))
+
+# ::id 71
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / apple))
+
+# ::id 72
+# ::snt NA
+(xv0 / put-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / baby)
+      :ARG2 (xv2 / trashcan))
+
+# ::id 73
+# ::snt NA
+(xv0 / put-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / baby)
+      :ARG2 (xv2 / trashcan))
+
+# ::id 74
+# ::snt NA
+(xv0 / shoot-02
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / shotgun))
+
+# ::id 75
+# ::snt NA
+(xv0 / shoot-02
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / shotgun))
+
+# ::id 76
+# ::snt NA
+(xv0 / descal-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / fish))
+
+# ::id 77
+# ::snt NA
+(xv0 / descal-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / fish))
+
+# ::id 78
+# ::snt NA
+(xv0 / break-01
+      :ARG0 (xv4 / man)
+      :ARG1 (xv7 / slab
+            :ARG2-of (xv3 / lie-07
+                  :ARG1 (xv5 / man
+                        :ARG1-of (xv6 / prone-01)))
+            :consist-of (xv1 / concrete))
+      :instrument (xv2 / hammer
+            :mod (xv8 / sledge)))
+
+# ::id 79
+# ::snt NA
+(xv0 / break-01
+      :ARG0 (xv4 / man)
+      :ARG1 (xv7 / slab
+            :ARG1-of (xv3 / lie-07
+                  :ARG2 (xv5 / man
+                        :ARG1-of (xv6 / prone-01)))
+            :consist-of (xv1 / concrete))
+      :instrument (xv2 / hammer
+            :mod (xv8 / sledge)))
+
+# ::id 80
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv3 / kitchen)
+      :ARG2 (xv4 / lady
+            :mod (xv5 / old)
+            :part (xv1 / cat
+                  :location (xv2 / foot)
+                  :quant 2)
+            :part xv2))
+
+# ::id 81
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv4 / lady
+            :mod (xv5 / old)
+            :part (xv1 / cat
+                  :location (xv2 / foot)
+                  :quant 2)
+            :part xv2)
+      :ARG2 (xv3 / kitchen))
+
+# ::id 82
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv2 / ground)
+      :ARG2 (xv1 / blackbird))
+
+# ::id 83
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv1 / blackbird)
+      :ARG2 (xv2 / ground))
+
+# ::id 84
+# ::snt NA
+(xv0 / image
+      :ARG1-of (xv1 / close-up-04)
+      :topic (xv4 / sheep
+            :part (xv5 / tongue
+                  :ARG1-of (xv2 / hang-01
+                        :ARG2 (xv3 / out)))))
+
+# ::id 85
+# ::snt NA
+(xv0 / image
+      :ARG1-of (xv1 / close-up-04)
+      :topic (xv4 / sheep
+            :part (xv5 / tongue
+                  :ARG1-of (xv2 / hang-01
+                        :ARG2 (xv3 / out)))))
+
+# ::id 86
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv4 / television
+            :mod (xv3 / screen
+                  :ARG1-of (xv1 / flat-06)))
+      :ARG2 (xv2 / floor))
+
+# ::id 87
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv4 / television
+            :mod (xv3 / screen
+                  :ARG1-of (xv1 / flat-06)))
+      :ARG2 (xv2 / floor))
+
+# ::id 88
+# ::snt NA
+(xv0 / lie-07
+      :ARG1 (xv2 / dog
+            :ARG1-of (xv1 / black-04))
+      :ARG2 (xv3 / grass))
+
+# ::id 89
+# ::snt NA
+(xv0 / lie-07
+      :ARG1 (xv2 / dog
+            :ARG1-of (xv1 / black-04))
+      :ARG2 (xv3 / grass))
+
+# ::id 90
+# ::snt NA
+(xv0 / cat
+      :ARG1-of (xv4 / grey-02)
+      :ARG0-of (xv5 / have-03
+            :ARG1 (xv2 / eye
+                  :ARG1-of (xv3 / green-02)))
+      :ARG0-of (xv6 / look-01
+            :ARG1 (xv1 / camera)))
+
+# ::id 91
+# ::snt NA
+(xv0 / cat
+      :ARG1-of (xv4 / grey-02)
+      :ARG0-of (xv5 / have-03
+            :ARG1 (xv2 / eye
+                  :ARG1-of (xv3 / green-02)))
+      :ARG0-of (xv6 / look-01
+            :ARG1 (xv1 / camera)))
+
+# ::id 92
+# ::snt NA
+(xv0 / picture
+      :mod (xv1 / black-and-white)
+      :topic (xv3 / lay-01
+            :ARG1 (xv4 / rug)
+            :ARG2 (xv2 / cat)))
+
+# ::id 93
+# ::snt NA
+(xv0 / picture
+      :mod (xv1 / black-and-white)
+      :topic (xv3 / lay-01
+            :ARG1 (xv2 / cat)
+            :ARG2 (xv4 / rug)))
+
+# ::id 94
+# ::snt NA
+(xv0 / lay-01
+      :ARG1 (xv1 / boy
+            :mod (xv3 / small))
+      :ARG2 (xv4 / sofa)
+      :accompanier (xv2 / dog))
+
+# ::id 95
+# ::snt NA
+(xv0 / lay-01
+      :ARG1 (xv1 / boy
+            :mod (xv3 / small))
+      :ARG2 (xv4 / sofa)
+      :accompanier (xv2 / dog))
+
+# ::id 96
+# ::snt NA
+(xv0 / frolic-01
+      :ARG0 (xv3 / snow)
+      :location (xv2 / poodle
+            :ARG1-of (xv1 / black-04)))
+
+# ::id 97
+# ::snt NA
+(xv0 / frolic-01
+      :ARG0 (xv2 / poodle
+            :ARG1-of (xv1 / black-04))
+      :location (xv3 / snow))
+
+# ::id 98
+# ::snt NA
+(xv0 / jump-03
+      :ARG0 (xv3 / over
+            :op1 (xv2 / fence))
+      :ARG1 (xv1 / deer))
+
+# ::id 99
+# ::snt NA
+(xv0 / jump-03
+      :ARG0 (xv1 / deer)
+      :ARG1 (xv3 / over
+            :op1 (xv2 / fence)))
+
+# ::id 100
+# ::snt NA
+(xv0 / be-located-at-91
+      :ARG1 (xv3 / person
+            :quant 2
+            :ARG0-of (xv4 / play-01
+                  :ARG1 (xv2 / golf-01)))
+      :ARG2 (xv1 / course
+            :mod xv2))
+
+# ::id 101
+# ::snt NA
+(xv0 / be-located-at-91
+      :ARG1 (xv3 / person
+            :quant 2
+            :ARG0-of (xv4 / play-01
+                  :ARG1 (xv2 / golf-01)))
+      :ARG2 (xv1 / course
+            :mod xv2))
+
+# ::id 102
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / grass)
+      :location (xv1 / dog
+            :quant 2))
+
+# ::id 103
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :location (xv2 / grass))
+
+# ::id 104
+# ::snt NA
+(xv0 / shake-01
+      :ARG0 (xv3 / water)
+      :ARG1 (xv1 / dog)
+      :direction (xv2 / off))
+
+# ::id 105
+# ::snt NA
+(xv0 / shake-01
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv3 / water)
+      :direction (xv2 / off))
+
+# ::id 106
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv4 / dog
+            :ARG1-of (xv6 / wear-01
+                  :ARG0 (xv3 / collar
+                        :mod (xv2 / blue)))
+            :ARG1-of (xv1 / black-04))
+      :path (xv5 / snow))
+
+# ::id 107
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv4 / dog
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv3 / collar
+                        :mod (xv2 / blue)))
+            :ARG1-of (xv1 / black-04))
+      :path (xv5 / snow))
+
+# ::id 108
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv1 / along
+            :op1 (xv2 / beach))
+      :ARG1 (xv3 / dog
+            :ARG1-of (xv4 / white-02)))
+
+# ::id 109
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv3 / dog
+            :ARG1-of (xv4 / white-02))
+      :ARG1 (xv1 / along
+            :op1 (xv2 / beach)))
+
+# ::id 110
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv2 / person
+            :quant 2)
+      :ARG1 (xv1 / along
+            :op1 (xv3 / shore))
+      :time (xv4 / sunset))
+
+# ::id 111
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv2 / person
+            :quant 2)
+      :ARG1 (xv1 / along
+            :op1 (xv3 / shore))
+      :time (xv4 / sunset))
+
+# ::id 112
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv3 / set
+            :consist-of (xv4 / step))
+      :ARG1 (xv2 / man
+            :mod (xv5 / tuxedo)
+            :quant 5)
+      :direction (xv1 / down))
+
+# ::id 113
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv2 / man
+            :mod (xv5 / tuxedo)
+            :quant 5)
+      :ARG1 (xv3 / set
+            :consist-of (xv4 / step))
+      :direction (xv1 / down))
+
+# ::id 114
+# ::snt NA
+(xv0 / pull-01
+      :ARG0 (xv1 / bike
+            :mod (xv5 / type))
+      :ARG2 (xv2 / dog)
+      :ARG1 (xv3 / man)
+      :path (xv4 / snow))
+
+# ::id 115
+# ::snt NA
+(xv0 / pull-01
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv3 / man)
+      :ARG2 (xv1 / bike
+            :mod (xv5 / type))
+      :path (xv4 / snow))
+
+# ::id 116
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv2 / man
+            :ARG1 (xv4 / shirt
+                  :ARG1-of (xv7 / yellow-02)))
+      :ARG0 xv2
+      :ARG1 (xv3 / mask
+            :mod (xv1 / gold)
+            :ARG1-of (xv5 / shape-01
+                  :ARG2 (xv6 / sun))))
+
+# ::id 117
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv2 / man
+            :ARG1 (xv4 / shirt
+                  :ARG1-of (xv7 / yellow-02)))
+      :ARG0 xv2
+      :ARG1 (xv3 / mask
+            :mod (xv1 / gold)
+            :ARG1-of (xv5 / shape-01
+                  :ARG2 (xv6 / sun))))
+
+# ::id 118
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv2 / sand)
+      :ARG1 (xv1 / dog
+            :ARG1-of (xv3 / white-02)))
+
+# ::id 119
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv1 / dog
+            :ARG1-of (xv3 / white-02))
+      :ARG1 (xv2 / sand))
+
+# ::id 120
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv2 / snow)
+      :location (xv1 / dog))
+
+# ::id 121
+# ::snt NA
+(xv0 / run-02
+      :ARG0 (xv1 / dog)
+      :location (xv2 / snow))
+
+# ::id 122
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :location (xv2 / snow))
+
+# ::id 123
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :location (xv2 / snow))
+
+# ::id 124
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv4 / woman
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv1 / overall
+                        :ARG1-of (xv2 / red-02))))
+      :ARG2 (xv3 / sidewalk))
+
+# ::id 125
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv4 / woman
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv1 / overall
+                        :ARG1-of (xv2 / red-02))))
+      :ARG2 (xv3 / sidewalk))
+
+# ::id 126
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / grass)
+      :location (xv2 / puppy
+            :quant 2))
+
+# ::id 127
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / puppy
+            :quant 2)
+      :location (xv1 / grass))
+
+# ::id 128
+# ::snt NA
+(xv0 / be-located-at-91
+      :ARG1 (xv2 / person
+            :ARG0-of (xv1 / dive-01)
+            :mod (xv3 / scuba))
+      :ARG2 (xv4 / underwater))
+
+# ::id 129
+# ::snt NA
+(xv0 / be-located-at-91
+      :ARG1 (xv2 / person
+            :ARG0-of (xv1 / dive-01)
+            :mod (xv3 / scuba))
+      :ARG2 (xv4 / underwater))
+
+# ::id 130
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv3 / path
+            :location (xv4 / woods))
+      :ARG1 (xv1 / child
+            :quant 2)
+      :direction (xv2 / down))
+
+# ::id 131
+# ::snt NA
+(xv0 / walk-01
+      :ARG0 (xv1 / child
+            :quant 2)
+      :ARG1 (xv3 / path
+            :location (xv4 / woods))
+      :direction (xv2 / down))
+
+# ::id 132
+# ::snt NA
+(xv0 / urinate-01
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :location (xv3 / hydrant
+            :mod (xv2 / fire)
+            :ARG1-of (xv4 / red-02)))
+
+# ::id 133
+# ::snt NA
+(xv0 / urinate-01
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :location (xv3 / hydrant
+            :mod (xv2 / fire)
+            :ARG1-of (xv4 / red-02)))
+
+# ::id 134
+# ::snt NA
+(xv0 / okay-04
+      :ARG1 (xv3 / use-01
+            :ARG1 (xv2 / medicine))
+      :ARG2 (xv1 / i))
+
+# ::id 135
+# ::snt NA
+(xv0 / okay-04
+      :ARG1 (xv3 / use-01
+            :ARG1 (xv2 / medicine))
+      :ARG2 (xv1 / i))
+
+# ::id 136
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / bless-01
+            :ARG0 (xv3 / i)
+            :ARG1 (xv6 / person
+                  :name (xv4 / name
+                        :op1 "God")))
+      :op2 (xv5 / outrage-01
+            :ARG1 xv3
+            :polarity -)
+      :op3 (xv2 / disappoint-01
+            :ARG1 xv3))
+
+# ::id 137
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / bless-01
+            :ARG0 (xv6 / person
+                  :name (xv4 / name
+                        :op1 "God"))
+            :ARG1 (xv3 / i))
+      :op2 (xv5 / outrage-01
+            :ARG1 xv3
+            :polarity -)
+      :op3 (xv2 / disappoint-01
+            :ARG1 xv3))
+
+# ::id 138
+# ::snt NA
+(xv0 / depend-01
+      :ARG1 (xv3 / thing
+            :manner-of (xv1 / define-01
+                  :ARG0 (xv4 / you)
+                  :ARG1 (xv2 / extreme))))
+
+# ::id 139
+# ::snt NA
+(xv0 / depend-01
+      :ARG1 (xv3 / thing
+            :manner-of (xv1 / define-01
+                  :ARG0 (xv4 / you)
+                  :ARG1 (xv2 / extreme))))
+
+# ::id 140
+# ::snt NA
+(xv0 / return-05
+      :ARG1 (xv2 / fight-01
+            :ARG0 (xv3 / they)
+            :ARG2 xv4)
+      :ARG3 (xv1 / amr-unknown)
+      :ARG2 (xv4 / we))
+
+# ::id 141
+# ::snt NA
+(xv0 / return-05
+      :ARG1 (xv1 / amr-unknown)
+      :ARG2 (xv4 / we)
+      :ARG3 (xv2 / fight-01
+            :ARG0 xv4
+            :ARG2 (xv3 / they)))
+
+# ::id 142
+# ::snt NA
+(xv0 / need-01
+      :ARG0 (xv5 / you)
+      :ARG1 (xv2 / reread-01
+            :ARG0 xv5
+            :ARG1 (xv3 / thing
+                  :ARG0-of (xv4 / write-01
+                        :ARG1 (xv1 / i)))))
+
+# ::id 143
+# ::snt NA
+(xv0 / need-01
+      :ARG0 (xv5 / you)
+      :ARG1 (xv2 / reread-01
+            :ARG0 xv5
+            :ARG1 (xv3 / thing
+                  :ARG1-of (xv4 / write-01
+                        :ARG0 (xv1 / i)))))
+
+# ::id 144
+# ::snt NA
+(xv0 / hope-01
+      :ARG0 (xv3 / okay-04
+            :ARG1 (xv1 / everything))
+      :ARG1 (xv2 / i))
+
+# ::id 145
+# ::snt NA
+(xv0 / hope-01
+      :ARG0 (xv2 / i)
+      :ARG1 (xv3 / okay-04
+            :ARG1 (xv1 / everything)))
+
+# ::id 146
+# ::snt NA
+(xv0 / ask-01
+      :ARG0 (xv8 / possible-01
+            :ARG1 (xv10 / wrong-04
+                  :ARG1 (xv1 / anything)
+                  :manner (xv6 / moral-02))
+            :condition (xv4 / exist-01
+                  :ARG1 (xv9 / person
+                        :name (xv7 / name
+                              :op1 "God"))
+                  :polarity -)
+            :polarity (xv2 / amr-unknown))
+      :ARG1 (xv5 / i)
+      :mod (xv3 / again))
+
+# ::id 147
+# ::snt NA
+(xv0 / ask-01
+      :ARG0 (xv5 / i)
+      :ARG1 (xv8 / possible-01
+            :ARG1 (xv10 / wrong-04
+                  :ARG1 (xv1 / anything)
+                  :manner (xv6 / moral-02))
+            :condition (xv4 / exist-01
+                  :ARG1 (xv9 / person
+                        :name (xv7 / name
+                              :op1 "God"))
+                  :polarity -)
+            :polarity (xv2 / amr-unknown))
+      :mod (xv3 / again))
+
+# ::id 148
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv11 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv10 / organization
+                        :name (xv9 / name
+                              :op1 "AA"))
+                  :ARG2 (xv15 / spokesman))
+            :name (xv8 / name
+                  :op1 "Jerry"
+                  :op2 "Cheske"))
+      :ARG1 (xv2 / contrast-01
+            :ARG1 (xv12 / possible-01
+                  :ARG1 (xv1 / affect-01
+                        :ARG0 (xv13 / price-01)
+                        :ARG1 (xv14 / plan-01
+                              :quant (xv16 / some))))
+            :ARG2 (xv7 / make-up-10
+                  :ARG0 (xv4 / deal-01
+                        :ARG1 (xv6 / hotel
+                              :ARG1-of (xv3 / cheap-02)))
+                  :ARG1 xv12)))
+
+# ::id 149
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv11 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv10 / organization
+                        :name (xv9 / name
+                              :op1 "AA"))
+                  :ARG2 (xv15 / spokesman))
+            :name (xv8 / name
+                  :op1 "Jerry"
+                  :op2 "Cheske"))
+      :ARG1 (xv2 / contrast-01
+            :ARG1 (xv12 / possible-01
+                  :ARG1 (xv1 / affect-01
+                        :ARG0 (xv13 / price-01)
+                        :ARG1 (xv14 / plan-01
+                              :quant (xv16 / some))))
+            :ARG2 (xv7 / make-up-10
+                  :ARG0 (xv4 / deal-01
+                        :ARG1 (xv6 / hotel
+                              :ARG1-of (xv3 / cheap-02)))
+                  :ARG1 xv12)))
+
+# ::id 150
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv6 / person
+            :name (xv5 / name
+                  :op1 "Hedges"))
+      :ARG1 (xv11 / speak-01
+            :ARG0 xv6
+            :ARG1-of (xv12 / short-07))
+      :time (xv1 / after
+            :op1 (xv2 / and
+                  :op1 (xv10 / rush-01
+                        :ARG0 (xv7 / person
+                              :ARG0-of (xv8 / protest-01))
+                        :ARG1 (xv13 / stage))
+                  :op2 (xv3 / cut-02
+                        :ARG0 xv7
+                        :ARG1 (xv9 / power-01)
+                        :ARG2 (xv4 / microphone)
+                        :frequency 2))))
+
+# ::id 151
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv6 / person
+            :name (xv5 / name
+                  :op1 "Hedges"))
+      :ARG1 (xv11 / speak-01
+            :ARG0 xv6
+            :ARG1-of (xv12 / short-07))
+      :time (xv1 / after
+            :op1 (xv2 / and
+                  :op1 (xv10 / rush-01
+                        :ARG0 (xv7 / person
+                              :ARG0-of (xv8 / protest-01))
+                        :ARG1 (xv13 / stage))
+                  :op2 (xv3 / cut-02
+                        :ARG0 xv7
+                        :ARG1 (xv9 / power-01)
+                        :ARG2 (xv4 / microphone)
+                        :frequency 2))))
+
+# ::id 152
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / and
+            :op1 (xv10 / possible-01
+                  :ARG1 (xv7 / die-01
+                        :ARG1 (xv9 / or
+                              :op1 (xv2 / boy
+                                    :quant 1)
+                              :op2 (xv3 / boy
+                                    :quant (xv4 / both)))))
+            :op2 (xv11 / possible-01
+                  :ARG1 (xv8 / damage-01
+                        :ARG1 (xv5 / brain
+                              :quant (xv12 / some)))
+                  :condition (xv13 / survive-01
+                        :ARG0 xv2)))
+      :ARG1 (xv6 / doctor))
+
+# ::id 153
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv6 / doctor)
+      :ARG1 (xv1 / and
+            :op1 (xv10 / possible-01
+                  :ARG1 (xv7 / die-01
+                        :ARG1 (xv9 / or
+                              :op1 (xv2 / boy
+                                    :quant 1)
+                              :op2 (xv3 / boy
+                                    :quant (xv4 / both)))))
+            :op2 (xv11 / possible-01
+                  :ARG1 (xv8 / damage-01
+                        :ARG1 (xv5 / brain
+                              :quant (xv12 / some)))
+                  :condition (xv13 / survive-01
+                        :ARG0 xv2))))
+
+# ::id 154
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / company
+            :name (xv8 / name
+                  :op1 "Corel"))
+      :ARG1 (xv11 / value-01
+            :ARG1-of (xv10 / total-01)
+            :ARG1 (xv3 / deal-01)
+            :ARG2 (xv7 / monetary-quantity
+                  :quant 125000000
+                  :unit (xv4 / dollar))
+            :condition (xv6 / include-01
+                  :ARG1 (xv9 / securities
+                        :ARG1-of (xv2 / convertible-02)))
+            :ARG1-of (xv5 / estimate-01)))
+
+# ::id 155
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / company
+            :name (xv8 / name
+                  :op1 "Corel"))
+      :ARG1 (xv11 / value-01
+            :ARG1-of (xv10 / total-01)
+            :ARG1 (xv3 / deal-01)
+            :ARG2 (xv7 / monetary-quantity
+                  :quant 125000000
+                  :unit (xv4 / dollar))
+            :condition (xv6 / include-01
+                  :ARG1 (xv9 / securities
+                        :ARG1-of (xv2 / convertible-02)))
+            :ARG1-of (xv5 / estimate-01)))
+
+# ::id 156
+# ::snt NA
+(xv0 / fall-01
+      :ARG1 (xv8 / sell-01
+            :ARG1-of (xv5 / measure-01
+                  :ARG2 (xv1 / demand-01)
+                  :ARG1-of (xv3 / key-02))
+            :ARG1 (xv4 / license-01))
+      :ARG2 (xv7 / percentage-entity
+            :value 21)
+      :ARG4 (xv6 / monetary-quantity
+            :quant 177000000
+            :unit (xv2 / dollar)))
+
+# ::id 157
+# ::snt NA
+(xv0 / fall-01
+      :ARG1 (xv8 / sell-01
+            :ARG1-of (xv5 / measure-01
+                  :ARG2 (xv1 / demand-01)
+                  :ARG1-of (xv3 / key-02))
+            :ARG1 (xv4 / license-01))
+      :ARG2 (xv7 / percentage-entity
+            :value 21)
+      :ARG4 (xv6 / monetary-quantity
+            :quant 177000000
+            :unit (xv2 / dollar)))
+
+# ::id 158
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv2 / company
+            :name (xv4 / name
+                  :op1 "Sendmail"))
+      :ARG1 (xv6 / possible-01
+            :ARG1 (xv3 / instruct-01
+                  :ARG1 (xv7 / product
+                        :ARG0-of (xv8 / permit-01
+                              :ARG1 (xv9 / use-01
+                                    :ARG1 xv7
+                                    :mod (xv1 / business
+                                          :mod (xv5 / only)))))
+                  :ARG2 xv8)))
+
+# ::id 159
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv2 / company
+            :name (xv4 / name
+                  :op1 "Sendmail"))
+      :ARG1 (xv6 / possible-01
+            :ARG1 (xv3 / instruct-01
+                  :ARG1 (xv7 / product
+                        :ARG0-of (xv8 / permit-01
+                              :ARG1 (xv9 / use-01
+                                    :ARG1 xv7
+                                    :mod (xv1 / business
+                                          :mod (xv5 / only)))))
+                  :ARG2 xv8)))
+
+# ::id 160
+# ::snt NA
+(xv0 / rise-01
+      :ARG1 (xv7 / revenue
+            :purpose (xv6 / operate-01))
+      :ARG3 (xv4 / monetary-quantity
+            :quant 14500000000
+            :unit (xv1 / dollar))
+      :ARG4 (xv5 / monetary-quantity
+            :quant 3800000000
+            :time (xv8 / year
+                  :mod (xv3 / last))
+            :unit (xv2 / dollar)))
+
+# ::id 161
+# ::snt NA
+(xv0 / rise-01
+      :ARG1 (xv7 / revenue
+            :purpose (xv6 / operate-01))
+      :ARG3 (xv5 / monetary-quantity
+            :quant 3800000000
+            :time (xv8 / year
+                  :mod (xv3 / last))
+            :unit (xv2 / dollar))
+      :ARG4 (xv4 / monetary-quantity
+            :quant 14500000000
+            :unit (xv1 / dollar)))
+
+# ::id 162
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv3 / have-03
+            :ARG0 (xv7 / person
+                  :age (xv8 / temporal-quantity
+                        :quant 45
+                        :unit (xv9 / year))
+                  :name (xv6 / name
+                        :op1 "Ruffner"))
+            :ARG1 (xv4 / lawyer)
+            :polarity -
+            :topic (xv2 / charge-05
+                  :ARG1 xv7
+                  :ARG2 (xv5 / murder-01)))
+      :ARG1 (xv1 / authority))
+
+# ::id 163
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / authority)
+      :ARG1 (xv3 / have-03
+            :ARG0 (xv7 / person
+                  :age (xv8 / temporal-quantity
+                        :quant 45
+                        :unit (xv9 / year))
+                  :name (xv6 / name
+                        :op1 "Ruffner"))
+            :ARG1 (xv4 / lawyer)
+            :polarity -
+            :topic (xv2 / charge-05
+                  :ARG1 xv7
+                  :ARG2 (xv5 / murder-01))))
+
+# ::id 164
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv8 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv1 / company
+                        :name (xv5 / name
+                              :op1 "Unifi"))
+                  :ARG2 (xv6 / official))
+            :name (xv4 / name
+                  :op1 "Rob"
+                  :op2 "O'Neill"))
+      :ARG1 (xv7 / off
+            :domain (xv2 / glove)))
+
+# ::id 165
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv8 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv1 / company
+                        :name (xv5 / name
+                              :op1 "Unifi"))
+                  :ARG2 (xv6 / official))
+            :name (xv4 / name
+                  :op1 "Rob"
+                  :op2 "O'Neill"))
+      :ARG1 (xv7 / off
+            :domain (xv2 / glove)))
+
+# ::id 166
+# ::snt NA
+(xv0 / report-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / case
+                  :quant 65
+                  :time (xv5 / date-entity
+                        :day 22
+                        :month 5)
+                  :ARG1-of (xv14 / new-01)
+                  :ARG1-of (xv16 / record-01
+                        :duration (xv17 / temporal-quantity
+                              :quant 1
+                              :unit (xv6 / day))))
+            :op2 (xv4 / case
+                  :quant 55
+                  :time (xv7 / date-entity
+                        :day 23
+                        :month 5)
+                  :ARG1-of (xv15 / new-01))
+            :ARG1-of (xv11 / make-02
+                  :ARG0 xv10))
+      :ARG1 (xv2 / country
+            :name (xv13 / name
+                  :op1 "Taiwan")
+            :poss-of (xv8 / epidemic
+                  :ARG1-of (xv9 / grow-01
+                        :ARG2-of (xv10 / have-degree-91
+                              :ARG3 (xv18 / world)
+                              :ARG1 xv8
+                              :location xv8
+                              :ARG5 (xv12 / most))))))
+
+# ::id 167
+# ::snt NA
+(xv0 / report-01
+      :ARG0 (xv2 / country
+            :name (xv13 / name
+                  :op1 "Taiwan")
+            :poss-of (xv8 / epidemic
+                  :ARG1-of (xv9 / grow-01)
+                  :ARG1-of (xv10 / have-degree-91
+                        :ARG2 xv9
+                        :ARG3 (xv12 / most)
+                        :ARG5 xv8
+                        :location (xv18 / world))))
+      :ARG1 (xv1 / and
+            :op1 (xv3 / case
+                  :quant 65
+                  :time (xv5 / date-entity
+                        :day 22
+                        :month 5)
+                  :ARG1-of (xv14 / new-01)
+                  :ARG1-of (xv16 / record-01
+                        :duration (xv17 / temporal-quantity
+                              :quant 1
+                              :unit (xv6 / day))))
+            :op2 (xv4 / case
+                  :quant 55
+                  :time (xv7 / date-entity
+                        :day 23
+                        :month 5)
+                  :ARG1-of (xv15 / new-01))
+            :ARG0-of (xv11 / make-02
+                  :ARG1 xv10)))
+
+# ::id 168
+# ::snt NA
+(xv0 / have-03
+      :ARG0 (xv2 / caseload
+            :ARG1-of (xv6 / high-02)
+            :ARG5-of (xv5 / have-degree-91
+                  :ARG3 xv6
+                  :ARG2 (xv13 / world)
+                  :ARG1 (xv8 / most))
+            :mod (xv3 / disease
+                  :op1-of (xv12 / or
+                        :op2 (xv4 / disease
+                              :name (xv11 / name
+                                    :op1 "AIDS")))
+                  :name (xv10 / name
+                        :op1 "HIV")))
+      :ARG1 (xv1 / country
+            :ARG2-of (xv7 / infect-01
+                  :ARG1 xv12)
+            :name (xv9 / name
+                  :op1 "South"
+                  :op2 "Africa")))
+
+# ::id 169
+# ::snt NA
+(xv0 / have-03
+      :ARG0 (xv1 / country
+            :ARG1-of (xv7 / infect-01
+                  :ARG2 (xv12 / or
+                        :op1 (xv3 / disease
+                              :name (xv10 / name
+                                    :op1 "HIV"))
+                        :op2 (xv4 / disease
+                              :name (xv11 / name
+                                    :op1 "AIDS"))))
+            :name (xv9 / name
+                  :op1 "South"
+                  :op2 "Africa"))
+      :ARG1 (xv2 / caseload
+            :ARG1-of (xv5 / have-degree-91
+                  :ARG2 (xv6 / high-02
+                        :ARG1 xv2)
+                  :ARG3 (xv8 / most)
+                  :ARG5 (xv13 / world))
+            :mod xv3))
+
+# ::id 170
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / charge-05
+            :ARG1 (xv2 / murder-01
+                  :ARG0 xv6)
+            :ARG2 (xv6 / person
+                  :name (xv4 / name
+                        :op1 "Druce")))
+      :ARG1 (xv5 / person
+            :name (xv3 / name
+                  :op1 "Conte")))
+
+# ::id 171
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv5 / person
+            :name (xv3 / name
+                  :op1 "Conte"))
+      :ARG1 (xv1 / charge-05
+            :ARG1 (xv6 / person
+                  :name (xv4 / name
+                        :op1 "Druce"))
+            :ARG2 (xv2 / murder-01
+                  :ARG0 xv6)))
+
+# ::id 172
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv10 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG2 (xv1 / capt))
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv12 / regiment)
+                  :ARG2 (xv13 / spokesman))
+            :name (xv7 / name
+                  :op1 "Michael"
+                  :op2 "Calvert"))
+      :ARG1 (xv11 / person
+            :ARG1-of (xv6 / include-91
+                  :ARG2 (xv3 / casualty)
+                  :ARG3 (xv9 / none))
+            :mod (xv2 / country
+                  :name (xv8 / name
+                        :op1 "America"))))
+
+# ::id 173
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv10 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG2 (xv1 / capt))
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv12 / regiment)
+                  :ARG2 (xv13 / spokesman))
+            :name (xv7 / name
+                  :op1 "Michael"
+                  :op2 "Calvert"))
+      :ARG1 (xv11 / person
+            :ARG1-of (xv6 / include-91
+                  :ARG2 (xv3 / casualty)
+                  :ARG3 (xv9 / none))
+            :mod (xv2 / country
+                  :name (xv8 / name
+                        :op1 "America"))))
+
+# ::id 174
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv10 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv9 / organization
+                        :name (xv7 / name
+                              :op1 "Stone"
+                              :op2 "County"
+                              :op3 "Nursing"
+                              :op4 "and"
+                              :op5 "Rehabilitation"
+                              :op6 "Center"))
+                  :ARG2 (xv3 / director
+                        :mod (xv11 / social)))
+            :name (xv6 / name
+                  :op1 "Alesha"
+                  :op2 "Badgley"))
+      :ARG1 (xv1 / and
+            :op2 (xv13 / want-01
+                  :ARG0 (xv5 / he)
+                  :ARG1 (xv12 / say-01
+                        :ARG0 xv5
+                        :ARG1 (xv2 / anything))
+                  :time (xv8 / now))))
+
+# ::id 175
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv10 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv9 / organization
+                        :name (xv7 / name
+                              :op1 "Stone"
+                              :op2 "County"
+                              :op3 "Nursing"
+                              :op4 "and"
+                              :op5 "Rehabilitation"
+                              :op6 "Center"))
+                  :ARG2 (xv3 / director
+                        :mod (xv11 / social)))
+            :name (xv6 / name
+                  :op1 "Alesha"
+                  :op2 "Badgley"))
+      :ARG1 (xv1 / and
+            :op2 (xv13 / want-01
+                  :ARG0 (xv5 / he)
+                  :ARG1 (xv12 / say-01
+                        :ARG0 xv5
+                        :ARG1 (xv2 / anything))
+                  :time (xv8 / now))))
+
+# ::id 176
+# ::snt NA
+(xv0 / branch
+      :domain (xv8 / organization
+            :mod (xv10 / worldwide)
+            :name (xv6 / name
+                  :op1 "Anglican"
+                  :op2 "Communist")
+            :part xv0
+            :ARG1-of (xv1 / adhere-02
+                  :ARG0 (xv9 / person
+                        :quant 77000000)))
+      :mod (xv2 / country
+            :name (xv5 / name
+                  :op1 "America"))
+      :name (xv7 / name
+            :op1 "Episcopal"
+            :op2 "Church")
+      :ARG2-of (xv3 / have-org-role-91
+            :ARG1 xv8
+            :ARG0 (xv4 / member)))
+
+# ::id 177
+# ::snt NA
+(xv0 / branch
+      :domain (xv8 / organization
+            :mod (xv10 / worldwide)
+            :name (xv6 / name
+                  :op1 "Anglican"
+                  :op2 "Communist")
+            :part xv0
+            :ARG0-of (xv1 / adhere-02
+                  :ARG1 (xv9 / person
+                        :quant 77000000)))
+      :mod (xv2 / country
+            :name (xv5 / name
+                  :op1 "America"))
+      :name (xv7 / name
+            :op1 "Episcopal"
+            :op2 "Church")
+      :ARG0-of (xv3 / have-org-role-91
+            :ARG1 xv8
+            :ARG2 (xv4 / member)))
+
+# ::id 178
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv14 / person
+            :ARG0-of (xv7 / have-org-role-91
+                  :ARG1 (xv15 / police)
+                  :ARG2 (xv20 / spokesman))
+            :ARG0-of (xv8 / have-org-role-91
+                  :ARG2 (xv4 / brigadier-general))
+            :name (xv10 / name
+                  :op1 "Edward"
+                  :op2 "Aritonang"))
+      :ARG1 (xv1 / arrest-01
+            :ARG1 (xv16 / person
+                  :ARG1-of (xv9 / mean-01
+                        :ARG2 (xv3 / and
+                              :op1 (xv17 / person
+                                    :location (xv5 / city
+                                          :name (xv11 / name
+                                                :op1 "Jakarta"))
+                                    :quant 1))
+                        :op2 (xv18 / person
+                              :location (xv6 / city
+                                    :location (xv19 / province
+                                          :name (xv13 / name
+                                                :op1 "Central"
+                                                :op2 "Java"))
+                                    :name (xv12 / name
+                                          :op1 "Magelang"))
+                              :quant 1))
+                  :mod (xv2 / another)
+                  :quant 2))
+      :time (xv21 / yesterday))
+
+# ::id 179
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv14 / person
+            :ARG0-of (xv7 / have-org-role-91
+                  :ARG1 (xv15 / police)
+                  :ARG2 (xv20 / spokesman))
+            :ARG0-of (xv8 / have-org-role-91
+                  :ARG2 (xv4 / brigadier-general))
+            :name (xv10 / name
+                  :op1 "Edward"
+                  :op2 "Aritonang"))
+      :ARG1 (xv1 / arrest-01
+            :ARG1 (xv16 / person
+                  :ARG1-of (xv9 / mean-01
+                        :ARG2 (xv3 / and
+                              :op1 (xv17 / person
+                                    :location (xv5 / city
+                                          :name (xv11 / name
+                                                :op1 "Jakarta"))
+                                    :quant 1))
+                        :op2 (xv18 / person
+                              :location (xv6 / city
+                                    :location (xv19 / province
+                                          :name (xv13 / name
+                                                :op1 "Central"
+                                                :op2 "Java"))
+                                    :name (xv12 / name
+                                          :op1 "Magelang"))
+                              :quant 1))
+                  :mod (xv2 / another)
+                  :quant 2))
+      :time (xv21 / yesterday))
+
+# ::id 180
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv13 / violate-01
+            :ARG0 (xv10 / right-05
+                  :mod (xv2 / constitution))
+            :ARG1 (xv14 / you)
+            :time (xv3 / cross-02
+                  :ARG0 xv14
+                  :ARG1 (xv5 / line)))
+      :ARG1 (xv9 / person
+            :ARG0-of (xv11 / teach-01
+                  :ARG1 (xv4 / law)
+                  :location (xv12 / university
+                        :location (xv1 / city
+                              :name (xv8 / name
+                                    :op1 "Berkeley"))
+                        :name (xv7 / name
+                              :op1 "University"
+                              :op2 "of"
+                              :op3 "California")))
+            :name (xv6 / name
+                  :op1 "Charles"
+                  :op2 "Weisselberg")))
+
+# ::id 181
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv9 / person
+            :ARG0-of (xv11 / teach-01
+                  :ARG1 (xv4 / law)
+                  :location (xv12 / university
+                        :location (xv1 / city
+                              :name (xv8 / name
+                                    :op1 "Berkeley"))
+                        :name (xv7 / name
+                              :op1 "University"
+                              :op2 "of"
+                              :op3 "California")))
+            :name (xv6 / name
+                  :op1 "Charles"
+                  :op2 "Weisselberg"))
+      :ARG1 (xv13 / violate-01
+            :ARG0 (xv14 / you)
+            :ARG1 (xv10 / right-05
+                  :mod (xv2 / constitution))
+            :time (xv3 / cross-02
+                  :ARG0 xv14
+                  :ARG1 (xv5 / line))))
+
+# ::id 182
+# ::snt NA
+(xv0 / come-01
+      :ARG1 (xv6 / hearing-02)
+      :duration (xv15 / temporal-quantity
+            :quant 1
+            :unit (xv3 / day))
+      :time (xv1 / after
+            :op1 (xv13 / single-out-01
+                  :ARG0 (xv5 / government-organization
+                        :name (xv8 / name
+                              :op1 "Pentagon"))
+                  :ARG1 (xv12 / person
+                        :ARG0-of (xv2 / address-02
+                              :ARG1 (xv14 / scandal))
+                        :ARG0-of (xv7 / have-org-role-91
+                              :ARG2 (xv10 / officer))
+                        :name (xv9 / name
+                              :op1 "Dallager"))
+                  :ARG2 (xv4 / fail-01
+                        :ARG1 xv12
+                        :ARG2 xv2)
+                  :ord (xv11 / ordinal-entity
+                        :value 1))))
+
+# ::id 183
+# ::snt NA
+(xv0 / come-01
+      :ARG1 (xv6 / hearing-02)
+      :duration (xv15 / temporal-quantity
+            :quant 1
+            :unit (xv3 / day))
+      :time (xv1 / after
+            :op1 (xv13 / single-out-01
+                  :ARG0 (xv5 / government-organization
+                        :name (xv8 / name
+                              :op1 "Pentagon"))
+                  :ARG1 (xv12 / person
+                        :ARG0-of (xv2 / address-02
+                              :ARG1 (xv14 / scandal))
+                        :ARG0-of (xv7 / have-org-role-91
+                              :ARG2 (xv10 / officer))
+                        :name (xv9 / name
+                              :op1 "Dallager"))
+                  :ARG2 (xv4 / fail-01
+                        :ARG1 xv12
+                        :ARG2 xv2)
+                  :ord (xv11 / ordinal-entity
+                        :value 1))))
+
+# ::id 184
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv2 / city
+            :name (xv8 / name
+                  :op1 "Nairobi"))
+      :location (xv12 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv13 / provost)
+                  :ARG2 (xv9 / organization
+                        :name (xv5 / name
+                              :op1 "All"
+                              :op2 "Saints"
+                              :op3 "Cathedrale")))
+            :name (xv4 / name
+                  :op1 "Peter"
+                  :op2 "Karanja"))
+      :ARG1 (xv1 / alienate-01
+            :ARG0 (xv11 / organization
+                  :name (xv7 / name
+                        :op1 "Anglican"
+                        :op2 "Communist"))
+            :ARG2 (xv10 / organization
+                  :name (xv6 / name
+                        :op1 "US"
+                        :op2 "Episcopal"
+                        :op3 "Church"))
+            :ARG1 xv10))
+
+# ::id 185
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv12 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv9 / organization
+                        :name (xv5 / name
+                              :op1 "All"
+                              :op2 "Saints"
+                              :op3 "Cathedrale"))
+                  :ARG2 (xv13 / provost))
+            :name (xv4 / name
+                  :op1 "Peter"
+                  :op2 "Karanja"))
+      :ARG1 (xv1 / alienate-01
+            :ARG0 (xv10 / organization
+                  :name (xv6 / name
+                        :op1 "US"
+                        :op2 "Episcopal"
+                        :op3 "Church"))
+            :ARG1 xv10
+            :ARG2 (xv11 / organization
+                  :name (xv7 / name
+                        :op1 "Anglican"
+                        :op2 "Communist")))
+      :location (xv2 / city
+            :name (xv8 / name
+                  :op1 "Nairobi")))
+
+# ::id 186
+# ::snt NA
+(xv0 / decline-01
+      :ARG1 (xv7 / population
+            :mod (xv1 / county
+                  :name (xv4 / name
+                        :op1 "Vermillion"))
+            :mod (xv3 / county
+                  :name (xv6 / name
+                        :op1 "Madison"
+                        :op2 "County"))
+            :mod (xv8 / population
+                  :mod (xv2 / county
+                        :name (xv5 / name
+                              :op1 "Posey")))))
+
+# ::id 187
+# ::snt NA
+(xv0 / decline-01
+      :ARG1 (xv7 / population
+            :mod (xv1 / county
+                  :name (xv4 / name
+                        :op1 "Vermillion"))
+            :mod (xv3 / county
+                  :name (xv6 / name
+                        :op1 "Madison"
+                        :op2 "County"))
+            :mod (xv8 / population
+                  :mod (xv2 / county
+                        :name (xv5 / name
+                              :op1 "Posey")))))
+
+# ::id 188
+# ::snt NA
+(xv0 / and
+      :location (xv7 / hotel
+            :name (xv8 / name
+                  :op1 "Casa"
+                  :op2 "de"
+                  :op3 "Espaa"))
+      :op1 (xv5 / eat-01
+            :ARG0 (xv3 / customer)
+            :ARG1 (xv4 / dinner))
+      :op2 (xv9 / play-01
+            :ARG0 xv3
+            :ARG1 (xv1 / bingo))
+      :time (xv6 / go-off-16
+            :ARG1 (xv2 / bomb)))
+
+# ::id 189
+# ::snt NA
+(xv0 / and
+      :location (xv7 / hotel
+            :name (xv8 / name
+                  :op1 "Casa"
+                  :op2 "de"
+                  :op3 "Espaa"))
+      :op1 (xv5 / eat-01
+            :ARG0 (xv3 / customer)
+            :ARG1 (xv4 / dinner))
+      :op2 (xv9 / play-01
+            :ARG0 xv3
+            :ARG1 (xv1 / bingo))
+      :time (xv6 / go-off-16
+            :ARG1 (xv2 / bomb)))
+
+# ::id 190
+# ::snt NA
+(xv0 / possible-01
+      :ARG1 (xv4 / prosecute-01
+            :ARG1 (xv6 / woman
+                  :ARG1-of (xv1 / abort-01
+                        :mod (xv5 / such)))
+            :ARG0-of (xv3 / cause-01
+                  :ARG1 (xv2 / bill)))
+      :polarity -)
+
+# ::id 191
+# ::snt NA
+(xv0 / possible-01
+      :ARG1 (xv4 / prosecute-01
+            :ARG1 (xv6 / woman
+                  :ARG1-of (xv1 / abort-01
+                        :mod (xv5 / such)))
+            :ARG1-of (xv3 / cause-01
+                  :ARG0 (xv2 / bill)))
+      :polarity -)
+
+# ::id 192
+# ::snt NA
+(xv0 / and
+      :op1 (xv13 / surrender-01
+            :ARG0 (xv10 / person
+                  :ARG1-of (xv7 / lead-02
+                        :ARG0 (xv15 / they))
+                  :name (xv8 / name
+                        :op1 "Abu"
+                        :op2 "Baker"
+                        :op3 "al-Azdi"))
+            :time (xv2 / date-entity
+                  :month 6))
+      :op2 (xv6 / kill-01
+            :ARG1 (xv11 / person
+                  :ARG0-of (xv5 / have-rel-role-91
+                        :ARG2 (xv3 / deputy)
+                        :ARG1 xv11))
+            :time (xv14 / shoot-out-02
+                  :ARG0 xv11
+                  :ARG1 (xv4 / force
+                        :mod (xv1 / country
+                              :name (xv9 / name
+                                    :op1 "Saudi"
+                                    :op2 "Arabia")))
+                  :time (xv12 / recent))))
+
+# ::id 193
+# ::snt NA
+(xv0 / and
+      :op1 (xv13 / surrender-01
+            :ARG0 (xv10 / person
+                  :ARG0-of (xv7 / lead-02
+                        :ARG1 (xv15 / they))
+                  :name (xv8 / name
+                        :op1 "Abu"
+                        :op2 "Baker"
+                        :op3 "al-Azdi"))
+            :time (xv2 / date-entity
+                  :month 6))
+      :op2 (xv6 / kill-01
+            :ARG1 (xv11 / person
+                  :ARG0-of (xv5 / have-rel-role-91
+                        :ARG2 (xv3 / deputy)
+                        :ARG1 xv11))
+            :time (xv14 / shoot-out-02
+                  :ARG0 xv11
+                  :ARG1 (xv4 / force
+                        :mod (xv1 / country
+                              :name (xv9 / name
+                                    :op1 "Saudi"
+                                    :op2 "Arabia")))
+                  :time (xv12 / recent))))
+
+# ::id 194
+# ::snt NA
+(xv0 / ask-02
+      :ARG0 (xv6 / government-organization
+            :name (xv12 / name
+                  :op1 "Federal"
+                  :op2 "Trade"
+                  :op3 "Commission"))
+      :ARG1 (xv15 / power
+            :ARG1-of (xv4 / broad-02)
+            :ARG1-of (xv9 / have-degree-91
+                  :ARG2 xv4
+                  :ARG3 (xv11 / more)))
+      :ARG2 (xv7 / government-organization
+            :name (xv13 / name
+                  :op1 "Congress"))
+      :purpose (xv1 / attack-01
+            :ARG0 xv7
+            :ARG1 (xv16 / problem
+                  :topic (xv18 / spam
+                        :ARG1-of (xv2 / account-01
+                              :ARG1-of (xv19 / show-01
+                                    :ARG0 (xv20 / study-01
+                                          :ARG1-of (xv14 / new-01)))
+                              :ARG0 (xv21 / traffic
+                                    :ARG2-of (xv10 / include-91
+                                          :ARG1 (xv22 / traffic
+                                                :mod (xv3 / all)
+                                                :mod (xv5 / email)))
+                                    :quant "1/2"))
+                        :ARG1-of (xv8 / grow-01
+                              :manner (xv17 / rapid)))))
+      :time (xv23 / yesterday))
+
+# ::id 195
+# ::snt NA
+(xv0 / ask-02
+      :ARG0 (xv6 / government-organization
+            :name (xv12 / name
+                  :op1 "Federal"
+                  :op2 "Trade"
+                  :op3 "Commission"))
+      :ARG1 (xv15 / power
+            :ARG1-of (xv4 / broad-02)
+            :ARG1-of (xv9 / have-degree-91
+                  :ARG2 xv4
+                  :ARG3 (xv11 / more)))
+      :ARG2 (xv7 / government-organization
+            :name (xv13 / name
+                  :op1 "Congress"))
+      :purpose (xv1 / attack-01
+            :ARG0 xv7
+            :ARG1 (xv16 / problem
+                  :topic (xv18 / spam
+                        :ARG0-of (xv2 / account-01
+                              :ARG1 (xv21 / traffic
+                                    :ARG1-of (xv10 / include-91
+                                          :ARG2 (xv22 / traffic
+                                                :mod (xv3 / all)
+                                                :mod (xv5 / email)))
+                                    :quant "1/2")
+                              :ARG1-of (xv19 / show-01
+                                    :ARG0 (xv20 / study-01
+                                          :ARG1-of (xv14 / new-01))))
+                        :ARG1-of (xv8 / grow-01
+                              :manner (xv17 / rapid)))))
+      :time (xv23 / yesterday))
+
+# ::id 196
+# ::snt NA
+(xv0 / contrast-01
+      :ARG2 (xv18 / say-01
+            :ARG0 (xv12 / person
+                  :ARG0-of (xv1 / analyze-01)
+                  :ARG0-of (xv8 / have-org-role-91
+                        :ARG1 (xv3 / company
+                              :name (xv10 / name
+                                    :op1 "Merrill"
+                                    :op2 "Lynch")))
+                  :name (xv9 / name
+                        :op1 "Steven"
+                        :op2 "Milunovich"))
+            :ARG1 (xv13 / possible-01
+                  :ARG1 (xv19 / setback
+                        :beneficiary (xv4 / company
+                              :name (xv11 / name
+                                    :op1 "Static"
+                                    :op2 "Control")
+                              :ARG0-of (xv7 / develop-02
+                                    :ARG1 (xv15 / product
+                                          :poss xv4
+                                          :ARG0-of (xv5 / compete-01))
+                                    :manner (xv21 / thing)))
+                        :domain (xv16 / rule-01
+                              :ARG0 (xv14 / person
+                                    :ARG0-of (xv17 / regulate-01))
+                              :mod (xv2 / ambiguous
+                                    :degree (xv20 / somewhat)))
+                        :ARG0-of (xv6 / depend-01
+                              :ARG1 xv21)))))
+
+# ::id 197
+# ::snt NA
+(xv0 / contrast-01
+      :ARG2 (xv18 / say-01
+            :ARG0 (xv12 / person
+                  :ARG0-of (xv1 / analyze-01)
+                  :ARG0-of (xv8 / have-org-role-91
+                        :ARG1 (xv3 / company
+                              :name (xv10 / name
+                                    :op1 "Merrill"
+                                    :op2 "Lynch")))
+                  :name (xv9 / name
+                        :op1 "Steven"
+                        :op2 "Milunovich"))
+            :ARG1 (xv13 / possible-01
+                  :ARG1 (xv19 / setback
+                        :beneficiary (xv4 / company
+                              :name (xv11 / name
+                                    :op1 "Static"
+                                    :op2 "Control")
+                              :ARG0-of (xv7 / develop-02
+                                    :ARG1 (xv15 / product
+                                          :poss xv4
+                                          :ARG0-of (xv5 / compete-01))
+                                    :manner (xv21 / thing)))
+                        :domain (xv16 / rule-01
+                              :ARG0 (xv14 / person
+                                    :ARG0-of (xv17 / regulate-01))
+                              :mod (xv2 / ambiguous
+                                    :degree (xv20 / somewhat)))
+                        :ARG0-of (xv6 / depend-01
+                              :ARG1 xv21)))))
+
+# ::id 198
+# ::snt NA
+(xv0 / contrast-01
+      :ARG1 (xv4 / focus-01
+            :ARG0 (xv6 / investigate-01
+                  :ARG1 (xv2 / criminal-organization
+                        :ARG0-of (xv15 / stage-01
+                              :location (xv5 / ground))
+                        :name (xv9 / name
+                              :op1 "Al"
+                              :op2 "Qaeda")))
+            :ARG1 (xv3 / country
+                  :name (xv10 / name
+                        :op1 "Malawi"))
+            :polarity -
+            :time (xv13 / previous)
+            :ARG1-of (xv7 / major-02))
+      :ARG2 (xv16 / use-01
+            :ARG1 (xv12 / part
+                  :part-of (xv1 / continent
+                        :name (xv8 / name
+                              :op1 "Africa"))
+                  :mod (xv11 / other)
+                  :mod (xv14 / some))
+            :ARG2 xv5))
+
+# ::id 199
+# ::snt NA
+(xv0 / contrast-01
+      :ARG1 (xv16 / use-01
+            :ARG1 (xv12 / part
+                  :part-of (xv1 / continent
+                        :name (xv8 / name
+                              :op1 "Africa"))
+                  :mod (xv11 / other)
+                  :mod (xv14 / some))
+            :ARG2 (xv5 / ground))
+      :ARG2 (xv4 / focus-01
+            :ARG0 (xv6 / investigate-01
+                  :ARG1 (xv2 / criminal-organization
+                        :ARG0-of (xv15 / stage-01
+                              :location xv5)
+                        :name (xv9 / name
+                              :op1 "Al"
+                              :op2 "Qaeda")))
+            :ARG1 (xv3 / country
+                  :name (xv10 / name
+                        :op1 "Malawi"))
+            :polarity -
+            :time (xv13 / previous)
+            :ARG1-of (xv7 / major-02)))
+
+# ::id 200
+# ::snt NA
+(xv0 / include-01
+      :ARG1 (xv1 / and
+            :op1 (xv2 / broadcast-program
+                  :name (xv5 / name
+                        :op1 "ER")
+                  :poss (xv4 / company
+                        :name (xv6 / name
+                              :op1 "NBC")))
+            :op2 (xv3 / broadcast-program
+                  :name (xv7 / name
+                        :op1 "Third"
+                        :op2 "Watch")))
+      :ARG2 (xv11 / series
+            :mod (xv9 / other)
+            :poss (xv10 / person
+                  :name (xv8 / name
+                        :op1 "Wells"))))
+
+# ::id 201
+# ::snt NA
+(xv0 / include-01
+      :ARG1 (xv1 / and
+            :op1 (xv2 / broadcast-program
+                  :name (xv5 / name
+                        :op1 "ER")
+                  :poss (xv4 / company
+                        :name (xv6 / name
+                              :op1 "NBC")))
+            :op2 (xv3 / broadcast-program
+                  :name (xv7 / name
+                        :op1 "Third"
+                        :op2 "Watch")))
+      :ARG2 (xv11 / series
+            :mod (xv9 / other)
+            :poss (xv10 / person
+                  :name (xv8 / name
+                        :op1 "Wells"))))
+
+# ::id 202
+# ::snt NA
+(xv0 / meet-03
+      :ARG0 (xv19 / person
+            :name (xv10 / name
+                  :op1 "Bush"))
+      :ARG1 (xv1 / and
+            :op1 (xv20 / person
+                  :ARG0-of (xv7 / have-org-role-91
+                        :ARG1 (xv2 / country
+                              :name (xv12 / name
+                                    :op1 "Israel"))
+                        :ARG2 (xv9 / minister
+                              :mod (xv21 / prime)))
+                  :name (xv11 / name
+                        :op1 "Ariel"
+                        :op2 "Sharon"))
+            :op2 (xv22 / person
+                  :ARG0-of (xv8 / lead-02
+                        :ARG1 (xv3 / country
+                              :name (xv14 / name
+                                    :op1 "Palestine")))
+                  :ARG1-of (xv15 / new-01)
+                  :name (xv13 / name
+                        :op1 "Mahmoud"
+                        :op2 "Abbas")))
+      :location (xv4 / city
+            :location (xv5 / country
+                  :name (xv18 / name
+                        :op1 "Jordan"))
+            :name (xv17 / name
+                  :op1 "Aqaba"))
+      :time (xv6 / date-entity
+            :weekday (xv23 / wednesday)
+            :weekday (xv24 / week
+                  :mod (xv16 / next))))
+
+# ::id 203
+# ::snt NA
+(xv0 / meet-03
+      :ARG0 (xv19 / person
+            :name (xv10 / name
+                  :op1 "Bush"))
+      :ARG1 (xv1 / and
+            :op1 (xv20 / person
+                  :ARG0-of (xv7 / have-org-role-91
+                        :ARG1 (xv2 / country
+                              :name (xv12 / name
+                                    :op1 "Israel"))
+                        :ARG2 (xv9 / minister
+                              :mod (xv21 / prime)))
+                  :name (xv11 / name
+                        :op1 "Ariel"
+                        :op2 "Sharon"))
+            :op2 (xv22 / person
+                  :ARG0-of (xv8 / lead-02
+                        :ARG1 (xv3 / country
+                              :name (xv14 / name
+                                    :op1 "Palestine")))
+                  :ARG1-of (xv15 / new-01)
+                  :name (xv13 / name
+                        :op1 "Mahmoud"
+                        :op2 "Abbas")))
+      :location (xv4 / city
+            :location (xv5 / country
+                  :name (xv18 / name
+                        :op1 "Jordan"))
+            :name (xv17 / name
+                  :op1 "Aqaba"))
+      :time (xv6 / date-entity
+            :weekday (xv23 / wednesday)
+            :weekday (xv24 / week
+                  :mod (xv16 / next))))
+
+# ::id 204
+# ::snt NA
+(xv0 / explain-01
+      :ARG0 (xv7 / he)
+      :ARG1 (xv6 / find-01
+            :ARG0 (xv1 / antetonitrus)
+            :ARG1 xv7
+            :time (xv3 / come-01
+                  :ARG1 (xv13 / university
+                        :name (xv8 / name
+                              :op1 "Wits"))
+                  :ARG4 xv7
+                  :time (xv2 / assistant
+                        :location (xv14 / university
+                              :location (xv4 / country
+                                    :name (xv10 / name
+                                          :op1 "Britain"))
+                              :name (xv9 / name
+                                    :op1 "Bristol"
+                                    :op2 "University"))
+                        :mod (xv11 / postdoctoral)
+                        :mod (xv12 / research-01))
+                  :time (xv5 / date-entity
+                        :year 2001))))
+
+# ::id 205
+# ::snt NA
+(xv0 / explain-01
+      :ARG0 (xv7 / he)
+      :ARG1 (xv6 / find-01
+            :ARG0 xv7
+            :ARG1 (xv1 / antetonitrus)
+            :time (xv3 / come-01
+                  :ARG1 xv7
+                  :ARG4 (xv13 / university
+                        :name (xv8 / name
+                              :op1 "Wits"))
+                  :time (xv2 / assistant
+                        :location (xv14 / university
+                              :location (xv4 / country
+                                    :name (xv10 / name
+                                          :op1 "Britain"))
+                              :name (xv9 / name
+                                    :op1 "Bristol"
+                                    :op2 "University"))
+                        :mod (xv11 / postdoctoral)
+                        :mod (xv12 / research-01))
+                  :time (xv5 / date-entity
+                        :year 2001))))
+
+# ::id 206
+# ::snt NA
+(xv0 / sight-01
+      :ARG1 (xv6 / relieve-01
+            :ARG1 (xv4 / person
+                  :ARG1-of (xv8 / saddle-01
+                        :ARG2 (xv5 / premium
+                              :ARG1-of (xv9 / skyrocket-01)
+                              :mod (xv2 / insure-02
+                                    :ARG1 (xv1 / homeowner))))
+                  :mod (xv7 / state
+                        :name (xv3 / name
+                              :op1 "Texas")))))
+
+# ::id 207
+# ::snt NA
+(xv0 / sight-01
+      :ARG1 (xv6 / relieve-01
+            :ARG1 (xv4 / person
+                  :ARG1-of (xv8 / saddle-01
+                        :ARG2 (xv5 / premium
+                              :ARG1-of (xv9 / skyrocket-01)
+                              :mod (xv2 / insure-02
+                                    :ARG1 (xv1 / homeowner))))
+                  :mod (xv7 / state
+                        :name (xv3 / name
+                              :op1 "Texas")))))
+
+# ::id 208
+# ::snt NA
+(xv0 / contain-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / aspirin)
+            :op2 (xv13 / statin
+                  :ARG0-of (xv8 / lower-05
+                        :ARG1 (xv5 / cholesterol)))
+            :op3 (xv3 / agent
+                  :quant 3
+                  :ARG1-of (xv9 / lower-05
+                        :ARG0 (xv11 / pressure
+                              :mod (xv4 / blood))))
+            :op4 (xv6 / folic-acid))
+      :ARG1 (xv7 / ingredient
+            :part-of (xv10 / polypill
+                  :mod (xv12 / such))))
+
+# ::id 209
+# ::snt NA
+(xv0 / contain-01
+      :ARG0 (xv7 / ingredient
+            :part-of (xv10 / polypill
+                  :mod (xv12 / such)))
+      :ARG1 (xv1 / and
+            :op1 (xv2 / aspirin)
+            :op2 (xv13 / statin
+                  :ARG0-of (xv8 / lower-05
+                        :ARG1 (xv5 / cholesterol)))
+            :op3 (xv3 / agent
+                  :quant 3
+                  :ARG0-of (xv9 / lower-05
+                        :ARG1 (xv11 / pressure
+                              :mod (xv4 / blood))))
+            :op4 (xv6 / folic-acid)))
+
+# ::id 210
+# ::snt NA
+(xv0 / call-01
+      :ARG1 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Myanmar"))
+      :ARG2 (xv2 / country
+            :name (xv5 / name
+                  :op1 "Burma"))
+      :time (xv3 / former))
+
+# ::id 211
+# ::snt NA
+(xv0 / call-01
+      :ARG1 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Myanmar"))
+      :ARG2 (xv2 / country
+            :name (xv5 / name
+                  :op1 "Burma"))
+      :time (xv3 / former))
+
+# ::id 212
+# ::snt NA
+(xv0 / have-degree-91
+      :ARG1 (xv5 / province
+            :name (xv3 / name
+                  :op1 "Hornand")
+            :ARG0-of (xv6 / produce-01
+                  :ARG1 (xv4 / opium)
+                  :location (xv7 / world)))
+      :ARG2 (xv1 / large)
+      :ARG3 (xv2 / most)
+      :ARG5 xv6)
+
+# ::id 213
+# ::snt NA
+(xv0 / have-degree-91
+      :ARG1 (xv5 / province
+            :name (xv3 / name
+                  :op1 "Hornand")
+            :ARG0-of (xv6 / produce-01
+                  :ARG1 (xv4 / opium)
+                  :location (xv7 / world)))
+      :ARG2 (xv1 / large)
+      :ARG3 (xv2 / most)
+      :ARG5 xv6)
+
+# ::id 214
+# ::snt NA
+(xv0 / deny-01
+      :ARG0 (xv3 / exist-01
+            :ARG1 (xv6 / program
+                  :mod (xv5 / nucleus)
+                  :ARG1-of (xv2 / declare-02
+                        :polarity -)))
+      :ARG1 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Syria")))
+
+# ::id 215
+# ::snt NA
+(xv0 / deny-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Syria"))
+      :ARG1 (xv3 / exist-01
+            :ARG1 (xv6 / program
+                  :mod (xv5 / nucleus)
+                  :ARG1-of (xv2 / declare-02
+                        :polarity -))))
+
+# ::id 216
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv2 / government-organization
+            :ARG0-of (xv3 / govern-01
+                  :ARG1 (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Iran"))))
+      :ARG1 (xv6 / peaceful
+            :domain (xv7 / program
+                  :mod (xv5 / nucleus))))
+
+# ::id 217
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv2 / government-organization
+            :ARG0-of (xv3 / govern-01
+                  :ARG1 (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Iran"))))
+      :ARG1 (xv6 / peaceful
+            :domain (xv7 / program
+                  :mod (xv5 / nucleus))))
+
+# ::id 218
+# ::snt NA
+(xv0 / engage-01
+      :ARG1 (xv12 / operation
+            :mod (xv8 / massive)
+            :purpose (xv6 / destroy-01
+                  :ARG1 (xv4 / crop
+                        :mod (xv14 / poppy))
+                  :ARG0 (xv5 / city
+                        :name (xv10 / name
+                              :op1 "Kashmir"))
+                  :location xv16))
+      :ARG2 (xv16 / troop
+            :ARG1-of (xv7 / fight-01
+                  :time (xv1 / already)
+                  :ARG0 (xv13 / person
+                        :ARG0-of (xv15 / rebel-01)))
+            :mod (xv3 / country
+                  :name (xv9 / name
+                        :op1 "India")))
+      :mod (xv2 / also)
+      :time (xv11 / now))
+
+# ::id 219
+# ::snt NA
+(xv0 / engage-01
+      :ARG1 (xv16 / troop
+            :ARG0-of (xv7 / fight-01
+                  :ARG1 (xv13 / person
+                        :ARG0-of (xv15 / rebel-01))
+                  :time (xv1 / already))
+            :mod (xv3 / country
+                  :name (xv9 / name
+                        :op1 "India")))
+      :ARG2 (xv12 / operation
+            :mod (xv8 / massive)
+            :purpose (xv6 / destroy-01
+                  :ARG0 xv16
+                  :ARG1 (xv4 / crop
+                        :mod (xv14 / poppy))
+                  :location (xv5 / city
+                        :name (xv10 / name
+                              :op1 "Kashmir"))))
+      :mod (xv2 / also)
+      :time (xv11 / now))
+
+# ::id 220
+# ::snt NA
+(xv0 / state-01
+      :ARG1-of (xv9 / explicit-02)
+      :ARG0 (xv17 / person
+            :ARG0-of (xv10 / lead-02
+                  :ARG1 (xv22 / team
+                        :topic (xv1 / and
+                              :op1 (xv3 / control-01
+                                    :ARG1 (xv23 / transfer-01))
+                              :op2 (xv2 / arm
+                                    :mod (xv19 / small))))
+                  :mod (xv16 / organization
+                        :name (xv13 / name
+                              :op1 "Saferworld")))
+            :name (xv12 / name
+                  :op1 "Roy"
+                  :op2 "Isbister"))
+      :ARG1 (xv18 / recommend-01
+            :ARG1-of (xv6 / direct-02
+                  :polarity -)
+            :ARG1 (xv21 / supply-01
+                  :ARG1 (xv8 / equipment
+                        :mod (xv11 / military))
+                  :purpose (xv24 / use-01
+                        :ARG1 xv8
+                        :location (xv4 / country
+                              :name (xv15 / name
+                                    :op1 "Myanmar")))
+                  :ARG1-of (xv5 / direct-02))
+            :polarity -)
+      :ARG1 (xv20 / state-01
+            :ARG0 (xv7 / embargo-01
+                  :ARG0 xv16
+                  :name (xv14 / name
+                        :op1 "EU"))))
+
+# ::id 221
+# ::snt NA
+(xv0 / state-01
+      :ARG1-of (xv9 / explicit-02)
+      :ARG0 (xv17 / person
+            :ARG0-of (xv10 / lead-02
+                  :ARG1 (xv22 / team
+                        :topic (xv1 / and
+                              :op1 (xv3 / control-01
+                                    :ARG1 (xv23 / transfer-01))
+                              :op2 (xv2 / arm
+                                    :mod (xv19 / small))))
+                  :mod (xv16 / organization
+                        :name (xv13 / name
+                              :op1 "Saferworld")))
+            :name (xv12 / name
+                  :op1 "Roy"
+                  :op2 "Isbister"))
+      :ARG1 (xv18 / recommend-01
+            :ARG1-of (xv6 / direct-02
+                  :polarity -)
+            :ARG1 (xv21 / supply-01
+                  :ARG1 (xv8 / equipment
+                        :mod (xv11 / military))
+                  :purpose (xv24 / use-01
+                        :ARG1 xv8
+                        :location (xv4 / country
+                              :name (xv15 / name
+                                    :op1 "Myanmar")))
+                  :ARG1-of (xv5 / direct-02))
+            :polarity -)
+      :ARG1 (xv20 / state-01
+            :ARG0 (xv7 / embargo-01
+                  :ARG0 xv16
+                  :name (xv14 / name
+                        :op1 "EU"))))
+
+# ::id 222
+# ::snt NA
+(xv0 / collaborate-01
+      :ARG0 (xv1 / and
+            :location (xv13 / mainland
+                  :part-of (xv6 / country
+                        :name (xv15 / name
+                              :op1 "China")))
+            :op1 (xv20 / sector
+                  :mod (xv10 / education
+                        :mod (xv23 / tertiary)))
+            :op2 (xv21 / sector
+                  :mod (xv4 / business))
+            :op3 (xv22 / sector
+                  :mod (xv11 / government-organization
+                        :ARG0-of (xv12 / govern-01))))
+      :ARG1 (xv27 / university
+            :mod (xv5 / city
+                  :name (xv14 / name
+                        :op1 "Hong"
+                        :op2 "Kong")))
+      :ARG2 (xv9 / direct-01
+            :ARG0 xv27
+            :ARG1 (xv2 / and
+                  :op1 (xv16 / program
+                        :mod (xv24 / train-01))
+                  :op2 (xv7 / center
+                        :mod (xv18 / research-01)))
+            :purpose (xv17 / promote-02
+                  :ARG0 (xv3 / and
+                        :op1 (xv8 / commercialize-01
+                              :ARG1 (xv19 / research-01))
+                        :op2 (xv25 / transfer-01
+                              :ARG1 (xv26 / technology)))
+                  :ARG1 xv27)))
+
+# ::id 223
+# ::snt NA
+(xv0 / collaborate-01
+      :ARG0 (xv27 / university
+            :mod (xv5 / city
+                  :name (xv14 / name
+                        :op1 "Hong"
+                        :op2 "Kong")))
+      :ARG1 (xv1 / and
+            :location (xv13 / mainland
+                  :part-of (xv6 / country
+                        :name (xv15 / name
+                              :op1 "China")))
+            :op1 (xv20 / sector
+                  :mod (xv10 / education
+                        :mod (xv23 / tertiary)))
+            :op2 (xv21 / sector
+                  :mod (xv4 / business))
+            :op3 (xv22 / sector
+                  :mod (xv11 / government-organization
+                        :ARG0-of (xv12 / govern-01))))
+      :ARG2 (xv9 / direct-01
+            :ARG0 xv27
+            :ARG1 (xv2 / and
+                  :op1 (xv16 / program
+                        :mod (xv24 / train-01))
+                  :op2 (xv7 / center
+                        :mod (xv18 / research-01)))
+            :purpose (xv17 / promote-02
+                  :ARG0 xv27
+                  :ARG1 (xv3 / and
+                        :op1 (xv8 / commercialize-01
+                              :ARG1 (xv19 / research-01))
+                        :op2 (xv25 / transfer-01
+                              :ARG1 (xv26 / technology))))))
+
+# ::id 224
+# ::snt NA
+(xv0 / adopt-01
+      :ARG0 (xv7 / measure-02
+            :ARG1 (xv1 / against
+                  :op1 (xv2 / and
+                        :op1 (xv12 / traffic-01
+                              :ARG1 (xv5 / drug))
+                        :op2 (xv4 / crime-02
+                              :ARG1-of (xv9 / organize-01))))
+            :quant (xv10 / series))
+      :ARG1 (xv3 / country
+            :name (xv8 / name
+                  :op1 "Mexico"))
+      :time (xv11 / since
+            :op1 (xv6 / date-entity
+                  :year 2006)))
+
+# ::id 225
+# ::snt NA
+(xv0 / adopt-01
+      :ARG0 (xv3 / country
+            :name (xv8 / name
+                  :op1 "Mexico"))
+      :ARG1 (xv7 / measure-02
+            :ARG1 (xv1 / against
+                  :op1 (xv2 / and
+                        :op1 (xv12 / traffic-01
+                              :ARG1 (xv5 / drug))
+                        :op2 (xv4 / crime-02
+                              :ARG1-of (xv9 / organize-01))))
+            :quant (xv10 / series))
+      :time (xv11 / since
+            :op1 (xv6 / date-entity
+                  :year 2006)))
+
+# ::id 226
+# ::snt NA
+(xv0 / specify-01
+      :ARG0 (xv6 / thing
+            :ARG1-of (xv5 / state-01))
+      :ARG1 (xv3 / number
+            :quant-of (xv7 / warhead
+                  :ARG1-of (xv1 / carry-01
+                        :ARG1-of (xv4 / possible-01)
+                        :ARG0 (xv2 / missile))))
+      :polarity -)
+
+# ::id 227
+# ::snt NA
+(xv0 / specify-01
+      :ARG0 (xv6 / thing
+            :ARG1-of (xv5 / state-01))
+      :ARG1 (xv3 / number
+            :quant-of (xv7 / warhead
+                  :ARG1-of (xv1 / carry-01
+                        :ARG1-of (xv4 / possible-01)
+                        :ARG0 (xv2 / missile))))
+      :polarity -)
+
+# ::id 228
+# ::snt NA
+(xv0 / include-91
+      :ARG1 (xv5 / law
+            :ARG1-of (xv3 / have-degree-91
+                  :ARG2 (xv8 / strict)
+                  :ARG3 (xv6 / most)
+                  :ARG5 (xv9 / world)))
+      :ARG2 (xv4 / law
+            :poss (xv1 / country
+                  :name (xv7 / name
+                        :op1 "Vietnam"))
+            :topic (xv2 / drug)))
+
+# ::id 229
+# ::snt NA
+(xv0 / include-91
+      :ARG1 (xv4 / law
+            :poss (xv1 / country
+                  :name (xv7 / name
+                        :op1 "Vietnam"))
+            :topic (xv2 / drug))
+      :ARG2 (xv5 / law
+            :ARG1-of (xv3 / have-degree-91
+                  :ARG2 (xv8 / strict)
+                  :ARG3 (xv6 / most)
+                  :ARG5 (xv9 / world))))
+
+# ::id 230
+# ::snt NA
+(xv0 / state-01
+      :ARG0 (xv9 / person
+            :name (xv5 / name
+                  :op1 "Moscow"))
+      :ARG1 (xv10 / possible-01
+            :ARG1 (xv3 / discard-01
+                  :ARG0 (xv13 / treaty)
+                  :ARG1 (xv2 / country
+                        :name (xv6 / name
+                              :op1 "Russia"))
+                  :degree (xv4 / entire))
+            :condition (xv11 / refuse-01
+                  :ARG0 (xv12 / ratify-01
+                        :ARG0 (xv14 / version
+                              :poss xv13
+                              :ARG1-of (xv1 / amend-01))
+                        :ARG1 xv7)
+                  :ARG1 (xv7 / nation
+                        :location (xv15 / world-region
+                              :name (xv8 / name
+                                    :op1 "West"))))))
+
+# ::id 231
+# ::snt NA
+(xv0 / state-01
+      :ARG0 (xv9 / person
+            :name (xv5 / name
+                  :op1 "Moscow"))
+      :ARG1 (xv10 / possible-01
+            :ARG1 (xv3 / discard-01
+                  :ARG0 (xv2 / country
+                        :name (xv6 / name
+                              :op1 "Russia"))
+                  :ARG1 (xv13 / treaty)
+                  :degree (xv4 / entire))
+            :condition (xv11 / refuse-01
+                  :ARG0 (xv7 / nation
+                        :location (xv15 / world-region
+                              :name (xv8 / name
+                                    :op1 "West")))
+                  :ARG1 (xv12 / ratify-01
+                        :ARG0 xv7
+                        :ARG1 (xv14 / version
+                              :poss xv13
+                              :ARG1-of (xv1 / amend-01))))))
+
+# ::id 232
+# ::snt NA
+(xv0 / ratify-01
+      :ARG0 (xv4 / treaty
+            :ARG1-of (xv1 / amend-01))
+      :ARG1 (xv2 / country
+            :name (xv3 / name
+                  :op1 "Russia")))
+
+# ::id 233
+# ::snt NA
+(xv0 / ratify-01
+      :ARG0 (xv2 / country
+            :name (xv3 / name
+                  :op1 "Russia"))
+      :ARG1 (xv4 / treaty
+            :ARG1-of (xv1 / amend-01)))
+
+# ::id 234
+# ::snt NA
+(xv0 / name-01
+      :ARG0 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Ryan"))
+      :ARG1 (xv3 / person
+            :name (xv1 / name
+                  :op1 "Romney"))
+      :ARG2 (xv5 / running-mate))
+
+# ::id 235
+# ::snt NA
+(xv0 / name-01
+      :ARG0 (xv3 / person
+            :name (xv1 / name
+                  :op1 "Romney"))
+      :ARG1 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Ryan"))
+      :ARG2 (xv5 / running-mate))
+
+# ::id 236
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv4 / person
+            :quant 6)
+      :ARG1 (xv1 / gunman)
+      :time (xv6 / shoot-02
+            :location (xv8 / temple
+                  :location (xv7 / state
+                        :name (xv3 / name
+                              :op1 "Wisconsin"))
+                  :mod (xv5 / religious-group
+                        :name (xv2 / name
+                              :op1 "Sikh")))))
+
+# ::id 237
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv1 / gunman)
+      :ARG1 (xv4 / person
+            :quant 6)
+      :time (xv6 / shoot-02
+            :location (xv8 / temple
+                  :location (xv7 / state
+                        :name (xv3 / name
+                              :op1 "Wisconsin"))
+                  :mod (xv5 / religious-group
+                        :name (xv2 / name
+                              :op1 "Sikh")))))
+
+# ::id 238
+# ::snt NA
+(xv0 / resign-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv1 / manage-01
+                  :ARG1 (xv6 / team
+                        :name (xv3 / name
+                              :op1 "England"))))
+      :ARG1 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Capello")))
+
+# ::id 239
+# ::snt NA
+(xv0 / resign-01
+      :ARG0 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Capello"))
+      :ARG1 (xv5 / person
+            :ARG0-of (xv1 / manage-01
+                  :ARG1 (xv6 / team
+                        :name (xv3 / name
+                              :op1 "England")))))
+
+# ::id 240
+# ::snt NA
+(xv0 / tap-02
+      :ARG0 (xv3 / person
+            :name (xv1 / name
+                  :op1 "Romney"))
+      :ARG1 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Ryan"))
+      :ARG2 (xv6 / run-mate
+            :mod (xv5 / president
+                  :mod (xv7 / vice))))
+
+# ::id 241
+# ::snt NA
+(xv0 / tap-02
+      :ARG0 (xv3 / person
+            :name (xv1 / name
+                  :op1 "Romney"))
+      :ARG1 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Ryan"))
+      :ARG2 (xv6 / run-mate
+            :mod (xv5 / president
+                  :mod (xv7 / vice))))
+
+# ::id 242
+# ::snt NA
+(xv0 / find-01
+      :ARG1 (xv5 / remain-01
+            :ARG1 (xv4 / person
+                  :quant 167))
+      :location (xv1 / cave
+            :location (xv2 / country
+                  :name (xv3 / name
+                        :op1 "Mexico"))))
+
+# ::id 243
+# ::snt NA
+(xv0 / find-01
+      :ARG1 (xv5 / remain-01
+            :ARG1 (xv4 / person
+                  :quant 167))
+      :location (xv1 / cave
+            :location (xv2 / country
+                  :name (xv3 / name
+                        :op1 "Mexico"))))
+
+# ::id 244
+# ::snt NA
+(xv0 / meet-01
+      :ARG1 (xv5 / pledge-01
+            :ARG0 (xv1 / country
+                  :name (xv3 / name
+                        :op1 "US"))
+            :ARG2 (xv6 / rebuild-01
+                  :ARG1 (xv2 / country
+                        :name (xv4 / name
+                              :op1 "Haiti"))))
+      :polarity -)
+
+# ::id 245
+# ::snt NA
+(xv0 / meet-01
+      :ARG1 (xv5 / pledge-01
+            :ARG0 (xv1 / country
+                  :name (xv3 / name
+                        :op1 "US"))
+            :ARG2 (xv6 / rebuild-01
+                  :ARG1 (xv2 / country
+                        :name (xv4 / name
+                              :op1 "Haiti"))))
+      :polarity -)
+
+# ::id 246
+# ::snt NA
+(xv0 / capture-01
+      :ARG0 (xv5 / person
+            :name (xv2 / name
+                  :op1 "Federer"))
+      :ARG1 (xv6 / title
+            :mod (xv1 / game
+                  :name (xv3 / name
+                        :op1 "Wimbledon"))
+            :ord (xv4 / ordinal-entity
+                  :value 7)))
+
+# ::id 247
+# ::snt NA
+(xv0 / capture-01
+      :ARG0 (xv5 / person
+            :name (xv2 / name
+                  :op1 "Federer"))
+      :ARG1 (xv6 / title
+            :mod (xv1 / game
+                  :name (xv3 / name
+                        :op1 "Wimbledon"))
+            :ord (xv4 / ordinal-entity
+                  :value 7)))
+
+# ::id 248
+# ::snt NA
+(xv0 / state-01
+      :ARG1 (xv3 / move-01
+            :ARG1 (xv8 / person
+                  :quant 9000
+                  :ARG0-of (xv1 / have-org-role-91
+                        :ARG1 (xv4 / military
+                              :name (xv5 / name
+                                    :op1 "U.S."
+                                    :op2 "Marines"))))
+            :ARG2 (xv7 / out-06
+                  :ARG1 xv8
+                  :ARG2 (xv2 / island
+                        :name (xv6 / name
+                              :op1 "Okinawa")))))
+
+# ::id 249
+# ::snt NA
+(xv0 / state-01
+      :ARG1 (xv3 / move-01
+            :ARG1 (xv8 / person
+                  :quant 9000
+                  :ARG0-of (xv1 / have-org-role-91
+                        :ARG1 (xv4 / military
+                              :name (xv5 / name
+                                    :op1 "U.S."
+                                    :op2 "Marines"))))
+            :ARG2 (xv7 / out-06
+                  :ARG1 xv8
+                  :ARG2 (xv2 / island
+                        :name (xv6 / name
+                              :op1 "Okinawa")))))
+
+# ::id 250
+# ::snt NA
+(xv0 / get-01
+      :ARG0 (xv7 / stage
+            :ARG1-of (xv5 / new-01)
+            :mod (xv2 / mammoth))
+      :ARG1 (xv6 / person
+            :name (xv3 / name
+                  :op1 "Pop-Star"
+                  :op2 "Priest")
+            :poss (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Brazil"))))
+
+# ::id 251
+# ::snt NA
+(xv0 / get-01
+      :ARG0 (xv6 / person
+            :name (xv3 / name
+                  :op1 "Pop-Star"
+                  :op2 "Priest")
+            :poss (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Brazil")))
+      :ARG1 (xv7 / stage
+            :ARG1-of (xv5 / new-01)
+            :mod (xv2 / mammoth)))
+
+# ::id 252
+# ::snt NA
+(xv0 / clinch-01
+      :ARG0 (xv5 / team
+            :name (xv3 / name
+                  :op1 "Miami"
+                  :op2 "Head"))
+      :ARG1 (xv1 / championship
+            :mod (xv2 / league
+                  :name (xv4 / name
+                        :op1 "NBA"))))
+
+# ::id 253
+# ::snt NA
+(xv0 / clinch-01
+      :ARG0 (xv5 / team
+            :name (xv3 / name
+                  :op1 "Miami"
+                  :op2 "Head"))
+      :ARG1 (xv1 / championship
+            :mod (xv2 / league
+                  :name (xv4 / name
+                        :op1 "NBA"))))
+
+# ::id 254
+# ::snt NA
+(xv0 / defect-01
+      :ARG0 (xv6 / person
+            :ARG0-of (xv9 / rebel-01))
+      :ARG1 (xv7 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv8 / police
+                        :mod (xv1 / country
+                              :name (xv5 / name
+                                    :op1 "Syria"))
+                        :mod (xv4 / military))
+                  :ARG2 (xv2 / chief))))
+
+# ::id 255
+# ::snt NA
+(xv0 / defect-01
+      :ARG0 (xv6 / person
+            :ARG0-of (xv9 / rebel-01))
+      :ARG1 (xv7 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv8 / police
+                        :mod (xv1 / country
+                              :name (xv5 / name
+                                    :op1 "Syria"))
+                        :mod (xv4 / military))
+                  :ARG2 (xv2 / chief))))
+
+# ::id 256
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv6 / police)
+      :ARG1 (xv8 / rape-01
+            :ARG1 (xv3 / gang
+                  :consist-of (xv7 / person
+                        :ARG0-of (xv9 / tour-01))
+                  :mod (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Switzerland")))
+            :location (xv2 / country
+                  :name (xv5 / name
+                        :op1 "India"))))
+
+# ::id 257
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv6 / police)
+      :ARG1 (xv8 / rape-01
+            :ARG1 (xv3 / gang
+                  :consist-of (xv7 / person
+                        :ARG0-of (xv9 / tour-01))
+                  :mod (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Switzerland")))
+            :location (xv2 / country
+                  :name (xv5 / name
+                        :op1 "India"))))
+
+# ::id 258
+# ::snt NA
+(xv0 / set-02
+      :ARG0 (xv7 / person
+            :name (xv5 / name
+                  :op1 "Carney"))
+      :ARG1 (xv1 / bar
+            :ARG1-of (xv4 / high-02))
+      :ARG2 (xv3 / change-01
+            :location (xv2 / bank
+                  :name (xv6 / name
+                        :op1 "Bank"
+                        :op2 "of"
+                        :op3 "England"))))
+
+# ::id 259
+# ::snt NA
+(xv0 / set-02
+      :ARG0 (xv7 / person
+            :name (xv5 / name
+                  :op1 "Carney"))
+      :ARG1 (xv1 / bar
+            :ARG1-of (xv4 / high-02))
+      :ARG2 (xv3 / change-01
+            :location (xv2 / bank
+                  :name (xv6 / name
+                        :op1 "Bank"
+                        :op2 "of"
+                        :op3 "England"))))
+
+# ::id 260
+# ::snt NA
+(xv0 / postpone-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "North"
+                  :op2 "Korea"))
+      :ARG1 (xv6 / union-02
+            :ARG0 xv1
+            :ARG1 (xv3 / family)
+            :ARG2 (xv2 / country
+                  :name (xv5 / name
+                        :op1 "South"
+                        :op2 "Korea"))))
+
+# ::id 261
+# ::snt NA
+(xv0 / postpone-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "North"
+                  :op2 "Korea"))
+      :ARG1 (xv6 / union-02
+            :ARG0 xv1
+            :ARG1 (xv3 / family)
+            :ARG2 (xv2 / country
+                  :name (xv5 / name
+                        :op1 "South"
+                        :op2 "Korea"))))
+
+# ::id 262
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv2 / man
+            :ARG0-of (xv5 / set-02
+                  :location xv2
+                  :ARG1 (xv1 / ablaze)
+                  :ARG2 (xv3 / mall
+                        :name (xv4 / name
+                              :op1 "National"
+                              :op2 "Mall")))))
+
+# ::id 263
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv2 / man
+            :ARG0-of (xv5 / set-02
+                  :ARG2 (xv1 / ablaze)
+                  :location (xv3 / mall
+                        :name (xv4 / name
+                              :op1 "National"
+                              :op2 "Mall"))
+                  :ARG1 xv2)))
+
+# ::id 264
+# ::snt NA
+(xv0 / hold-04
+      :ARG0 (xv7 / team
+            :name (xv2 / name
+                  :op1 "Brazil"))
+      :ARG1 (xv8 / team
+            :name (xv3 / name
+                  :op1 "England"))
+      :ARG2 (xv6 / score-entity
+            :value 2)
+      :time (xv5 / reopen-01
+            :ARG1 (xv1 / facility
+                  :name (xv4 / name
+                        :op1 "Maracana"))))
+
+# ::id 265
+# ::snt NA
+(xv0 / hold-04
+      :ARG0 (xv7 / team
+            :name (xv2 / name
+                  :op1 "Brazil"))
+      :ARG1 (xv8 / team
+            :name (xv3 / name
+                  :op1 "England"))
+      :ARG2 (xv6 / score-entity
+            :value 2)
+      :time (xv5 / reopen-01
+            :ARG1 (xv1 / facility
+                  :name (xv4 / name
+                        :op1 "Maracana"))))
+
+# ::id 266
+# ::snt NA
+(xv0 / take-over-12
+      :ARG0 (xv7 / presidency
+            :poss (xv5 / organization
+                  :name (xv4 / name
+                        :op1 "CELAC")))
+      :ARG1 (xv6 / person
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Cuba"))
+            :name (xv2 / name
+                  :op1 "Castro")))
+
+# ::id 267
+# ::snt NA
+(xv0 / take-over-12
+      :ARG0 (xv6 / person
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Cuba"))
+            :name (xv2 / name
+                  :op1 "Castro"))
+      :ARG1 (xv7 / presidency
+            :poss (xv5 / organization
+                  :name (xv4 / name
+                        :op1 "CELAC"))))
+
+# ::id 268
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / pull-over-02
+            :ARG0-of (xv1 / cause-01
+                  :ARG1 (xv6 / speed-01
+                        :ARG0 xv5))
+            :ARG0 (xv7 / state
+                  :name (xv3 / name
+                        :op1 "Texas"))
+            :location (xv5 / person
+                  :name (xv2 / name
+                        :op1 "Zimmerman")))
+      :op2 (xv8 / warn-01
+            :ARG1 xv5))
+
+# ::id 269
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / pull-over-02
+            :ARG1-of (xv1 / cause-01
+                  :ARG0 (xv6 / speed-01
+                        :ARG0 xv5))
+            :ARG0 (xv5 / person
+                  :name (xv2 / name
+                        :op1 "Zimmerman"))
+            :location (xv7 / state
+                  :name (xv3 / name
+                        :op1 "Texas")))
+      :op2 (xv8 / warn-01
+            :ARG1 xv5))
+
+# ::id 270
+# ::snt NA
+(xv0 / include-91
+      :ARG1 (xv6 / person
+            :quant 7
+            :ARG1-of (xv3 / die-01
+                  :time (xv1 / after
+                        :op1 (xv7 / shoot-out-02
+                              :ARG1 (xv2 / apartment
+                                    :location (xv8 / state
+                                          :name (xv5 / name
+                                                :op1 "Florida")))))))
+      :ARG2 (xv4 / gunman))
+
+# ::id 271
+# ::snt NA
+(xv0 / include-91
+      :ARG1 (xv4 / gunman)
+      :ARG2 (xv6 / person
+            :quant 7
+            :ARG1-of (xv3 / die-01
+                  :time (xv1 / after
+                        :op1 (xv7 / shoot-out-02
+                              :ARG1 (xv2 / apartment
+                                    :location (xv8 / state
+                                          :name (xv5 / name
+                                                :op1 "Florida"))))))))
+
+# ::id 272
+# ::snt NA
+(xv0 / delay-01
+      :ARG0 (xv5 / organization
+            :name (xv4 / name
+                  :op1 "Boy"
+                  :op2 "Scouts"
+                  :op3 "of"
+                  :op4 "America"))
+      :ARG1 (xv7 / vote-01
+            :ARG1 (xv3 / lift-01
+                  :ARG1 (xv1 / ban-01
+                        :ARG1 (xv6 / person
+                              :ARG1-of (xv2 / gay-01))))))
+
+# ::id 273
+# ::snt NA
+(xv0 / delay-01
+      :ARG0 (xv5 / organization
+            :name (xv4 / name
+                  :op1 "Boy"
+                  :op2 "Scouts"
+                  :op3 "of"
+                  :op4 "America"))
+      :ARG1 (xv7 / vote-01
+            :ARG1 (xv3 / lift-01
+                  :ARG1 (xv1 / ban-01
+                        :ARG1 (xv6 / person
+                              :ARG1-of (xv2 / gay-01))))))
+
+# ::id 274
+# ::snt NA
+(xv0 / declare-02
+      :ARG0 (xv2 / city
+            :quant 3)
+      :location (xv6 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv7 / president)
+                  :ARG2 (xv1 / country
+                        :name (xv5 / name
+                              :op1 "Egypt"))))
+      :ARG1 (xv8 / state
+            :mod (xv3 / emergency)))
+
+# ::id 275
+# ::snt NA
+(xv0 / declare-02
+      :ARG0 (xv6 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv1 / country
+                        :name (xv5 / name
+                              :op1 "Egypt"))
+                  :ARG2 (xv7 / president)))
+      :ARG1 (xv8 / state
+            :mod (xv3 / emergency))
+      :location (xv2 / city
+            :quant 3))
+
+# ::id 276
+# ::snt NA
+(xv0 / hit-02
+      :ARG0 (xv8 / revenue
+            :location (xv1 / city
+                  :name (xv7 / name
+                        :name-of (xv2 / country
+                              :op1 "US")
+                        :op1 "Macau"))
+            :source (xv5 / gambling))
+      :ARG1 (xv6 / monetary-quantity
+            :quant 3800000000
+            :unit (xv3 / dollar
+                  :mod xv2))
+      :mod (xv9 / record)
+      :time (xv4 / date-entity
+            :year 2012))
+
+# ::id 277
+# ::snt NA
+(xv0 / hit-02
+      :ARG0 (xv8 / revenue
+            :location (xv1 / city
+                  :name (xv7 / name
+                        :name-of (xv2 / country
+                              :op1 "US")
+                        :op1 "Macau"))
+            :source (xv5 / gambling))
+      :ARG1 (xv6 / monetary-quantity
+            :quant 3800000000
+            :unit (xv3 / dollar
+                  :mod xv2))
+      :mod (xv9 / record)
+      :time (xv4 / date-entity
+            :year 2012))
+
+# ::id 278
+# ::snt NA
+(xv0 / survive-01
+      :ARG0 (xv1 / attack-01
+            :ARG0 (xv2 / bomb))
+      :ARG1 (xv8 / person
+            :ARG2-of (xv4 / have-org-role-91
+                  :ARG1 (xv3 / country
+                        :name (xv7 / name
+                              :op1 "Egypt"))
+                  :ARG0 (xv6 / minister
+                        :topic (xv5 / interior)))))
+
+# ::id 279
+# ::snt NA
+(xv0 / survive-01
+      :ARG0 (xv8 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv3 / country
+                        :name (xv7 / name
+                              :op1 "Egypt"))
+                  :ARG2 (xv6 / minister
+                        :topic (xv5 / interior))))
+      :ARG1 (xv1 / attack-01
+            :ARG0 (xv2 / bomb)))
+
+# ::id 280
+# ::snt NA
+(xv0 / freeze-02
+      :ARG0 (xv2 / fund-01
+            :ARG0 (xv5 / organization
+                  :name (xv4 / name
+                        :op1 "Muslim"
+                        :op2 "Brotherhood")))
+      :ARG1 (xv1 / country
+            :name (xv3 / name
+                  :op1 "Egypt")))
+
+# ::id 281
+# ::snt NA
+(xv0 / freeze-02
+      :ARG0 (xv1 / country
+            :name (xv3 / name
+                  :op1 "Egypt"))
+      :ARG1 (xv2 / fund-01
+            :ARG0 (xv5 / organization
+                  :name (xv4 / name
+                        :op1 "Muslim"
+                        :op2 "Brotherhood"))))
+
+# ::id 282
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv5 / person
+            :name (xv3 / name
+                  :op1 "David"
+                  :op2 "Cameron"))
+      :ARG1 (xv1 / deserve-01
+            :ARG0 (xv2 / knighthood)
+            :ARG1 (xv6 / person
+                  :name (xv4 / name
+                        :op1 "Andy"
+                        :op2 "Murray"))))
+
+# ::id 283
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv5 / person
+            :name (xv3 / name
+                  :op1 "David"
+                  :op2 "Cameron"))
+      :ARG1 (xv1 / deserve-01
+            :ARG0 (xv6 / person
+                  :name (xv4 / name
+                        :op1 "Andy"
+                        :op2 "Murray"))
+            :ARG1 (xv2 / knighthood)))
+
+# ::id 284
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv7 / strike-01
+            :ARG0 (xv3 / country
+                  :name (xv5 / name
+                        :op1 "Syria"))
+            :ARG1 (xv2 / bakery)
+            :mod (xv1 / air))
+      :ARG1 (xv6 / person
+            :quant (xv4 / multiple
+                  :op1 12)))
+
+# ::id 285
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv7 / strike-01
+            :ARG0 (xv3 / country
+                  :name (xv5 / name
+                        :op1 "Syria"))
+            :ARG1 (xv2 / bakery)
+            :mod (xv1 / air))
+      :ARG1 (xv6 / person
+            :quant (xv4 / multiple
+                  :op1 12)))
+
+# ::id 286
+# ::snt NA
+(xv0 / close-01
+      :ARG1 (xv7 / stock
+            :mod (xv1 / country
+                  :name (xv6 / name
+                        :op1 "China")))
+      :time (xv2 / date-entity
+            :weekday (xv8 / thursday))
+      :ARG1-of (xv3 / have-degree-91
+            :ARG2 (xv4 / low-04
+                  :ARG1 xv0)
+            :ARG3 (xv5 / more)))
+
+# ::id 287
+# ::snt NA
+(xv0 / close-01
+      :ARG1 (xv7 / stock
+            :mod (xv1 / country
+                  :name (xv6 / name
+                        :op1 "China")))
+      :time (xv2 / date-entity
+            :weekday (xv8 / thursday))
+      :ARG1-of (xv3 / have-degree-91
+            :ARG2 (xv4 / low-04
+                  :ARG1 xv0)
+            :ARG3 (xv5 / more)))
+
+# ::id 288
+# ::snt NA
+(xv0 / crash-01
+      :ARG1 (xv5 / person
+            :ARG0-of (xv2 / drive-01
+                  :ARG1 (xv7 / train))
+            :location (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Spain"))
+            :ARG0-of (xv6 / question-01
+                  :ARG1 xv0
+                  :ARG0-of (xv3 / judge-01))))
+
+# ::id 289
+# ::snt NA
+(xv0 / crash-01
+      :ARG1 (xv5 / person
+            :ARG0-of (xv2 / drive-01
+                  :ARG1 (xv7 / train))
+            :location (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Spain"))
+            :ARG0-of (xv6 / question-01
+                  :ARG1 xv0
+                  :ARG0-of (xv3 / judge-01))))
+
+# ::id 290
+# ::snt NA
+(xv0 / reach-01
+      :ARG0 (xv3 / deal-01
+            :ARG2 (xv7 / wealth))
+      :ARG1 (xv1 / and
+            :op1 (xv2 / country
+                  :name (xv4 / name
+                        :op1 "Philippines"))
+            :op2 (xv5 / person
+                  :ARG0-of (xv6 / rebel-01))))
+
+# ::id 291
+# ::snt NA
+(xv0 / reach-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / country
+                  :name (xv4 / name
+                        :op1 "Philippines"))
+            :op2 (xv5 / person
+                  :ARG0-of (xv6 / rebel-01)))
+      :ARG1 (xv3 / deal-01
+            :ARG2 (xv7 / wealth)))
+
+# ::id 292
+# ::snt NA
+(xv0 / call-03
+      :ARG0 (xv4 / person
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Israel"))
+            :name (xv2 / name
+                  :op1 "Peres"))
+      :ARG1 (xv6 / return-01
+            :ARG2 (xv7 / talk-01
+                  :ARG1 (xv5 / peace))))
+
+# ::id 293
+# ::snt NA
+(xv0 / call-03
+      :ARG0 (xv4 / person
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Israel"))
+            :name (xv2 / name
+                  :op1 "Peres"))
+      :ARG1 (xv6 / return-01
+            :ARG2 (xv7 / talk-01
+                  :ARG1 (xv5 / peace))))
+
+# ::id 294
+# ::snt NA
+(xv0 / deliver-01
+      :ARG0 (xv7 / person
+            :name (xv4 / name
+                  :op1 "Obama")
+            :ARG1-of (xv8 / state-01
+                  :ARG0 (xv1 / country
+                        :name (xv5 / name
+                              :op1 "Syria"))))
+      :ARG1 (xv3 / government-organization
+            :name (xv6 / name
+                  :op1 "White"
+                  :op2 "House"))
+      :location xv8
+      :time (xv2 / date-entity
+            :time "13:15"))
+
+# ::id 295
+# ::snt NA
+(xv0 / deliver-01
+      :ARG0 (xv7 / person
+            :name (xv4 / name
+                  :op1 "Obama")
+            :ARG0-of (xv8 / state-01
+                  :ARG1 (xv1 / country
+                        :name (xv5 / name
+                              :op1 "Syria"))))
+      :ARG1 xv8
+      :location (xv3 / government-organization
+            :name (xv6 / name
+                  :op1 "White"
+                  :op2 "House"))
+      :time (xv2 / date-entity
+            :time "13:15"))
+
+# ::id 296
+# ::snt NA
+(xv0 / crown-01
+      :ARG1 (xv3 / person
+            :name (xv1 / name
+                  :op1 "Miss"
+                  :op2 "New"
+                  :op3 "York"))
+      :ARG2 xv3
+      :name (xv2 / name
+            :op1 "Miss"
+            :op2 "America"))
+
+# ::id 297
+# ::snt NA
+(xv0 / crown-01
+      :ARG1 (xv3 / person
+            :name (xv1 / name
+                  :op1 "Miss"
+                  :op2 "New"
+                  :op3 "York"))
+      :ARG2 xv3
+      :name (xv2 / name
+            :op1 "Miss"
+            :op2 "America"))
+
+# ::id 298
+# ::snt NA
+(xv0 / order-01
+      :ARG0 (xv1 / court
+            :mod (xv2 / country
+                  :name (xv4 / name
+                        :op1 "Egypt")))
+      :ARG1 (xv3 / free-01
+            :ARG1 (xv6 / person
+                  :name (xv5 / name
+                        :op1 "Mubarak"))))
+
+# ::id 299
+# ::snt NA
+(xv0 / order-01
+      :ARG0 (xv1 / court
+            :mod (xv2 / country
+                  :name (xv4 / name
+                        :op1 "Egypt")))
+      :ARG1 (xv3 / free-01
+            :ARG1 (xv6 / person
+                  :name (xv5 / name
+                        :op1 "Mubarak"))))
+
+# ::id 300
+# ::snt NA
+(xv0 / face-01
+      :ARG0 (xv4 / rise-01
+            :ARG1 (xv3 / premium
+                  :mod (xv2 / insure-02)))
+      :ARG1 (xv5 / woman
+            :ARG0-of (xv1 / drive-01)))
+
+# ::id 301
+# ::snt NA
+(xv0 / face-01
+      :ARG0 (xv5 / woman
+            :ARG0-of (xv1 / drive-01))
+      :ARG1 (xv4 / rise-01
+            :ARG1 (xv3 / premium
+                  :mod (xv2 / insure-02))))
+
+# ::id 302
+# ::snt NA
+(xv0 / reject-01
+      :ARG0 (xv1 / accuse-01
+            :ARG1 (xv6 / hack-04)
+            :ARG2 (xv3 / country
+                  :name (xv9 / name
+                        :op1 "US"))
+            :ARG1-of (xv4 / ground-02
+                  :polarity -))
+      :ARG1 (xv10 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv11 / premier)
+                  :ARG2 (xv2 / country
+                        :name (xv8 / name
+                              :op1 "China")))
+            :name (xv7 / name
+                  :op1 "Li")))
+
+# ::id 303
+# ::snt NA
+(xv0 / reject-01
+      :ARG0 (xv10 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv2 / country
+                        :name (xv8 / name
+                              :op1 "China"))
+                  :ARG2 (xv11 / premier))
+            :name (xv7 / name
+                  :op1 "Li"))
+      :ARG1 (xv1 / accuse-01
+            :ARG1 (xv3 / country
+                  :name (xv9 / name
+                        :op1 "US"))
+            :ARG2 (xv6 / hack-04)
+            :ARG1-of (xv4 / ground-02
+                  :polarity -)))
+
+# ::id 304
+# ::snt NA
+(xv0 / ban-01
+      :ARG0 (xv6 / school
+            :mod (xv4 / martial-art))
+      :ARG1 (xv2 / country
+            :name (xv5 / name
+                  :op1 "East"
+                  :op2 "Timor"))
+      :time (xv1 / amid
+            :op1 (xv3 / kill-01)))
+
+# ::id 305
+# ::snt NA
+(xv0 / ban-01
+      :ARG0 (xv2 / country
+            :name (xv5 / name
+                  :op1 "East"
+                  :op2 "Timor"))
+      :ARG1 (xv6 / school
+            :mod (xv4 / martial-art))
+      :time (xv1 / amid
+            :op1 (xv3 / kill-01)))
+
+# ::id 306
+# ::snt NA
+(xv0 / urge-01
+      :ARG0 (xv6 / unity
+            :poss (xv4 / party))
+      :ARG1 (xv3 / person
+            :name (xv2 / name
+                  :op1 "Suu"
+                  :op2 "Kyi"))
+      :time (xv1 / amid
+            :op1 (xv5 / squabble-01)))
+
+# ::id 307
+# ::snt NA
+(xv0 / urge-01
+      :ARG0 (xv3 / person
+            :name (xv2 / name
+                  :op1 "Suu"
+                  :op2 "Kyi"))
+      :ARG1 (xv6 / unity
+            :poss (xv4 / party))
+      :time (xv1 / amid
+            :op1 (xv5 / squabble-01)))
+
+# ::id 308
+# ::snt NA
+(xv0 / thank-01
+      :ARG0 (xv6 / person
+            :name (xv4 / name
+                  :op1 "Snowden"))
+      :ARG1 (xv2 / country
+            :name (xv5 / name
+                  :op1 "Russia")
+            :ARG0-of (xv3 / grant-01
+                  :ARG1 (xv1 / asylum)))
+      :ARG2 xv3)
+
+# ::id 309
+# ::snt NA
+(xv0 / thank-01
+      :ARG0 (xv6 / person
+            :name (xv4 / name
+                  :op1 "Snowden"))
+      :ARG1 (xv2 / country
+            :name (xv5 / name
+                  :op1 "Russia")
+            :ARG0-of (xv3 / grant-01
+                  :ARG1 (xv1 / asylum)))
+      :ARG2 xv3)
+
+# ::id 310
+# ::snt NA
+(xv0 / bury-01
+      :ARG1 (xv6 / person
+            :ARG2-of (xv7 / suspect-01
+                  :ARG1 (xv1 / bomb-01
+                        :location (xv2 / city
+                              :name (xv4 / name
+                                    :op1 "Boston")))))
+      :ARG2 (xv3 / cemetery
+            :location (xv8 / state
+                  :name (xv5 / name
+                        :op1 "Virginia"))))
+
+# ::id 311
+# ::snt NA
+(xv0 / bury-01
+      :ARG1 (xv6 / person
+            :ARG2-of (xv7 / suspect-01
+                  :ARG1 (xv1 / bomb-01
+                        :location (xv2 / city
+                              :name (xv4 / name
+                                    :op1 "Boston")))))
+      :ARG2 (xv3 / cemetery
+            :location (xv8 / state
+                  :name (xv5 / name
+                        :op1 "Virginia"))))
+
+# ::id 312
+# ::snt NA
+(xv0 / rape-01
+      :ARG1 (xv6 / person
+            :ARG0-of (xv7 / tour-01)
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Switzerland")))
+      :location (xv2 / country
+            :name (xv5 / name
+                  :op1 "India"))
+      :manner (xv3 / gang))
+
+# ::id 313
+# ::snt NA
+(xv0 / rape-01
+      :ARG1 (xv6 / person
+            :ARG0-of (xv7 / tour-01)
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Switzerland")))
+      :location (xv2 / country
+            :name (xv5 / name
+                  :op1 "India"))
+      :manner (xv3 / gang))
+
+# ::id 314
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / cause-01
+            :ARG0 (xv3 / collapse-01
+                  :ARG1 (xv6 / mall))
+            :ARG1 (xv4 / force
+                  :mod (xv2 / country
+                        :name (xv7 / name
+                              :op1 "Kenya"))))
+      :ARG1 (xv9 / person
+            :ARG2-of (xv5 / have-org-role-91
+                  :ARG0 (xv8 / official))))
+
+# ::id 315
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv9 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG2 (xv8 / official)))
+      :ARG1 (xv1 / cause-01
+            :ARG0 (xv4 / force
+                  :mod (xv2 / country
+                        :name (xv7 / name
+                              :op1 "Kenya")))
+            :ARG1 (xv3 / collapse-01
+                  :ARG1 (xv6 / mall))))
+
+# ::id 316
+# ::snt NA
+(xv0 / show-01
+      :ARG0 (xv5 / shoot-02
+            :location (xv1 / city
+                  :name (xv3 / name
+                        :op1 "Chicago")))
+      :ARG1 (xv2 / gap
+            :topic (xv4 / police-01
+                  :ARG1-of (xv6 / step-up-04))))
+
+# ::id 317
+# ::snt NA
+(xv0 / show-01
+      :ARG0 (xv5 / shoot-02
+            :location (xv1 / city
+                  :name (xv3 / name
+                        :op1 "Chicago")))
+      :ARG1 (xv2 / gap
+            :topic (xv4 / police-01
+                  :ARG1-of (xv6 / step-up-04))))
+
+# ::id 318
+# ::snt NA
+(xv0 / compare-01
+      :ARG1 (xv5 / person
+            :name (xv2 / name
+                  :op1 "Vladimir"
+                  :op2 "Putin"))
+      :ARG0 (xv6 / person
+            :name (xv3 / name
+                  :op1 "Adolf"
+                  :op2 "Hitler"))
+      :ARG2 (xv4 / person
+            :name (xv1 / name
+                  :op1 "Prince"
+                  :op2 "Charles")))
+
+# ::id 319
+# ::snt NA
+(xv0 / compare-01
+      :ARG0 (xv4 / person
+            :name (xv1 / name
+                  :op1 "Prince"
+                  :op2 "Charles"))
+      :ARG1 (xv5 / person
+            :name (xv2 / name
+                  :op1 "Vladimir"
+                  :op2 "Putin"))
+      :ARG2 (xv6 / person
+            :name (xv3 / name
+                  :op1 "Adolf"
+                  :op2 "Hitler")))
+
+# ::id 320
+# ::snt NA
+(xv0 / hit-01
+      :ARG0 (xv4 / person
+            :name (xv3 / name
+                  :op1 "Snowden")
+            :ARG0-of (xv5 / search-01
+                  :ARG1 (xv1 / asylum)))
+      :ARG1 (xv2 / hurdle)
+      :purpose xv5)
+
+# ::id 321
+# ::snt NA
+(xv0 / hit-01
+      :ARG0 (xv4 / person
+            :name (xv3 / name
+                  :op1 "Snowden")
+            :ARG0-of (xv5 / search-01
+                  :ARG1 (xv1 / asylum)))
+      :ARG1 (xv2 / hurdle)
+      :purpose xv5)
+
+# ::id 322
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv6 / person
+            :ARG1-of (xv3 / laureate-01
+                  :ARG2 (xv1 / award
+                        :name (xv5 / name
+                              :op1 "Nobel"
+                              :op2 "Prize")))
+            :name (xv4 / name
+                  :op1 "Doris"
+                  :op2 "Lessing"))
+      :time (xv2 / age-01
+            :ARG1 xv6
+            :ARG2 (xv7 / temporal-quantity
+                  :quant 94
+                  :unit (xv8 / year))))
+
+# ::id 323
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv6 / person
+            :ARG1-of (xv3 / laureate-01
+                  :ARG2 (xv1 / award
+                        :name (xv5 / name
+                              :op1 "Nobel"
+                              :op2 "Prize")))
+            :name (xv4 / name
+                  :op1 "Doris"
+                  :op2 "Lessing"))
+      :time (xv2 / age-01
+            :ARG1 xv6
+            :ARG2 (xv7 / temporal-quantity
+                  :quant 94
+                  :unit (xv8 / year))))
+
+# ::id 324
+# ::snt NA
+(xv0 / imprison-01
+      :ARG2-of (xv1 / await-01
+            :ARG1 (xv8 / try-02
+                  :ARG1 xv6))
+      :ARG1 (xv6 / person
+            :ARG0-of (xv4 / lead-02)
+            :mod (xv2 / country
+                  :name (xv5 / name
+                        :op1 "Greece"))
+            :ARG1-of (xv7 / right-08
+                  :degree (xv3 / far))))
+
+# ::id 325
+# ::snt NA
+(xv0 / imprison-01
+      :ARG1-of (xv1 / await-01
+            :ARG2 (xv8 / try-02
+                  :ARG1 (xv6 / person
+                        :ARG0-of (xv4 / lead-02)
+                        :mod (xv2 / country
+                              :name (xv5 / name
+                                    :op1 "Greece"))
+                        :ARG1-of (xv7 / right-08
+                              :degree (xv3 / far)))))
+      :ARG1 xv6)
+
+# ::id 326
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv3 / person
+            :name (xv2 / name
+                  :op1 "Nelson"
+                  :op2 "Mandela"))
+      :time (xv1 / age-01
+            :ARG2 xv3
+            :ARG1 95))
+
+# ::id 327
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv3 / person
+            :name (xv2 / name
+                  :op1 "Nelson"
+                  :op2 "Mandela")
+            :ARG1-of (xv1 / age-01
+                  :ARG2 95))
+      :time xv1)
+
+# ::id 328
+# ::snt NA
+(xv0 / swear-in-02
+      :ARG0 (xv7 / person
+            :name (xv4 / name
+                  :op1 "Rudd"))
+      :ARG1 (xv2 / have-org-role-91
+            :ARG0 xv7
+            :ARG1 (xv1 / country
+                  :name (xv5 / name
+                        :op1 "Australia"))
+            :ARG2 (xv3 / minister
+                  :mod (xv8 / prime))
+            :ARG1-of (xv6 / new-01)))
+
+# ::id 329
+# ::snt NA
+(xv0 / swear-in-02
+      :ARG0 (xv7 / person
+            :name (xv4 / name
+                  :op1 "Rudd"))
+      :ARG1 (xv2 / have-org-role-91
+            :ARG0 xv7
+            :ARG1 (xv1 / country
+                  :name (xv5 / name
+                        :op1 "Australia"))
+            :ARG2 (xv3 / minister
+                  :mod (xv8 / prime))
+            :ARG1-of (xv6 / new-01)))
+
+# ::id 330
+# ::snt NA
+(xv0 / grant-01
+      :ARG0 (xv2 / country
+            :name (xv6 / name
+                  :op1 "Saudi"
+                  :op2 "Arabia"))
+      :ARG1 (xv5 / monetary-quantity
+            :quant 30000000000
+            :unit (xv4 / dollar))
+      :ARG2 (xv1 / army
+            :mod (xv3 / country
+                  :name (xv7 / name
+                        :op1 "Lebanon"))))
+
+# ::id 331
+# ::snt NA
+(xv0 / grant-01
+      :ARG0 (xv2 / country
+            :name (xv6 / name
+                  :op1 "Saudi"
+                  :op2 "Arabia"))
+      :ARG1 (xv5 / monetary-quantity
+            :quant 30000000000
+            :unit (xv4 / dollar))
+      :ARG2 (xv1 / army
+            :mod (xv3 / country
+                  :name (xv7 / name
+                        :op1 "Lebanon"))))
+
+# ::id 332
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv4 / explode-01
+            :location (xv1 / city
+                  :name (xv6 / name
+                        :op1 "Pragma")))
+      :ARG1 (xv8 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv2 / country
+                        :name (xv7 / name
+                              :op1 "Palestine"))
+                  :ARG2 (xv3 / diplomat))))
+
+# ::id 333
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv4 / explode-01
+            :location (xv1 / city
+                  :name (xv6 / name
+                        :op1 "Pragma")))
+      :ARG1 (xv8 / person
+            :ARG0-of (xv5 / have-org-role-91
+                  :ARG1 (xv2 / country
+                        :name (xv7 / name
+                              :op1 "Palestine"))
+                  :ARG2 (xv3 / diplomat))))
+
+# ::id 334
+# ::snt NA
+(xv0 / report-01
+      :ARG1 (xv1 / explode-01
+            :location (xv4 / line
+                  :location-of (xv3 / finish-01
+                        :ARG1 (xv2 / event
+                              :name (xv5 / name
+                                    :op1 "Boston"
+                                    :op2 "Marathon"))))
+            :quant 2))
+
+# ::id 335
+# ::snt NA
+(xv0 / report-01
+      :ARG1 (xv1 / explode-01
+            :location (xv4 / line
+                  :location-of (xv3 / finish-01
+                        :ARG1 (xv2 / event
+                              :name (xv5 / name
+                                    :op1 "Boston"
+                                    :op2 "Marathon"))))
+            :quant 2))
+
+# ::id 336
+# ::snt NA
+(xv0 / pick-up-04
+      :ARG0 (xv7 / prize
+            :mod (xv6 / organization
+                  :name (xv5 / name
+                        :op1 "EU")))
+      :ARG1 (xv3 / lady
+            :poss (xv2 / country
+                  :name (xv4 / name
+                        :op1 "Cuba")))
+      :time (xv1 / after
+            :quant (xv8 / temporal-quantity
+                  :quant 8
+                  :unit (xv9 / year))))
+
+# ::id 337
+# ::snt NA
+(xv0 / pick-up-04
+      :ARG0 (xv3 / lady
+            :poss (xv2 / country
+                  :name (xv4 / name
+                        :op1 "Cuba")))
+      :ARG1 (xv7 / prize
+            :mod (xv6 / organization
+                  :name (xv5 / name
+                        :op1 "EU")))
+      :time (xv1 / after
+            :quant (xv8 / temporal-quantity
+                  :quant 8
+                  :unit (xv9 / year))))
+
+# ::id 338
+# ::snt NA
+(xv0 / lose-02
+      :ARG0 (xv3 / monetary-quantity
+            :quant 965000000
+            :unit (xv2 / dollar))
+      :ARG1 (xv1 / company
+            :name (xv4 / name
+                  :op1 "Berry"))
+      :time (xv6 / quarter
+            :ord (xv5 / ordinal-entity
+                  :value 2)))
+
+# ::id 339
+# ::snt NA
+(xv0 / lose-02
+      :ARG0 (xv1 / company
+            :name (xv4 / name
+                  :op1 "Berry"))
+      :ARG1 (xv3 / monetary-quantity
+            :quant 965000000
+            :unit (xv2 / dollar))
+      :time (xv6 / quarter
+            :ord (xv5 / ordinal-entity
+                  :value 2)))
+
+# ::id 340
+# ::snt NA
+(xv0 / probe-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv2 / investigate-01))
+      :ARG1 (xv3 / motive
+            :poss (xv6 / person
+                  :location (xv1 / airport
+                        :name (xv4 / name
+                              :op1 "Los"
+                              :op2 "Angeles"))
+                  :ARG0-of (xv7 / shoot-02))))
+
+# ::id 341
+# ::snt NA
+(xv0 / probe-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv2 / investigate-01))
+      :ARG1 (xv3 / motive
+            :poss (xv6 / person
+                  :location (xv1 / airport
+                        :name (xv4 / name
+                              :op1 "Los"
+                              :op2 "Angeles"))
+                  :ARG0-of (xv7 / shoot-02))))
+
+# ::id 342
+# ::snt NA
+(xv0 / outrage-01
+      :time (xv1 / after
+            :op1 (xv5 / rape-01
+                  :ARG1 (xv6 / school
+                        :poss xv3)
+                  :location (xv3 / girl
+                        :age (xv7 / temporal-quantity
+                              :quant 6
+                              :unit (xv8 / year))
+                        :mod (xv2 / ethnic-group
+                              :name (xv4 / name
+                                    :op1 "Indian"))))))
+
+# ::id 343
+# ::snt NA
+(xv0 / outrage-01
+      :time (xv1 / after
+            :op1 (xv5 / rape-01
+                  :ARG1 (xv3 / girl
+                        :age (xv7 / temporal-quantity
+                              :quant 6
+                              :unit (xv8 / year))
+                        :mod (xv2 / ethnic-group
+                              :name (xv4 / name
+                                    :op1 "Indian")))
+                  :location (xv6 / school
+                        :poss xv3))))
+
+# ::id 344
+# ::snt NA
+(xv0 / turn-02
+      :ARG1 (xv1 / case-03
+            :ARG1 (xv4 / person
+                  :name (xv2 / name
+                        :op1 "Manning"))
+            :topic (xv5 / publication
+                  :name (xv3 / name
+                        :op1 "WikiLeaks")))
+      :ARG4 (xv6 / phase
+            :mod (xv7 / sentence-01)))
+
+# ::id 345
+# ::snt NA
+(xv0 / turn-02
+      :ARG1 (xv1 / case-03
+            :ARG1 (xv4 / person
+                  :name (xv2 / name
+                        :op1 "Manning"))
+            :topic (xv5 / publication
+                  :name (xv3 / name
+                        :op1 "WikiLeaks")))
+      :ARG4 (xv6 / phase
+            :mod (xv7 / sentence-01)))
+
+# ::id 346
+# ::snt NA
+(xv0 / surround-01
+      :ARG0 (xv5 / ministry
+            :mod (xv1 / country
+                  :name (xv6 / name
+                        :op1 "Libya"))
+            :topic (xv3 / foreign))
+      :ARG1 (xv4 / gunman)
+      :purpose (xv7 / push-01
+            :ARG0 (xv2 / demand-01)
+            :ARG1 xv4))
+
+# ::id 347
+# ::snt NA
+(xv0 / surround-01
+      :ARG0 (xv4 / gunman)
+      :ARG1 (xv5 / ministry
+            :mod (xv1 / country
+                  :name (xv6 / name
+                        :op1 "Libya"))
+            :topic (xv3 / foreign))
+      :purpose (xv7 / push-01
+            :ARG0 xv4
+            :ARG1 (xv2 / demand-01)))
+
+# ::id 348
+# ::snt NA
+(xv0 / land-01
+      :ARG1 (xv6 / state
+            :name (xv3 / name
+                  :op1 "Ill"))
+      :location (xv4 / plane
+            :poss (xv1 / band
+                  :mod (xv5 / rock)))
+      :mod (xv2 / emergency))
+
+# ::id 349
+# ::snt NA
+(xv0 / land-01
+      :ARG1 (xv4 / plane
+            :poss (xv1 / band
+                  :mod (xv5 / rock)))
+      :location (xv6 / state
+            :name (xv3 / name
+                  :op1 "Ill"))
+      :mod (xv2 / emergency))
+
+# ::id 350
+# ::snt NA
+(xv0 / fall-01
+      :ARG1-of (xv1 / cause-01
+            :ARG0 (xv10 / poll-01
+                  :ARG1-of (xv6 / new-01)
+                  :ARG1 (xv3 / mayor
+                        :mod (xv2 / city
+                              :name (xv5 / name
+                                    :op1 "NYC")))))
+      :ARG1 (xv8 / person
+            :name (xv4 / name
+                  :op1 "Weiner"))
+      :ARG4 (xv9 / place
+            :ord (xv7 / ordinal-entity
+                  :value 4)))
+
+# ::id 351
+# ::snt NA
+(xv0 / fall-01
+      :ARG1-of (xv1 / cause-01
+            :ARG0 (xv10 / poll-01
+                  :ARG1-of (xv6 / new-01)
+                  :ARG1 (xv3 / mayor
+                        :mod (xv2 / city
+                              :name (xv5 / name
+                                    :op1 "NYC")))))
+      :ARG1 (xv8 / person
+            :name (xv4 / name
+                  :op1 "Weiner"))
+      :ARG4 (xv9 / place
+            :ord (xv7 / ordinal-entity
+                  :value 4)))
+
+# ::id 352
+# ::snt NA
+(xv0 / rush-01
+      :ARG1 (xv4 / hospital)
+      :ARG4 (xv7 / person
+            :ARG0-of (xv2 / have-rel-role-91
+                  :ARG1 (xv11 / wife)
+                  :ARG2 (xv8 / person
+                        :ARG0-of (xv3 / have-org-role-91
+                              :ARG1 (xv1 / country
+                                    :name (xv6 / name
+                                          :op1 "US"))
+                              :ARG2 (xv9 / secretary
+                                    :topic (xv10 / state)))
+                        :name (xv5 / name
+                              :op1 "John"
+                              :op2 "Kerry")))))
+
+# ::id 353
+# ::snt NA
+(xv0 / rush-01
+      :ARG1 (xv7 / person
+            :ARG0-of (xv2 / have-rel-role-91
+                  :ARG1 (xv8 / person
+                        :ARG0-of (xv3 / have-org-role-91
+                              :ARG1 (xv1 / country
+                                    :name (xv6 / name
+                                          :op1 "US"))
+                              :ARG2 (xv9 / secretary
+                                    :topic (xv10 / state)))
+                        :name (xv5 / name
+                              :op1 "John"
+                              :op2 "Kerry"))
+                  :ARG2 (xv11 / wife)))
+      :ARG4 (xv4 / hospital))
+
+# ::id 354
+# ::snt NA
+(xv0 / vote-01
+      :ARG0 (xv5 / person
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Egypt")))
+      :ARG1 (xv2 / constitution
+            :ARG1-of (xv4 / new-01)))
+
+# ::id 355
+# ::snt NA
+(xv0 / vote-01
+      :ARG0 (xv5 / person
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Egypt")))
+      :ARG1 (xv2 / constitution
+            :ARG1-of (xv4 / new-01)))
+
+# ::id 356
+# ::snt NA
+(xv0 / return-01
+      :ARG1 (xv5 / person
+            :name (xv4 / name
+                  :op1 "Nelson"
+                  :op2 "Mandela"))
+      :ARG4 (xv3 / hospital)
+      :manner (xv1 / condition
+            :ARG1-of (xv6 / serious-02)
+            :ARG1-of (xv2 / contrast-01
+                  :ARG2 (xv7 / stable-03))))
+
+# ::id 357
+# ::snt NA
+(xv0 / return-01
+      :ARG1 (xv5 / person
+            :name (xv4 / name
+                  :op1 "Nelson"
+                  :op2 "Mandela"))
+      :ARG4 (xv3 / hospital)
+      :manner (xv1 / condition
+            :ARG1-of (xv6 / serious-02)
+            :ARG1-of (xv2 / contrast-01
+                  :ARG2 (xv7 / stable-03))))
+
+# ::id 358
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv1 / company
+            :name (xv3 / name
+                  :op1 "Microsoft"))
+      :ARG1 (xv2 / job
+            :quant 18000)
+      :purpose (xv4 / overhaul-01
+            :ARG1 xv1))
+
+# ::id 359
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv1 / company
+            :name (xv3 / name
+                  :op1 "Microsoft"))
+      :ARG1 (xv2 / job
+            :quant 18000)
+      :purpose (xv4 / overhaul-01
+            :ARG1 xv1))
+
+# ::id 360
+# ::snt NA
+(xv0 / buy-01
+      :ARG0 (xv3 / monetary-quantity
+            :quant 1000000000
+            :unit (xv2 / dollar))
+      :ARG3 (xv1 / company
+            :name (xv4 / name
+                  :op1 "Yahoo"))
+      :ARG1 (xv6 / publication
+            :name (xv5 / name
+                  :op1 "Tumblr")))
+
+# ::id 361
+# ::snt NA
+(xv0 / buy-01
+      :ARG0 (xv1 / company
+            :name (xv4 / name
+                  :op1 "Yahoo"))
+      :ARG1 (xv6 / publication
+            :name (xv5 / name
+                  :op1 "Tumblr"))
+      :ARG3 (xv3 / monetary-quantity
+            :quant 1000000000
+            :unit (xv2 / dollar)))
+
+# ::id 362
+# ::snt NA
+(xv0 / kick-off-04
+      :ARG0 (xv3 / elect-01
+            :ARG3-of (xv4 / have-degree-91
+                  :ARG5 (xv9 / world)
+                  :ARG1 (xv5 / most)
+                  :ARG2 (xv1 / big)))
+      :ARG1 (xv7 / person
+            :mod (xv2 / country
+                  :name (xv6 / name
+                        :op1 "India"))
+            :ARG0-of (xv8 / vote-01)))
+
+# ::id 363
+# ::snt NA
+(xv0 / kick-off-04
+      :ARG0 (xv7 / person
+            :mod (xv2 / country
+                  :name (xv6 / name
+                        :op1 "India"))
+            :ARG0-of (xv8 / vote-01))
+      :ARG1 (xv3 / elect-01
+            :ARG1-of (xv4 / have-degree-91
+                  :ARG2 (xv1 / big)
+                  :ARG3 (xv5 / most)
+                  :ARG5 (xv9 / world))))
+
+# ::id 364
+# ::snt NA
+(xv0 / explode-01
+      :location (xv3 / line
+            :location-of (xv2 / finish-01
+                  :ARG1 (xv1 / event
+                        :name (xv4 / name
+                              :op1 "Boston"
+                              :op2 "Marathon"))))
+      :quant 2)
+
+# ::id 365
+# ::snt NA
+(xv0 / explode-01
+      :location (xv3 / line
+            :location-of (xv2 / finish-01
+                  :ARG1 (xv1 / event
+                        :name (xv4 / name
+                              :op1 "Boston"
+                              :op2 "Marathon"))))
+      :quant 2)
+
+# ::id 366
+# ::snt NA
+(xv0 / post-01
+      :ARG0 (xv2 / drop-01
+            :ARG1 (xv5 / profit-01)
+            :ARG2 (xv6 / percentage-entity
+                  :value 9))
+      :ARG1 (xv1 / company
+            :ARG0-of xv5
+            :name (xv3 / name
+                  :op1 "GE"))
+      :time (xv7 / quarter
+            :ord (xv4 / ordinal-entity
+                  :value 3)))
+
+# ::id 367
+# ::snt NA
+(xv0 / post-01
+      :ARG0 (xv1 / company
+            :ARG0-of (xv5 / profit-01)
+            :name (xv3 / name
+                  :op1 "GE"))
+      :ARG1 (xv2 / drop-01
+            :ARG1 xv5
+            :ARG2 (xv6 / percentage-entity
+                  :value 9))
+      :time (xv7 / quarter
+            :ord (xv4 / ordinal-entity
+                  :value 3)))
+
+# ::id 368
+# ::snt NA
+(xv0 / convict-01
+      :ARG0 (xv1 / country
+            :name (xv5 / name
+                  :op1 "Russia"))
+      :ARG1 (xv7 / person
+            :ARG1-of (xv2 / die-01)
+            :ARG0-of (xv3 / have-rel-role-91
+                  :ARG2 (xv4 / lawyer))
+            :name (xv6 / name
+                  :op1 "Magnitsky"))
+      :time (xv9 / try-02
+            :mod (xv8 / posthumous)))
+
+# ::id 369
+# ::snt NA
+(xv0 / convict-01
+      :ARG0 (xv1 / country
+            :name (xv5 / name
+                  :op1 "Russia"))
+      :ARG1 (xv7 / person
+            :ARG1-of (xv2 / die-01)
+            :ARG0-of (xv3 / have-rel-role-91
+                  :ARG2 (xv4 / lawyer))
+            :name (xv6 / name
+                  :op1 "Magnitsky"))
+      :time (xv9 / try-02
+            :mod (xv8 / posthumous)))
+
+# ::id 370
+# ::snt NA
+(xv0 / shoot-down-05
+      :ARG0 (xv3 / drone)
+      :ARG1 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Israel"))
+      :source (xv2 / country
+            :name (xv5 / name
+                  :op1 "Lebanon")))
+
+# ::id 371
+# ::snt NA
+(xv0 / shoot-down-05
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Israel"))
+      :ARG1 (xv3 / drone)
+      :source (xv2 / country
+            :name (xv5 / name
+                  :op1 "Lebanon")))
+
+# ::id 372
+# ::snt NA
+(xv0 / find-01
+      :ARG0 (xv3 / hanging-07
+            :ARG1 xv7
+            :location (xv2 / cell
+                  :poss xv7))
+      :ARG1 (xv7 / person
+            :ARG0-of (xv4 / kidnap-01)
+            :location (xv1 / city
+                  :name (xv6 / name
+                        :op1 "Cleveland"))
+            :name (xv5 / name
+                  :op1 "Ariel"
+                  :op2 "Castro")))
+
+# ::id 373
+# ::snt NA
+(xv0 / find-01
+      :ARG0 (xv7 / person
+            :ARG0-of (xv4 / kidnap-01)
+            :location (xv1 / city
+                  :name (xv6 / name
+                        :op1 "Cleveland"))
+            :name (xv5 / name
+                  :op1 "Ariel"
+                  :op2 "Castro"))
+      :ARG1 (xv3 / hanging-07
+            :ARG1 xv7
+            :location (xv2 / cell
+                  :poss xv7)))
+
+# ::id 374
+# ::snt NA
+(xv0 / unveil-01
+      :ARG0 (xv1 / company
+            :name (xv5 / name
+                  :op1 "Google"))
+      :ARG1 (xv2 / concept
+            :topic (xv3 / car
+                  :ARG0-of (xv4 / drive-01
+                        :ARG1 (xv6 / self)))))
+
+# ::id 375
+# ::snt NA
+(xv0 / unveil-01
+      :ARG0 (xv1 / company
+            :name (xv5 / name
+                  :op1 "Google"))
+      :ARG1 (xv2 / concept
+            :topic (xv3 / car
+                  :ARG0-of (xv4 / drive-01
+                        :ARG1 (xv6 / self)))))
+
+# ::id 376
+# ::snt NA
+(xv0 / prepare-02
+      :ARG0 (xv6 / sell-01
+            :mod (xv2 / historic))
+      :ARG2 (xv5 / shop
+            :location (xv1 / city
+                  :name (xv3 / name
+                        :op1 "Washington"))
+            :mod (xv4 / pot)))
+
+# ::id 377
+# ::snt NA
+(xv0 / prepare-02
+      :ARG0 (xv5 / shop
+            :location (xv1 / city
+                  :name (xv3 / name
+                        :op1 "Washington"))
+            :mod (xv4 / pot))
+      :ARG2 (xv6 / sell-01
+            :mod (xv2 / historic)))
+
+# ::id 378
+# ::snt NA
+(xv0 / strike-02
+      :ARG0 (xv7 / person
+            :ARG1-of (xv8 / work-01
+                  :ARG0 (xv1 / airport
+                        :location (xv3 / city
+                              :name (xv5 / name
+                                    :op1 "Rio"
+                                    :op2 "de"
+                                    :op3 "Janeiro")))))
+      :time (xv2 / before
+            :op1 (xv4 / game
+                  :name (xv6 / name
+                        :op1 "World"
+                        :op2 "Cup"))))
+
+# ::id 379
+# ::snt NA
+(xv0 / strike-02
+      :ARG0 (xv7 / person
+            :ARG0-of (xv8 / work-01
+                  :ARG1 (xv1 / airport
+                        :location (xv3 / city
+                              :name (xv5 / name
+                                    :op1 "Rio"
+                                    :op2 "de"
+                                    :op3 "Janeiro")))))
+      :time (xv2 / before
+            :op1 (xv4 / game
+                  :name (xv6 / name
+                        :op1 "World"
+                        :op2 "Cup"))))
+
+# ::id 380
+# ::snt NA
+(xv0 / clinch-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / country
+                  :name (xv5 / name
+                        :op1 "Iran"))
+            :op2 (xv7 / power
+                  :mod (xv8 / world)
+                  :quant 6))
+      :ARG1 (xv4 / deal-01
+            :ARG1 (xv6 / nucleus)
+            :ARG1-of (xv2 / break-through-20)))
+
+# ::id 381
+# ::snt NA
+(xv0 / clinch-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / country
+                  :name (xv5 / name
+                        :op1 "Iran"))
+            :op2 (xv7 / power
+                  :mod (xv8 / world)
+                  :quant 6))
+      :ARG1 (xv4 / deal-01
+            :ARG1 (xv6 / nucleus)
+            :ARG1-of (xv2 / break-through-20)))
+
+# ::id 382
+# ::snt NA
+(xv0 / back-02
+      :ARG1 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Waqar"
+                  :op2 "Younis"))
+      :prep-as (xv5 / person
+            :ARG1-of (xv1 / coach-01
+                  :ARG0 (xv6 / team
+                        :name (xv3 / name
+                              :op1 "Pakistan")))))
+
+# ::id 383
+# ::snt NA
+(xv0 / back-02
+      :ARG1 (xv4 / person
+            :name (xv2 / name
+                  :op1 "Waqar"
+                  :op2 "Younis"))
+      :prep-as (xv5 / person
+            :ARG0-of (xv1 / coach-01
+                  :ARG1 (xv6 / team
+                        :name (xv3 / name
+                              :op1 "Pakistan")))))
+
+# ::id 384
+# ::snt NA
+(xv0 / see-01
+      :ARG0 (xv1 / chance-02
+            :ARG1 (xv4 / get-01
+                  :ARG1 (xv8 / try-02
+                        :ARG1-of (xv3 / fair-01))
+                  :ARG0 (xv2 / country
+                        :name (xv6 / name
+                              :op1 "U.S."))
+                  :location xv7)
+            :polarity -)
+      :ARG1 (xv7 / person
+            :name (xv5 / name
+                  :op1 "Snowden")))
+
+# ::id 385
+# ::snt NA
+(xv0 / see-01
+      :ARG0 (xv7 / person
+            :name (xv5 / name
+                  :op1 "Snowden"))
+      :ARG1 (xv1 / chance-02
+            :ARG1 (xv4 / get-01
+                  :ARG0 xv7
+                  :ARG1 (xv8 / try-02
+                        :ARG1-of (xv3 / fair-01))
+                  :location (xv2 / country
+                        :name (xv6 / name
+                              :op1 "U.S.")))
+            :polarity -))
+
+# ::id 386
+# ::snt NA
+(xv0 / meet-02
+      :ARG0 (xv7 / person
+            :name (xv4 / name
+                  :op1 "Queen"))
+      :ARG1 (xv8 / person
+            :ARG0-of (xv3 / have-rel-role-91
+                  :ARG1 (xv2 / country
+                        :name (xv5 / name
+                              :op1 "Britain"))
+                  :ARG2 (xv9 / prince
+                        :mod (xv1 / baby))
+                  :ARG1-of (xv6 / new-01))))
+
+# ::id 387
+# ::snt NA
+(xv0 / meet-02
+      :ARG0 (xv7 / person
+            :name (xv4 / name
+                  :op1 "Queen"))
+      :ARG1 (xv8 / person
+            :ARG0-of (xv3 / have-rel-role-91
+                  :ARG1 (xv2 / country
+                        :name (xv5 / name
+                              :op1 "Britain"))
+                  :ARG2 (xv9 / prince
+                        :mod (xv1 / baby))
+                  :ARG1-of (xv6 / new-01))))
+
+# ::id 388
+# ::snt NA
+(xv0 / charge-05
+      :ARG1 (xv6 / person
+            :ARG0-of (xv8 / work-01
+                  :ARG1 (xv1 / airport
+                        :location (xv2 / city
+                              :name (xv4 / name
+                                    :op1 "Los"
+                                    :op2 "Angeles")))))
+      :ARG2 (xv7 / threaten-01
+            :ARG1 (xv3 / incident
+                  :name (xv5 / name
+                        :op1 "9/11"))))
+
+# ::id 389
+# ::snt NA
+(xv0 / charge-05
+      :ARG1 (xv6 / person
+            :ARG0-of (xv8 / work-01
+                  :ARG1 (xv1 / airport
+                        :location (xv2 / city
+                              :name (xv4 / name
+                                    :op1 "Los"
+                                    :op2 "Angeles")))))
+      :ARG2 (xv7 / threaten-01
+            :ARG1 (xv3 / incident
+                  :name (xv5 / name
+                        :op1 "9/11"))))
+
+# ::id 390
+# ::snt NA
+(xv0 / hit-01
+      :ARG0 (xv6 / region
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Pakistan"))
+            :ARG1-of (xv7 / shatter-01))
+      :ARG1 (xv2 / earthquake
+            :ARG1-of (xv3 / new-01)
+            :ARG1-of (xv5 / powerful-02)))
+
+# ::id 391
+# ::snt NA
+(xv0 / hit-01
+      :ARG0 (xv2 / earthquake
+            :ARG1-of (xv3 / new-01)
+            :ARG1-of (xv5 / powerful-02))
+      :ARG1 (xv6 / region
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Pakistan"))
+            :ARG1-of (xv7 / shatter-01)))
+
+# ::id 392
+# ::snt NA
+(xv0 / enter-01
+      :ARG0 (xv3 / day
+            :mod (xv2 / crucial)
+            :ord (xv6 / ordinal-entity
+                  :value 3))
+      :ARG1 (xv7 / talk-01
+            :ARG0 (xv5 / nucleus)
+            :ARG1 (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Iran"))))
+
+# ::id 393
+# ::snt NA
+(xv0 / enter-01
+      :ARG0 (xv7 / talk-01
+            :ARG0 (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Iran"))
+            :ARG1 (xv5 / nucleus))
+      :ARG1 (xv3 / day
+            :mod (xv2 / crucial)
+            :ord (xv6 / ordinal-entity
+                  :value 3)))
+
+# ::id 394
+# ::snt NA
+(xv0 / sweep-01
+      :ARG0 (xv4 / protest-01)
+      :ARG1 (xv1 / country
+            :name (xv3 / name
+                  :op1 "Brazil")
+            :ARG0-of (xv2 / concede-01))
+      :concession xv2)
+
+# ::id 395
+# ::snt NA
+(xv0 / sweep-01
+      :ARG0 (xv4 / protest-01)
+      :ARG1 (xv1 / country
+            :name (xv3 / name
+                  :op1 "Brazil")
+            :ARG0-of (xv2 / concede-01))
+      :concession xv2)
+
+# ::id 396
+# ::snt NA
+(xv0 / vote-01
+      :ARG0 (xv1 / decriminalize-01
+            :ARG0 (xv4 / pot)
+            :ARG1 xv2)
+      :ARG1 (xv2 / government-organization
+            :name (xv3 / name
+                  :op1 "DC")))
+
+# ::id 397
+# ::snt NA
+(xv0 / vote-01
+      :ARG0 (xv2 / government-organization
+            :name (xv3 / name
+                  :op1 "DC"))
+      :ARG1 (xv1 / decriminalize-01
+            :ARG0 xv2
+            :ARG1 (xv4 / pot)))
+
+# ::id 398
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv1 / country
+            :name (xv5 / name
+                  :op1 "France")
+            :mod-of (xv3 / journalist
+                  :quant 2
+                  :ARG1-of (xv4 / kill-01
+                        :location (xv2 / country
+                              :name (xv6 / name
+                                    :op1 "Mali")))))
+      :ARG1 xv4)
+
+# ::id 399
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv1 / country
+            :name (xv5 / name
+                  :op1 "France")
+            :mod-of (xv3 / journalist
+                  :quant 2
+                  :ARG1-of (xv4 / kill-01
+                        :location (xv2 / country
+                              :name (xv6 / name
+                                    :op1 "Mali")))))
+      :ARG1 xv4)
+
+# ::id 400
+# ::snt NA
+(xv0 / defend-01
+      :ARG0 (xv2 / country
+            :name (xv7 / name
+                  :op1 "Japan"))
+      :ARG1 (xv6 / hunt-01
+            :ARG1 (xv5 / dolphin))
+      :time (xv1 / after
+            :op1 (xv3 / criticize-01
+                  :ARG0 (xv4 / country
+                        :name (xv8 / name
+                              :op1 "US"))
+                  :ARG1 xv2)))
+
+# ::id 401
+# ::snt NA
+(xv0 / defend-01
+      :ARG0 (xv2 / country
+            :name (xv7 / name
+                  :op1 "Japan"))
+      :ARG1 (xv6 / hunt-01
+            :ARG1 (xv5 / dolphin))
+      :time (xv1 / after
+            :op1 (xv3 / criticize-01
+                  :ARG0 (xv4 / country
+                        :name (xv8 / name
+                              :op1 "US"))
+                  :ARG1 xv2)))
+
+# ::id 402
+# ::snt NA
+(xv0 / pledge-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv3 / lead-02
+                  :ARG1 (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Ukraine"))))
+      :ARG1 (xv6 / talk-01
+            :ARG1 (xv2 / crisis)))
+
+# ::id 403
+# ::snt NA
+(xv0 / pledge-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv3 / lead-02
+                  :ARG1 (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Ukraine"))))
+      :ARG1 (xv6 / talk-01
+            :ARG1 (xv2 / crisis)))
+
+# ::id 404
+# ::snt NA
+(xv0 / use-01
+      :ARG0-of (xv6 / suspect-01
+            :ARG2 (xv3 / country
+                  :name (xv5 / name
+                        :op1 "US")))
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Syria"))
+      :ARG1 (xv7 / weapon
+            :mod (xv2 / chemical)))
+
+# ::id 405
+# ::snt NA
+(xv0 / use-01
+      :ARG2-of (xv6 / suspect-01
+            :ARG0 (xv3 / country
+                  :name (xv5 / name
+                        :op1 "US")))
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Syria"))
+      :ARG1 (xv7 / weapon
+            :mod (xv2 / chemical)))
+
+# ::id 406
+# ::snt NA
+(xv0 / buy-01
+      :ARG0 (xv1 / company
+            :name (xv6 / name
+                  :op1 "AstraZeneca"))
+      :ARG1 (xv2 / company
+            :name (xv7 / name
+                  :op1 "Bristol"))
+      :ARG2 (xv9 / venture
+            :topic (xv3 / diabetes))
+      :ARG3 (xv8 / up-to
+            :op1 (xv5 / monetary-quantity
+                  :quant 40000000
+                  :unit (xv4 / dollar))))
+
+# ::id 407
+# ::snt NA
+(xv0 / buy-01
+      :ARG0 (xv1 / company
+            :name (xv6 / name
+                  :op1 "AstraZeneca"))
+      :ARG1 (xv2 / company
+            :name (xv7 / name
+                  :op1 "Bristol"))
+      :ARG2 (xv9 / venture
+            :topic (xv3 / diabetes))
+      :ARG3 (xv8 / up-to
+            :op1 (xv5 / monetary-quantity
+                  :quant 40000000
+                  :unit (xv4 / dollar))))
+
+# ::id 408
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv4 / person
+            :quant 10)
+      :ARG1 (xv2 / fire
+            :location (xv1 / city
+                  :name (xv3 / name
+                        :op1 "Beijing"))))
+
+# ::id 409
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv2 / fire
+            :location (xv1 / city
+                  :name (xv3 / name
+                        :op1 "Beijing")))
+      :ARG1 (xv4 / person
+            :quant 10))
+
+# ::id 410
+# ::snt NA
+(xv0 / expels-01
+      :ARG0 (xv3 / diplomat
+            :mod (xv2 / country
+                  :name (xv5 / name
+                        :op1 "U.S."))
+            :quant 3)
+      :ARG1 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Venezuela")))
+
+# ::id 411
+# ::snt NA
+(xv0 / expels-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Venezuela"))
+      :ARG1 (xv3 / diplomat
+            :mod (xv2 / country
+                  :name (xv5 / name
+                        :op1 "U.S."))
+            :quant 3))
+
+# ::id 412
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / hit-01
+            :ARG0 (xv1 / city
+                  :name (xv6 / name
+                        :op1 "North"
+                        :op2 "China"
+                        :op3 "City"))
+            :ARG1 (xv7 / smog
+                  :mod (xv5 / heavy)))
+      :op2 (xv2 / cancel-01
+            :ARG1 (xv3 / fly-01)))
+
+# ::id 413
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / hit-01
+            :ARG0 (xv7 / smog
+                  :mod (xv5 / heavy))
+            :ARG1 (xv1 / city
+                  :name (xv6 / name
+                        :op1 "North"
+                        :op2 "China"
+                        :op3 "City")))
+      :op2 (xv2 / cancel-01
+            :ARG1 (xv3 / fly-01)))
+
+# ::id 414
+# ::snt NA
+(xv0 / launch-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Egypt"))
+      :ARG1 (xv6 / offensive
+            :prep-against (xv3 / insurgent
+                  :location (xv2 / city
+                        :name (xv5 / name
+                              :op1 "Sinai")))))
+
+# ::id 415
+# ::snt NA
+(xv0 / launch-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "Egypt"))
+      :ARG1 (xv6 / offensive
+            :prep-against (xv3 / insurgent
+                  :location (xv2 / city
+                        :name (xv5 / name
+                              :op1 "Sinai")))))
+
+# ::id 416
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / organization
+            :name (xv5 / name
+                  :op1 "UN"))
+      :op2 (xv4 / invite-01
+            :ARG1 (xv1 / attend-01
+                  :ARG0 (xv3 / conference
+                        :name (xv7 / name
+                              :op1 "Syria"
+                              :op2 "Peace"
+                              :op3 "Conference"))
+                  :ARG1 xv2)
+            :ARG2 (xv2 / country
+                  :name (xv6 / name
+                        :op1 "Iran"))))
+
+# ::id 417
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / organization
+            :name (xv5 / name
+                  :op1 "UN"))
+      :op2 (xv4 / invite-01
+            :ARG1 (xv2 / country
+                  :name (xv6 / name
+                        :op1 "Iran"))
+            :ARG2 (xv1 / attend-01
+                  :ARG0 xv2
+                  :ARG1 (xv3 / conference
+                        :name (xv7 / name
+                              :op1 "Syria"
+                              :op2 "Peace"
+                              :op3 "Conference")))))
+
+# ::id 418
+# ::snt NA
+(xv0 / and
+      :op1 (xv7 / typhoon
+            :name (xv3 / name
+                  :op1 "Hayan"))
+      :op2 (xv6 / send-01
+            :ARG0 (xv8 / world)
+            :ARG1 (xv5 / relieve-01)
+            :ARG2 (xv2 / country
+                  :ARG1-of (xv1 / batter-01)
+                  :name (xv4 / name
+                        :op1 "Philippines"))))
+
+# ::id 419
+# ::snt NA
+(xv0 / and
+      :op1 (xv7 / typhoon
+            :name (xv3 / name
+                  :op1 "Hayan"))
+      :op2 (xv6 / send-01
+            :ARG0 (xv8 / world)
+            :ARG1 (xv5 / relieve-01)
+            :ARG2 (xv2 / country
+                  :ARG1-of (xv1 / batter-01)
+                  :name (xv4 / name
+                        :op1 "Philippines"))))
+
+# ::id 420
+# ::snt NA
+(xv0 / testify-01
+      :ARG0 (xv6 / probe-01
+            :ARG1 (xv2 / defraud-01
+                  :mod (xv3 / history)))
+      :ARG2 (xv5 / princess
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Spain"))))
+
+# ::id 421
+# ::snt NA
+(xv0 / testify-01
+      :ARG0 (xv5 / princess
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Spain")))
+      :ARG2 (xv6 / probe-01
+            :ARG1 (xv2 / defraud-01
+                  :mod (xv3 / history))))
+
+# ::id 422
+# ::snt NA
+(xv0 / approve-01
+      :ARG0 (xv3 / government-organization
+            :name (xv5 / name
+                  :op1 "Senate"))
+      :ARG1 (xv6 / nominate-01
+            :ARG1 (xv8 / person
+                  :name (xv7 / name
+                        :op1 "Obama"))
+            :ARG2 (xv2 / court
+                  :ARG0-of (xv1 / appeal-01)
+                  :ARG1-of (xv4 / key-02))))
+
+# ::id 423
+# ::snt NA
+(xv0 / approve-01
+      :ARG0 (xv3 / government-organization
+            :name (xv5 / name
+                  :op1 "Senate"))
+      :ARG1 (xv6 / nominate-01
+            :ARG1 (xv8 / person
+                  :name (xv7 / name
+                        :op1 "Obama"))
+            :ARG2 (xv2 / court
+                  :ARG0-of (xv1 / appeal-01)
+                  :ARG1-of (xv4 / key-02))))
+
+# ::id 424
+# ::snt NA
+(xv0 / press-01
+      :ARG0 (xv2 / country
+            :name (xv6 / name
+                  :op1 "Egypt"))
+      :ARG1 (xv9 / person
+            :ARG2-of (xv4 / have-org-role-91
+                  :ARG1 (xv8 / organization
+                        :name (xv5 / name
+                              :op1 "UN"))
+                  :ARG0 (xv1 / chief
+                        :topic (xv11 / right-05))))
+      :topic (xv3 / detain-01
+            :ARG1 (xv10 / person
+                  :name (xv7 / name
+                        :op1 "Morsi"))))
+
+# ::id 425
+# ::snt NA
+(xv0 / press-01
+      :ARG0 (xv9 / person
+            :ARG0-of (xv4 / have-org-role-91
+                  :ARG1 (xv8 / organization
+                        :name (xv5 / name
+                              :op1 "UN"))
+                  :ARG2 (xv1 / chief
+                        :topic (xv11 / right-05))))
+      :ARG1 (xv2 / country
+            :name (xv6 / name
+                  :op1 "Egypt"))
+      :topic (xv3 / detain-01
+            :ARG1 (xv10 / person
+                  :name (xv7 / name
+                        :op1 "Morsi"))))
+
+# ::id 426
+# ::snt NA
+(xv0 / confirm-01
+      :ARG1 (xv8 / person
+            :name (xv5 / name
+                  :op1 "Janet"
+                  :op2 "Yellen"))
+      :ARG0 (xv1 / chair-01
+            :ARG0 (xv3 / government-organization
+                  :name (xv6 / name
+                        :op1 "Federal"
+                        :op2 "Reserve"))
+            :ARG1 xv8
+            :mod (xv7 / next))
+      :ARG2 (xv2 / government-organization
+            :name (xv4 / name
+                  :op1 "Senate")))
+
+# ::id 427
+# ::snt NA
+(xv0 / confirm-01
+      :ARG0 (xv2 / government-organization
+            :name (xv4 / name
+                  :op1 "Senate"))
+      :ARG1 (xv8 / person
+            :name (xv5 / name
+                  :op1 "Janet"
+                  :op2 "Yellen"))
+      :ARG2 (xv1 / chair-01
+            :ARG0 xv8
+            :ARG1 (xv3 / government-organization
+                  :name (xv6 / name
+                        :op1 "Federal"
+                        :op2 "Reserve"))
+            :mod (xv7 / next)))
+
+# ::id 428
+# ::snt NA
+(xv0 / battle-01
+      :ARG0 (xv2 / group
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Syria"))
+            :ARG0-of (xv5 / rebel-01))
+      :ARG1 xv2
+      :location (xv4 / north))
+
+# ::id 429
+# ::snt NA
+(xv0 / battle-01
+      :ARG0 (xv2 / group
+            :mod (xv1 / country
+                  :name (xv3 / name
+                        :op1 "Syria"))
+            :ARG0-of (xv5 / rebel-01))
+      :ARG1 xv2
+      :location (xv4 / north))
+
+# ::id 430
+# ::snt NA
+(xv0 / bury-01
+      :ARG1 (xv6 / person
+            :ARG2-of (xv7 / suspect-01
+                  :ARG1 (xv1 / bomb-01
+                        :location (xv2 / city
+                              :name (xv4 / name
+                                    :op1 "Boston")))))
+      :ARG2 (xv3 / cemetery
+            :location (xv8 / state
+                  :name (xv5 / name
+                        :op1 "Virginia"))))
+
+# ::id 431
+# ::snt NA
+(xv0 / bury-01
+      :ARG1 (xv6 / person
+            :ARG2-of (xv7 / suspect-01
+                  :ARG1 (xv1 / bomb-01
+                        :location (xv2 / city
+                              :name (xv4 / name
+                                    :op1 "Boston")))))
+      :ARG2 (xv3 / cemetery
+            :location (xv8 / state
+                  :name (xv5 / name
+                        :op1 "Virginia"))))
+
+# ::id 432
+# ::snt NA
+(xv0 / kill-01
+      :ARG1 (xv4 / person
+            :quant 6)
+      :location (xv1 / blast-01
+            :ARG1 (xv5 / restaurant)
+            :location (xv2 / country
+                  :name (xv3 / name
+                        :op1 "Philippines"))))
+
+# ::id 433
+# ::snt NA
+(xv0 / kill-01
+      :ARG1 (xv4 / person
+            :quant 6)
+      :location (xv1 / blast-01
+            :ARG1 (xv5 / restaurant)
+            :location (xv2 / country
+                  :name (xv3 / name
+                        :op1 "Philippines"))))
+
+# ::id 434
+# ::snt NA
+(xv0 / slam-02
+      :ARG0 (xv4 / newspaper
+            :mod (xv1 / army)
+            :mod (xv2 / country
+                  :name (xv5 / name
+                        :op1 "China")))
+      :ARG1 (xv8 / program
+            :name (xv6 / name
+                  :op1 "PRISM")
+            :poss (xv3 / country
+                  :name (xv7 / name
+                        :op1 "US"))))
+
+# ::id 435
+# ::snt NA
+(xv0 / slam-02
+      :ARG0 (xv4 / newspaper
+            :mod (xv1 / army)
+            :mod (xv2 / country
+                  :name (xv5 / name
+                        :op1 "China")))
+      :ARG1 (xv8 / program
+            :name (xv6 / name
+                  :op1 "PRISM")
+            :poss (xv3 / country
+                  :name (xv7 / name
+                        :op1 "US"))))
+
+# ::id 436
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv1 / blast-01
+            :ARG1 (xv2 / car)
+            :location (xv3 / country
+                  :name (xv4 / name
+                        :op1 "Bahrain")))
+      :ARG1 (xv5 / person
+            :quant 2))
+
+# ::id 437
+# ::snt NA
+(xv0 / kill-01
+      :ARG0 (xv1 / blast-01
+            :ARG1 (xv2 / car)
+            :location (xv3 / country
+                  :name (xv4 / name
+                        :op1 "Bahrain")))
+      :ARG1 (xv5 / person
+            :quant 2))
+
+# ::id 438
+# ::snt NA
+(xv0 / warn-01
+      :ARG0 (xv7 / respond-01
+            :ARG0 xv2
+            :condition (xv1 / attack-01
+                  :ARG1 (xv4 / interest
+                        :location (xv3 / country
+                              :name (xv6 / name
+                                    :op1 "Ukraine")))))
+      :ARG1 (xv2 / country
+            :name (xv5 / name
+                  :op1 "Russia")))
+
+# ::id 439
+# ::snt NA
+(xv0 / warn-01
+      :ARG0 (xv2 / country
+            :name (xv5 / name
+                  :op1 "Russia"))
+      :ARG1 (xv7 / respond-01
+            :ARG0 xv2
+            :condition (xv1 / attack-01
+                  :ARG1 (xv4 / interest
+                        :location (xv3 / country
+                              :name (xv6 / name
+                                    :op1 "Ukraine"))))))
+
+# ::id 440
+# ::snt NA
+(xv0 / marry-01
+      :ARG1 (xv1 / couple)
+      :location (xv3 / marry-01
+            :ARG1 xv1
+            :location (xv2 / country
+                  :name (xv5 / name
+                        :op1 "Britain"))
+            :mod (xv7 / religious-group
+                  :name (xv4 / name
+                        :op1 "Scientology"))
+            :ord (xv6 / ordinal-entity
+                  :value 1)))
+
+# ::id 441
+# ::snt NA
+(xv0 / marry-01
+      :ARG1 (xv1 / couple)
+      :location (xv3 / marry-01
+            :ARG1 xv1
+            :location (xv2 / country
+                  :name (xv5 / name
+                        :op1 "Britain"))
+            :mod (xv7 / religious-group
+                  :name (xv4 / name
+                        :op1 "Scientology"))
+            :ord (xv6 / ordinal-entity
+                  :value 1)))
+
+# ::id 442
+# ::snt NA
+(xv0 / brawl-01
+      :ARG0 (xv2 / elect-01)
+      :ARG1 (xv5 / person
+            :ARG0-of (xv3 / legislate-01)
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Venezuela"))))
+
+# ::id 443
+# ::snt NA
+(xv0 / brawl-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv3 / legislate-01)
+            :mod (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Venezuela")))
+      :ARG1 (xv2 / elect-01))
+
+# ::id 444
+# ::snt NA
+(xv0 / warn-01
+      :ARG0 (xv7 / person
+            :location (xv2 / country
+                  :name (xv6 / name
+                        :op1 "South"
+                        :op2 "Korea"))
+            :mod (xv4 / foreign))
+      :ARG1 (xv3 / evacuate-01
+            :ARG0 xv7)
+      :ARG2 (xv1 / country
+            :name (xv5 / name
+                  :op1 "North"
+                  :op2 "Korea")))
+
+# ::id 445
+# ::snt NA
+(xv0 / warn-01
+      :ARG0 (xv1 / country
+            :name (xv5 / name
+                  :op1 "North"
+                  :op2 "Korea"))
+      :ARG1 (xv3 / evacuate-01
+            :ARG0 (xv7 / person
+                  :location (xv2 / country
+                        :name (xv6 / name
+                              :op1 "South"
+                              :op2 "Korea"))
+                  :mod (xv4 / foreign)))
+      :ARG2 xv7)
+
+# ::id 446
+# ::snt NA
+(xv0 / enter-01
+      :ARG0 (xv3 / day
+            :mod (xv2 / crucial)
+            :ord (xv6 / ordinal-entity
+                  :value 3))
+      :ARG1 (xv7 / talk-01
+            :ARG0 (xv5 / nucleus)
+            :ARG1 (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Iran"))))
+
+# ::id 447
+# ::snt NA
+(xv0 / enter-01
+      :ARG0 (xv7 / talk-01
+            :ARG0 (xv1 / country
+                  :name (xv4 / name
+                        :op1 "Iran"))
+            :ARG1 (xv5 / nucleus))
+      :ARG1 (xv3 / day
+            :mod (xv2 / crucial)
+            :ord (xv6 / ordinal-entity
+                  :value 3)))
+
+# ::id 448
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv5 / person
+            :quant (xv1 / at-least
+                  :op1 100))
+      :time (xv2 / batter-01
+            :ARG0 (xv6 / typhoon)
+            :ARG1 (xv3 / country
+                  :name (xv4 / name
+                        :op1 "Philippines"))))
+
+# ::id 449
+# ::snt NA
+(xv0 / die-01
+      :ARG1 (xv5 / person
+            :quant (xv1 / at-least
+                  :op1 100))
+      :time (xv2 / batter-01
+            :ARG0 (xv6 / typhoon)
+            :ARG1 (xv3 / country
+                  :name (xv4 / name
+                        :op1 "Philippines"))))
+
+# ::id 450
+# ::snt NA
+(xv0 / multi-sentence
+      :snt1 (xv5 / make-02
+            :ARG0 (xv1 / amr-unknown)
+            :ARG1 (xv8 / vote-01
+                  :ARG0 (xv2 / country
+                        :name (xv6 / name
+                              :op1 "India"))))
+      :snt2 (xv3 / debate-01
+            :location (xv4 / festival
+                  :name (xv7 / name
+                        :op1 "Jaipur"
+                        :op2 "Literacy"
+                        :op3 "Festival"))))
+
+# ::id 451
+# ::snt NA
+(xv0 / multi-sentence
+      :snt1 (xv5 / make-02
+            :ARG0 (xv1 / amr-unknown)
+            :ARG1 (xv8 / vote-01
+                  :ARG0 (xv2 / country
+                        :name (xv6 / name
+                              :op1 "India"))))
+      :snt2 (xv3 / debate-01
+            :location (xv4 / festival
+                  :name (xv7 / name
+                        :op1 "Jaipur"
+                        :op2 "Literacy"
+                        :op3 "Festival"))))
+
+# ::id 452
+# ::snt NA
+(xv0 / call-03
+      :ARG0 (xv6 / organization
+            :name (xv3 / name
+                  :op1 "Hamas"))
+      :ARG1 (xv7 / pull-out-05
+            :ARG0 (xv8 / political-party
+                  :name (xv4 / name
+                        :op1 "Hezbollah"))
+            :ARG1 (xv2 / force)
+            :ARG2 (xv1 / country
+                  :name (xv5 / name
+                        :op1 "Syria"))))
+
+# ::id 453
+# ::snt NA
+(xv0 / call-03
+      :ARG0 (xv6 / organization
+            :name (xv3 / name
+                  :op1 "Hamas"))
+      :ARG1 (xv7 / pull-out-05
+            :ARG0 (xv8 / political-party
+                  :name (xv4 / name
+                        :op1 "Hezbollah"))
+            :ARG1 (xv2 / force)
+            :ARG2 (xv1 / country
+                  :name (xv5 / name
+                        :op1 "Syria"))))
+
+# ::id 454
+# ::snt NA
+(xv0 / edge-01
+      :ARG1 (xv3 / low-04
+            :ARG1 xv6)
+      :ARG2 (xv6 / stock)
+      :time (xv1 / after
+            :op1 (xv2 / earn-01
+                  :ARG0 (xv4 / person
+                        :ARG0-of (xv5 / retail-01)))))
+
+# ::id 455
+# ::snt NA
+(xv0 / edge-01
+      :ARG1 (xv6 / stock)
+      :ARG2 (xv3 / low-04
+            :ARG1 xv6)
+      :time (xv1 / after
+            :op1 (xv2 / earn-01
+                  :ARG0 (xv4 / person
+                        :ARG0-of (xv5 / retail-01)))))
+
+# ::id 456
+# ::snt NA
+(xv0 / approve-01
+      :ARG0 (xv6 / restrict-01
+            :ARG1 (xv1 / abort-01)
+            :ARG1-of (xv7 / tight-05))
+      :ARG1 (xv3 / government-organization
+            :ARG0-of (xv4 / govern-01
+                  :ARG1 (xv2 / country
+                        :name (xv5 / name
+                              :op1 "Spain")))))
+
+# ::id 457
+# ::snt NA
+(xv0 / approve-01
+      :ARG0 (xv3 / government-organization
+            :ARG0-of (xv4 / govern-01
+                  :ARG1 (xv2 / country
+                        :name (xv5 / name
+                              :op1 "Spain"))))
+      :ARG1 (xv6 / restrict-01
+            :ARG1 (xv1 / abort-01)
+            :ARG1-of (xv7 / tight-05)))
+
+# ::id 458
+# ::snt NA
+(xv0 / fire-01
+      :ARG1 (xv8 / residence
+            :location (xv3 / city
+                  :name (xv6 / name
+                        :op1 "Athens"))
+            :poss (xv7 / person
+                  :ARG1-of (xv4 / have-org-role-91
+                        :ARG2 (xv1 / ambassador)
+                        :ARG0 (xv2 / country
+                              :name (xv5 / name
+                                    :op1 "Germany")))))
+      :ARG2 (xv9 / shot))
+
+# ::id 459
+# ::snt NA
+(xv0 / fire-01
+      :ARG1 (xv9 / shot)
+      :ARG2 (xv8 / residence
+            :location (xv3 / city
+                  :name (xv6 / name
+                        :op1 "Athens"))
+            :poss (xv7 / person
+                  :ARG0-of (xv4 / have-org-role-91
+                        :ARG1 (xv2 / country
+                              :name (xv5 / name
+                                    :op1 "Germany"))
+                        :ARG2 (xv1 / ambassador)))))
+
+# ::id 460
+# ::snt NA
+(xv0 / elect-01
+      :ARG1 (xv6 / person
+            :ARG0-of (xv2 / have-org-role-91
+                  :ARG1 (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Italy"))
+                  :ARG2 (xv7 / president))
+            :name (xv3 / name
+                  :op1 "Napolitano"))
+      :ARG3 (xv8 / term
+            :ord (xv5 / ordinal-entity
+                  :value 2)))
+
+# ::id 461
+# ::snt NA
+(xv0 / elect-01
+      :ARG1 (xv6 / person
+            :ARG0-of (xv2 / have-org-role-91
+                  :ARG1 (xv1 / country
+                        :name (xv4 / name
+                              :op1 "Italy"))
+                  :ARG2 (xv7 / president))
+            :name (xv3 / name
+                  :op1 "Napolitano"))
+      :ARG3 (xv8 / term
+            :ord (xv5 / ordinal-entity
+                  :value 2)))
+
+# ::id 462
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv3 / face-01
+            :ARG0 (xv8 / try-02
+                  :ARG1 xv6)
+            :ARG1 (xv6 / person
+                  :mod (xv2 / country
+                        :name (xv5 / name
+                              :op1 "America"))
+                  :ARG0-of (xv7 / tour-01)))
+      :ARG1 (xv1 / country
+            :name (xv4 / name
+                  :op1 "North"
+                  :op2 "Korea")))
+
+# ::id 463
+# ::snt NA
+(xv0 / say-01
+      :ARG0 (xv1 / country
+            :name (xv4 / name
+                  :op1 "North"
+                  :op2 "Korea"))
+      :ARG1 (xv3 / face-01
+            :ARG0 (xv6 / person
+                  :mod (xv2 / country
+                        :name (xv5 / name
+                              :op1 "America"))
+                  :ARG0-of (xv7 / tour-01))
+            :ARG1 (xv8 / try-02
+                  :ARG1 xv6)))
+
+# ::id 464
+# ::snt NA
+(xv0 / be-located-at-91
+      :ARG1 (xv2 / hospital)
+      :ARG2 (xv5 / person
+            :name (xv3 / name
+                  :op1 "Mandela"))
+      :time (xv1 / day
+            :ord (xv4 / ordinal-entity
+                  :value 3)))
+
+# ::id 465
+# ::snt NA
+(xv0 / be-located-at-91
+      :ARG1 (xv5 / person
+            :name (xv3 / name
+                  :op1 "Mandela"))
+      :ARG2 (xv2 / hospital)
+      :time (xv1 / day
+            :ord (xv4 / ordinal-entity
+                  :value 3)))
+
+# ::id 466
+# ::snt NA
+(xv0 / end-01
+      :ARG0 (xv10 / win-01
+            :ARG0 (xv7 / person
+                  :name (xv4 / name
+                        :op1 "Murray"))
+            :ARG1 (xv8 / title
+                  :mod (xv3 / game
+                        :name (xv5 / name
+                              :op1 "Wimbledon"))))
+      :ARG1 (xv1 / agony
+            :duration (xv9 / temporal-quantity
+                  :quant 77
+                  :unit (xv11 / year))
+            :poss (xv2 / country
+                  :name (xv6 / name
+                        :op1 "Britain"))))
+
+# ::id 467
+# ::snt NA
+(xv0 / end-01
+      :ARG0 (xv10 / win-01
+            :ARG0 (xv7 / person
+                  :name (xv4 / name
+                        :op1 "Murray"))
+            :ARG1 (xv8 / title
+                  :mod (xv3 / game
+                        :name (xv5 / name
+                              :op1 "Wimbledon"))))
+      :ARG1 (xv1 / agony
+            :duration (xv9 / temporal-quantity
+                  :quant 77
+                  :unit (xv11 / year))
+            :poss (xv2 / country
+                  :name (xv6 / name
+                        :op1 "Britain"))))
+
+# ::id 468
+# ::snt NA
+(xv0 / urge-01
+      :ARG0 (xv5 / encyclical
+            :ARG1-of (xv4 / draft-01))
+      :ARG1 (xv1 / act-02
+            :ARG1 (xv2 / change-01
+                  :ARG1 (xv3 / climate)))
+      :location (xv7 / person
+            :name (xv6 / name
+                  :op1 "Pope")))
+
+# ::id 469
+# ::snt NA
+(xv0 / urge-01
+      :ARG0 (xv7 / person
+            :name (xv6 / name
+                  :op1 "Pope"))
+      :ARG1 (xv1 / act-02
+            :ARG1 (xv2 / change-01
+                  :ARG1 (xv3 / climate)))
+      :location (xv5 / encyclical
+            :ARG1-of (xv4 / draft-01)))
+
+# ::id 470
+# ::snt NA
+(xv0 / boost-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / country
+                  :name (xv4 / name
+                        :op1 "U.S."))
+            :op2 (xv7 / organization
+                  :name (xv5 / name
+                        :op1 "EU")))
+      :ARG1 (xv8 / sanction-02
+            :ARG1 (xv3 / country
+                  :name (xv6 / name
+                        :op1 "Russia"))))
+
+# ::id 471
+# ::snt NA
+(xv0 / boost-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / country
+                  :name (xv4 / name
+                        :op1 "U.S."))
+            :op2 (xv7 / organization
+                  :name (xv5 / name
+                        :op1 "EU")))
+      :ARG1 (xv8 / sanction-02
+            :ARG1 (xv3 / country
+                  :name (xv6 / name
+                        :op1 "Russia"))))
+
+# ::id 472
+# ::snt NA
+(xv0 / resign-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG2 (xv1 / attorney
+                        :mod (xv2 / general)))
+            :name (xv4 / name
+                  :op1 "Eric"
+                  :op2 "Holder")))
+
+# ::id 473
+# ::snt NA
+(xv0 / resign-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG2 (xv1 / attorney
+                        :mod (xv2 / general)))
+            :name (xv4 / name
+                  :op1 "Eric"
+                  :op2 "Holder")))

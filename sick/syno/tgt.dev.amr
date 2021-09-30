@@ -1,0 +1,4599 @@
+# ::id 0
+# ::snt sentence_B
+(xv0 / sentence
+      :mod (xv1 / boron))
+
+# ::id 1
+# ::snt There is no boy playing outdoors and there is no man smiling
+(xv0 / and
+      :op1 (xv1 / boy
+            :polarity -
+            :ARG0-of (xv4 / play-01
+                  :location (xv3 / air
+                        :mod (yvi8-2 / open))))
+      :op2 (xv2 / male
+            :mod (yvi10-2 / adult)
+            :polarity -
+            :ARG0-of (xv5 / smile-01)))
+
+# ::id 2
+# ::snt A skilled person is riding a bicycle on one wheel
+(xv0 / ride-01
+      :ARG0 (xv2 / person
+            :ARG1-of (xv3 / skill-01))
+      :ARG1 (xv1 / wheel)
+      :instrument (xv4 / bike
+            :quant 1))
+
+# ::id 3
+# ::snt Four girls are doing backbends and playing outdoors
+(xv0 / and
+      :op1 (xv1 / backbend-01
+            :ARG0 (xv2 / girl
+                  :quant 4))
+      :op2 (xv4 / play-01
+            :ARG0 xv2
+            :location (xv3 / open)))
+
+# ::id 4
+# ::snt Two teams are competing in a football match
+(xv0 / compete-01
+      :ARG0 (xv3 / team
+            :quant 2)
+      :ARG2 (xv2 / match-03
+            :mod (xv1 / game
+                  :mod (yvi8-2 / football))))
+
+# ::id 5
+# ::snt Five children are standing in a wooden hut
+(xv0 / stand-01
+      :ARG1 (xv1 / child
+            :quant 5)
+      :location (xv2 / hut
+            :mod (yvi6-2 / field)
+            :mod (xv3 / wood)))
+
+# ::id 6
+# ::snt A large group of Asian people is eating at a restaurant
+(xv0 / eat-01
+      :ARG0 (xv2 / group
+            :consist-of (xv5 / person
+                  :mod (xv1 / continent
+                        :name (xv4 / name
+                              :op1 "Asia")))
+            :mod (xv3 / large))
+      :location (xv6 / house
+            :mod (yvi14-2 / eating)))
+
+# ::id 7
+# ::snt A motorcycle is riding standing up on the seat of the vehicle
+(xv0 / ride-01
+      :ARG0 (xv1 / bike)
+      :manner (xv2 / stand-01
+            :ARG1 xv1
+            :ARG2 (xv3 / seat
+                  :part-of (xv5 / vehicle))
+            :direction (xv4 / up)))
+
+# ::id 8
+# ::snt Two dogs are playing by a plant
+(xv0 / play-01
+      :ARG0 (xv2 / dog
+            :quant 2)
+      :location (xv1 / by
+            :op1 (xv3 / plant)))
+
+# ::id 9
+# ::snt A girl is wearing white clothes and is dancing
+(xv0 / and
+      :op1 (xv4 / wear-01
+            :ARG1 (xv1 / apparel
+                  :ARG1-of (xv5 / white-02)))
+      :op2 (xv2 / dance-01
+            :ARG0 (xv3 / girl
+                  :ARG0-of xv4)))
+
+# ::id 10
+# ::snt A girl in white is dancing
+(xv0 / dance-01
+      :ARG0 (xv1 / girl
+            :ARG1-of (xv2 / white-02)))
+
+# ::id 11
+# ::snt A girl in white is dancing
+(xv0 / dance-01
+      :ARG0 (xv1 / girl
+            :ARG1-of (xv2 / white-02)))
+
+# ::id 12
+# ::snt The blond girl is dancing in front of the sound equipment
+(xv0 / dance-01
+      :ARG0 (xv3 / girl
+            :mod (xv1 / blonde))
+      :location (xv4 / in-front-of
+            :op1 (xv2 / equipment
+                  :mod (xv5 / sound))))
+
+# ::id 13
+# ::snt An Asian man is dancing and three kids are looking
+(xv0 / and
+      :op1 (xv2 / dance-01
+            :ARG0 (xv5 / male
+                  :mod (yvi5-2 / adult)
+                  :mod (xv1 / continent
+                        :name (xv6 / name
+                              :op1 "Asia"))))
+      :op2 (xv4 / look-01
+            :ARG0 (xv3 / kid
+                  :quant 3)))
+
+# ::id 14
+# ::snt A hiker is on top of the mountain and is dancing
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv5 / person
+                  :ARG0-of (xv3 / hike-01))
+            :ARG2 (xv6 / top
+                  :part-of (xv4 / mountain)))
+      :op2 (xv2 / dance-01
+            :ARG0 xv5))
+
+# ::id 15
+# ::snt The boy is wading through the blue ocean
+(xv0 / wade-01
+      :ARG0 (xv1 / boy)
+      :path (xv3 / ocean
+            :ARG1-of (xv2 / blue-02)))
+
+# ::id 16
+# ::snt A person has blonde and flyaway hair and is playing a guitar
+(xv0 / and
+      :op1 (xv6 / possess-01
+            :ARG0 (xv9 / person
+                  :ARG0-of (xv10 / play-01
+                        :ARG1 (xv5 / guitar)))
+            :ARG1 (xv1 / and
+                  :op1 (xv7 / hair
+                        :ARG1-of (xv3 / blonde-02))
+                  :op2 (xv8 / hair
+                        :ARG1-of (xv4 / fly-01
+                              :direction (xv2 / away)))))
+      :op2 xv10)
+
+# ::id 17
+# ::snt A young, topless woman is covered in paint
+(xv0 / cover-01
+      :ARG1 (xv3 / womanhood
+            :ARG1-of (xv2 / top-01
+                  :polarity -)
+            :mod (xv4 / youth))
+      :ARG2 (xv1 / paint))
+
+# ::id 18
+# ::snt A crowd of people is near the water
+(xv0 / crowd
+      :consist-of (xv2 / person)
+      :location (xv1 / neighbor-01
+            :ARG2 (xv3 / water)
+            :ARG1 xv0))
+
+# ::id 19
+# ::snt A brown and white dog is moving through the wild grass
+(xv0 / move-01
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv4 / white-02)
+            :ARG1-of (xv1 / brown-02))
+      :path (xv3 / grass
+            :mod (xv5 / wild)))
+
+# ::id 20
+# ::snt A white and tan dog is running through a field
+(xv0 / run-02
+      :ARG0 (xv1 / dog
+            :ARG1-of (xv3 / tan-01)
+            :ARG1-of (xv4 / white-02))
+      :path (xv2 / field))
+
+# ::id 21
+# ::snt A man is standing near a bike and is writing on a piece paper
+(xv0 / and
+      :op1 (xv6 / stand-01
+            :ARG1 (xv2 / male
+                  :mod (yvi5-2 / adult)
+                  :ARG1-of (xv3 / near-02
+                        :ARG2 (xv1 / bike)))
+            :ARG2 xv3)
+      :op2 (xv7 / write-01
+            :ARG0 xv2
+            :ARG2 (xv4 / paper
+                  :mod (xv5 / piece))))
+
+# ::id 22
+# ::snt A group of explorers are walking through the grass
+(xv0 / walk-01
+      :ARG0 (xv2 / group
+            :consist-of (xv4 / person
+                  :ARG0-of (xv1 / explore-01)))
+      :path (xv3 / grass))
+
+# ::id 23
+# ::snt Two men with cars are on the side of a snowy road
+(xv0 / be-located-at-91
+      :ARG1 (xv3 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv2 / own-01
+                  :ARG1 (xv1 / car))
+            :quant 2)
+      :ARG2 (xv5 / side
+            :part-of (xv4 / road
+                  :mod (xv6 / snowy))))
+
+# ::id 24
+# ::snt A blond girl is looking at the waves
+(xv0 / look-01
+      :ARG0 (xv2 / girl
+            :mod (xv1 / blond))
+      :ARG1 (xv3 / wave))
+
+# ::id 25
+# ::snt Pink bellbottoms and a pink scarf aren't to be worn by women with silver pants or bike riding people
+(xv0 / recommend-01
+      :ARG1 (xv13 / wear-01
+            :ARG0 (xv5 / or
+                  :op1 (xv14 / womanhood
+                        :ARG0-of (xv4 / own-01
+                              :ARG1 (xv6 / pant
+                                    :mod (xv11 / silver))))
+                  :op2 (xv7 / person
+                        :ARG0-of (xv10 / ride-01
+                              :ARG1 (xv2 / bike))))
+            :ARG1 (xv1 / and
+                  :op1 (xv3 / bellbottom
+                        :mod (xv8 / pink))
+                  :op2 (xv12 / scarf
+                        :mod (xv9 / pink))))
+      :polarity -)
+
+# ::id 26
+# ::snt A pedestrian woman is building pink bicycles for boa wearing riders
+(xv0 / build-01
+      :ARG0 (xv7 / woman
+            :mod (xv3 / footer))
+      :ARG1 (xv1 / bike
+            :mod (xv4 / pink))
+      :beneficiary (xv5 / person
+            :ARG0-of (xv6 / ride-01)
+            :ARG0-of (xv8 / wear-01
+                  :ARG1 (xv2 / boa
+                        :mod (yvi17-2 / feather)))))
+
+# ::id 27
+# ::snt A biker wearing black is breaking the gears
+(xv0 / break-18
+      :ARG0 (xv4 / person
+            :ARG0-of (xv1 / bike-01)
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv2 / black-05)))
+      :ARG1 (xv3 / gear))
+
+# ::id 28
+# ::snt A woman is putting on a cloak, which is very large, and concealing an extravagant dress
+(xv0 / and
+      :op1 (xv6 / put-on-08
+            :ARG0 (xv8 / sex
+                  :mod (yvi14-2 / fair))
+            :ARG1 (xv1 / cloak
+                  :mod (xv5 / large
+                        :degree (xv7 / very))))
+      :op2 (xv2 / conceal-01
+            :ARG0 xv8
+            :ARG1 (xv3 / dress
+                  :mod (xv4 / extravagant))))
+
+# ::id 29
+# ::snt A little boy, who looks fearful, is on a climbing wall.
+(xv0 / be-located-at-91
+      :ARG1 (xv1 / boy
+            :mod (xv4 / little)
+            :ARG0-of (xv5 / look-02
+                  :ARG1 (xv3 / fear-01)))
+      :ARG2 (xv6 / wall
+            :ARG0-of (xv2 / climb-01)))
+
+# ::id 30
+# ::snt The man is tossing a kid into the swimming pool that is near the ocean
+(xv0 / toss-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / kid)
+      :ARG2 (xv5 / pool
+            :ARG1-of (xv3 / neighbor-01
+                  :ARG2 (xv4 / ocean))
+            :mod (xv6 / swim-01)))
+
+# ::id 31
+# ::snt A person with pink climbing gear roped the rock
+(xv0 / rope-01
+      :ARG0 (xv4 / person
+            :ARG0-of (xv3 / possess-01
+                  :ARG1 (xv2 / gear
+                        :mod (xv5 / pink)
+                        :purpose (xv1 / ascend-01))))
+      :ARG1 (xv6 / rock))
+
+# ::id 32
+# ::snt One man is climbing a cliff with a rope
+(xv0 / ascend-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult)
+            :quant 1)
+      :ARG1 (xv1 / drop)
+      :instrument (xv3 / rope))
+
+# ::id 33
+# ::snt Two dogs of different breeds are looking at each other across a street
+(xv0 / look-01
+      :ARG0 (xv3 / dog
+            :mod (xv2 / breed
+                  :ARG1-of (xv4 / differ-02))
+            :quant 2
+            :ARG1-of xv0)
+      :location (xv1 / across
+            :op1 (xv5 / street)))
+
+# ::id 34
+# ::snt A dog next to a tree, which is probably a pine, is biting a bucket
+(xv0 / bit-01
+      :ARG0 (xv2 / dog
+            :location (xv4 / next-to
+                  :op1 (xv7 / tree
+                        :ARG1-of (xv3 / mean-01
+                              :ARG2 (xv5 / pine
+                                    :mod (xv6 / probable))))))
+      :ARG1 (xv1 / bucketful))
+
+# ::id 35
+# ::snt A few men in a competition are running indoors
+(xv0 / run-02
+      :ARG0 (xv4 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv1 / compete-01)
+            :quant (xv2 / few))
+      :location (xv3 / indoor))
+
+# ::id 36
+# ::snt A few men are running competitions outside
+(xv0 / run-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult)
+            :quant (xv2 / few))
+      :ARG1 (xv1 / compete-01)
+      :location (xv4 / outside))
+
+# ::id 37
+# ::snt A boy on a hill covered in snow is wearing a red jacket and a black hat and is sliding on his knees
+(xv0 / and
+      :op1 (xv12 / wear-01
+            :ARG0 (xv2 / boy
+                  :location (xv5 / mound
+                        :ARG1-of (xv4 / cover-01
+                              :ARG2 (xv10 / snow))))
+            :ARG1 (xv1 / and
+                  :op1 (xv7 / jacket
+                        :ARG1-of (xv9 / red-02))
+                  :op2 (xv6 / hat
+                        :ARG1-of (xv3 / black-05))))
+      :op2 (xv11 / slide-01
+            :ARG1 xv2
+            :ARG2 (xv8 / knee)))
+
+# ::id 38
+# ::snt A woman and a dog are sitting on a tree stump
+(xv0 / sit-01
+      :ARG1 (xv1 / and
+            :op1 (xv5 / woman)
+            :op2 (xv2 / dog))
+      :ARG2 (xv3 / stump
+            :part-of (xv4 / tree)))
+
+# ::id 39
+# ::snt A group of people is equipped with gear used for protection
+(xv0 / equip-01
+      :ARG1 (xv1 / group
+            :consist-of (xv3 / person))
+      :ARG2 (xv2 / gear
+            :ARG1-of (xv5 / use-01
+                  :ARG2 (xv4 / protect-01))))
+
+# ::id 40
+# ::snt A dog, which has a black coat, and a white dog are running on the grass
+(xv0 / run-02
+      :ARG0 (xv1 / and
+            :op1 (xv4 / dog
+                  :ARG0-of (xv7 / own-01
+                        :ARG1 (xv3 / coating
+                              :ARG1-of (xv2 / black-04))))
+            :op2 (xv5 / dog
+                  :ARG1-of (xv8 / white-02)))
+      :location (xv6 / grass))
+
+# ::id 41
+# ::snt An ice skating rink placed outdoors is full of people
+(xv0 / full-09
+      :ARG1 (xv5 / rink
+            :mod (yvi3-2 / skating)
+            :ARG1-of (xv3 / place-01
+                  :location (xv2 / air
+                        :mod (yvi7-2 / open)))
+            :mod (xv6 / skate-01
+                  :ARG1 (xv1 / ice)))
+      :ARG2 (xv4 / person))
+
+# ::id 42
+# ::snt The girl is cheering the man in the blue and white uniform
+(xv0 / cheer-02
+      :ARG0 (xv2 / girl)
+      :ARG1 (xv3 / male
+            :mod (yvi5-2 / adult)
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv4 / uniform
+                        :ARG1-of (xv6 / white-02)
+                        :ARG1-of (xv1 / blue-02)))))
+
+# ::id 43
+# ::snt There is no woman being kissed by a man
+(xv0 / kiss-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / woman)
+      :polarity -)
+
+# ::id 44
+# ::snt The young girl is blowing a bubble that is huge
+(xv0 / blow-01
+      :ARG0 (xv2 / girl
+            :mod (xv4 / youth))
+      :ARG1 (xv1 / bubble
+            :mod (xv3 / huge)))
+
+# ::id 45
+# ::snt Two toddlers are eating corndogs in a wagon, which is really small
+(xv0 / ingest-01
+      :ARG0 (xv4 / bambino
+            :quant 2)
+      :ARG1 (xv1 / corndog)
+      :location (xv5 / wagon
+            :mod (xv3 / small
+                  :degree (xv2 / really))))
+
+# ::id 46
+# ::snt A horse is tossing the cowboy wearing pants of blue and red color
+(xv0 / toss-01
+      :ARG0 (xv5 / horse)
+      :ARG1 (xv3 / cowboy
+            :ARG0-of (xv8 / wear-01
+                  :ARG1 (xv6 / pant
+                        :ARG1-of (xv4 / color-01
+                              :ARG2 (xv1 / and
+                                    :op1 (xv2 / blue)
+                                    :op2 (xv7 / red-02)))))))
+
+# ::id 47
+# ::snt There is no adult in the amphitheater talking to a boy
+(xv0 / adult
+      :location (xv1 / coliseum)
+      :polarity -
+      :ARG0-of (xv3 / speak-01
+            :ARG2 (xv2 / boy)))
+
+# ::id 48
+# ::snt An adult is in the amphitheater and is talking to a boy
+(xv0 / and
+      :op1 (xv3 / be-located-at-91
+            :ARG1 (xv1 / adult)
+            :ARG2 (xv2 / coliseum))
+      :op2 (xv5 / talk-01
+            :ARG0 xv1
+            :ARG2 (xv4 / boy)))
+
+# ::id 49
+# ::snt A person who is practicing snowboarding jumps into the air
+(xv0 / jump-01
+      :ARG0 (xv2 / person
+            :ARG0-of (xv3 / practice-01
+                  :ARG1 (xv4 / snowboard-01)))
+      :ARG2 (xv1 / air))
+
+# ::id 50
+# ::snt A man is opening a small package that contains headphones
+(xv0 / open-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv4 / package
+            :mod (xv5 / small)
+            :ARG0-of (xv1 / contain-01
+                  :ARG1 (xv2 / earphone))))
+
+# ::id 51
+# ::snt The turtle is following the fish
+(xv0 / follow-02
+      :ARG0 (xv2 / turtleneck)
+      :ARG1 (xv1 / fish))
+
+# ::id 52
+# ::snt A woman is slicing a carrot
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / carrot))
+
+# ::id 53
+# ::snt A woman is arranging her hair
+(xv0 / arrange-01
+      :ARG0 (xv2 / womanhood
+            :part (xv1 / hair))
+      :ARG1 xv1)
+
+# ::id 54
+# ::snt There is no woman combing her hair
+(xv0 / woman
+      :ARG0-of (xv1 / combing-01
+            :ARG1 (xv2 / hair
+                  :poss xv0))
+      :polarity -)
+
+# ::id 55
+# ::snt A man and a woman are walking together through the woods
+(xv0 / walk-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / male
+                  :mod (yvi5-2 / adult))
+            :op2 (xv4 / woman))
+      :ARG1 (xv5 / woods)
+      :manner (xv3 / together))
+
+# ::id 56
+# ::snt A man and a woman are walking through a wooded area
+(xv0 / walk-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / male
+                  :mod (yvi5-2 / adult))
+            :op2 (xv4 / woman))
+      :path (xv2 / area
+            :ARG1-of (xv5 / wooded-02)))
+
+# ::id 57
+# ::snt A man is slicing a tomato
+(xv0 / slice-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / tomato))
+
+# ::id 58
+# ::snt A woman is dancing and singing with other women
+(xv0 / and
+      :op1 (xv1 / dance-01
+            :ARG0 (xv4 / sex
+                  :mod (yvi5-2 / fair))
+            :accompanier (xv5 / sex
+                  :mod (yvi7-2 / fair)
+                  :mod (xv2 / other)))
+      :op2 (xv3 / sing-01
+            :ARG0 xv4))
+
+# ::id 59
+# ::snt A woman is dancing and singing in the rain
+(xv0 / and
+      :op1 (xv1 / dance-01
+            :ARG0 (xv4 / womanhood))
+      :op2 (xv3 / sing-01
+            :ARG0 xv4)
+      :time (xv2 / rain-01))
+
+# ::id 60
+# ::snt A woman is dancing and singing in the rain
+(xv0 / and
+      :op1 (xv1 / dance-01
+            :ARG0 (xv4 / sex
+                  :mod (yvi5-2 / fair)))
+      :op2 (xv3 / sing-01
+            :ARG0 xv4)
+      :time (xv2 / rain-01))
+
+# ::id 61
+# ::snt A band is playing onstage
+(xv0 / play-01
+      :ARG0 (xv1 / band)
+      :location (xv2 / onstage))
+
+# ::id 62
+# ::snt A man is playing a game with a ball
+(xv0 / play-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / game)
+      :instrument (xv1 / ball))
+
+# ::id 63
+# ::snt A woman is being measured by another woman
+(xv0 / measure-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv3 / womanhood
+            :mod (xv1 / another)))
+
+# ::id 64
+# ::snt A person is chopping an onion
+(xv0 / chop-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 65
+# ::snt A man is scared
+(xv0 / scare-01
+      :ARG1 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 66
+# ::snt A man is screaming
+(xv0 / scream-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 67
+# ::snt A man is chopping butter into a small container
+(xv0 / chop-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / butter)
+      :ARG2 (xv2 / container
+            :mod (xv4 / small)))
+
+# ::id 68
+# ::snt Men are cutting wood
+(xv0 / cut-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / wood))
+
+# ::id 69
+# ::snt A man is spitting
+(xv0 / spit-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 70
+# ::snt There is no man running, jumping and kicking near a vending machine
+(xv0 / male
+      :mod (yvi1-2 / adult)
+      :ARG0-of (xv1 / jump-02)
+      :ARG0-of (xv2 / kick-01)
+      :polarity -
+      :ARG1-of (xv4 / neighbor-01
+            :ARG2 (xv3 / machine
+                  :ARG0-of (xv6 / vend-01)))
+      :ARG0-of (xv5 / run-02))
+
+# ::id 71
+# ::snt Three young men are furiously running, jumping and kicking near a vending machine
+(xv0 / and
+      :op1 (xv7 / run-02
+            :ARG0 (xv4 / male
+                  :mod (yvi10-2 / adult)
+                  :mod (xv9 / youth)
+                  :quant 3)
+            :manner (xv1 / furious))
+      :op2 (xv2 / jump-01
+            :ARG0 xv4)
+      :op3 (xv3 / kick-01
+            :ARG0 xv4)
+      :ARG1-of (xv6 / neighbor-01
+            :ARG2 (xv5 / machine
+                  :ARG0-of (xv8 / vend-01))))
+
+# ::id 72
+# ::snt The man is stirring the sauce for the chicken
+(xv0 / stir-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / sauce
+            :purpose (xv1 / chicken)))
+
+# ::id 73
+# ::snt A man is playing guitar
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / guitar))
+
+# ::id 74
+# ::snt A man is strumming a guitar
+(xv0 / slam-02
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / guitar))
+
+# ::id 75
+# ::snt Three boys in karate costumes are fighting
+(xv0 / fight-01
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv4 / wear-01
+                  :ARG1 (xv2 / costume
+                        :mod (xv3 / karate)))
+            :quant 3))
+
+# ::id 76
+# ::snt Three boys in karate costumes are fighting
+(xv0 / struggle-01
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv4 / wear-01
+                  :ARG1 (xv2 / costume
+                        :mod (xv3 / karate)))
+            :quant 3))
+
+# ::id 77
+# ::snt A woman is cutting broccoli
+(xv0 / cut-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / broccoli))
+
+# ::id 78
+# ::snt A badger is shrewdly digging the earth
+(xv0 / dig-01
+      :ARG0 (xv1 / wisconsinite)
+      :ARG1 (xv2 / earth)
+      :manner (xv3 / shrewd))
+
+# ::id 79
+# ::snt No snake is being fed a mouse by a man
+(xv0 / feed-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / snake)
+      :ARG2 (xv2 / mouse)
+      :polarity -)
+
+# ::id 80
+# ::snt Some ingredients are being separated in a bowl by a person
+(xv0 / separate-01
+      :ARG0 (xv3 / person)
+      :ARG1 (xv2 / ingredient
+            :quant (xv4 / some))
+      :location (xv1 / bowl))
+
+# ::id 81
+# ::snt The guitar is being played by the man
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / guitar))
+
+# ::id 82
+# ::snt The cat is drinking some milk
+(xv0 / drink-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / milk
+            :quant (xv3 / some)))
+
+# ::id 83
+# ::snt A man is emptying a container made of plastic
+(xv0 / empty-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / container
+            :ARG1-of (xv3 / produce-01
+                  :ARG2 (xv4 / plastic))))
+
+# ::id 84
+# ::snt A man is carelessly holding a frog
+(xv0 / hold-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / frog)
+      :manner (xv1 / care-04
+            :polarity -))
+
+# ::id 85
+# ::snt A flute is being played by a girl
+(xv0 / play-01
+      :ARG0 (xv2 / girl)
+      :ARG1 (xv1 / fluting))
+
+# ::id 86
+# ::snt A flute is being played by a man
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / fluting))
+
+# ::id 87
+# ::snt A flute isn't being played by a man
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / fluting)
+      :polarity -)
+
+# ::id 88
+# ::snt The girl, who is little, is combing her hair into a pony tail.
+(xv0 / combing-01
+      :ARG0 (xv1 / girl
+            :mod (xv3 / little)
+            :part (xv2 / hair))
+      :ARG1 xv2
+      :ARG2 (xv5 / tail
+            :mod (xv4 / jigger)))
+
+# ::id 89
+# ::snt The girl, who is little, is ruffling her hair
+(xv0 / ruffle-01
+      :ARG0 (xv1 / girl
+            :mod (xv3 / little)
+            :part (xv2 / hair))
+      :ARG1 xv2)
+
+# ::id 90
+# ::snt The parrot is talking into the microphone
+(xv0 / talk-01
+      :ARG0 (xv2 / parrot)
+      :ARG2 (xv1 / mike))
+
+# ::id 91
+# ::snt The food on the trays is being eaten by the kittens
+(xv0 / ingest-01
+      :ARG0 (xv2 / kitty)
+      :ARG1 (xv1 / food
+            :location (xv3 / tray)))
+
+# ::id 92
+# ::snt A few kittens are eating
+(xv0 / eat-01
+      :ARG0 (xv2 / kitty
+            :quant (xv1 / few)))
+
+# ::id 93
+# ::snt A person is playing a guitar and singing
+(xv0 / and
+      :op1 (xv2 / play-01
+            :ARG0 (xv3 / person
+                  :ARG0-of (xv4 / sing-01))
+            :ARG1 (xv1 / guitar))
+      :op2 xv4)
+
+# ::id 94
+# ::snt A man is riding the horse
+(xv0 / ride-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / horse))
+
+# ::id 95
+# ::snt Some dangerous men with knives are throwing a bike against a tree
+(xv0 / throw-01
+      :ARG0 (xv6 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv3 / endanger-01)
+            :ARG0-of (xv4 / own-01
+                  :ARG1 (xv5 / tongue))
+            :quant (xv7 / some))
+      :ARG1 (xv2 / bike)
+      :ARG2 (xv1 / against
+            :op1 (xv8 / tree)))
+
+# ::id 96
+# ::snt Some meat is being cut into pieces by a woman
+(xv0 / cut-02
+      :ARG0 (xv4 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / meat
+            :quant (xv3 / some))
+      :ARG2 (xv2 / piece))
+
+# ::id 97
+# ::snt The man is granting an interview
+(xv0 / grant-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / interview-01
+            :ARG0 xv2))
+
+# ::id 98
+# ::snt A man's white car is being driven away
+(xv0 / drive-01
+      :ARG1 (xv2 / car
+            :ARG1-of (xv4 / white-02)
+            :poss (xv3 / male
+                  :mod (yvi7-2 / adult)))
+      :direction (xv1 / away))
+
+# ::id 99
+# ::snt A small boy is playing with a dog
+(xv0 / play-01
+      :ARG0 (xv1 / boy
+            :mod (xv3 / small))
+      :ARG2 (xv2 / dog))
+
+# ::id 100
+# ::snt A man is taking pictures of a lake
+(xv0 / photograph-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / lake))
+
+# ::id 101
+# ::snt A woman is using a machine made for sewing
+(xv0 / employ-02
+      :ARG0 (xv4 / woman)
+      :ARG1 (xv1 / machine
+            :ARG1-of (xv2 / produce-01
+                  :purpose (xv3 / sew-01))))
+
+# ::id 102
+# ::snt The man is not knocked off of a horse
+(xv0 / knock-01
+      :ARG1 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG2 (xv1 / horse)
+      :polarity -)
+
+# ::id 103
+# ::snt A woman is resting her fingers on a table
+(xv0 / rest-01
+      :ARG0 (xv3 / womanhood
+            :part (xv1 / finger))
+      :ARG1 xv1
+      :ARG2 (xv2 / table))
+
+# ::id 104
+# ::snt A woman is resting her fingers on a table
+(xv0 / rest-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair)
+            :part (xv1 / finger))
+      :ARG1 xv1
+      :ARG2 (xv2 / table))
+
+# ::id 105
+# ::snt The cat is playing with a watermelon
+(xv0 / play-01
+      :ARG0 (xv1 / cat)
+      :ARG2 (xv2 / watermelon))
+
+# ::id 106
+# ::snt A cat is playing with a watermelon
+(xv0 / play-01
+      :ARG0 (xv1 / cat)
+      :ARG2 (xv2 / watermelon))
+
+# ::id 107
+# ::snt The tall person is setting fire to the cameras
+(xv0 / set-fire-07
+      :ARG0 (xv2 / person
+            :mod (xv3 / tall))
+      :ARG1 (xv1 / camera))
+
+# ::id 108
+# ::snt The person is setting fire to the cameras
+(xv0 / set-fire-07
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / camera))
+
+# ::id 109
+# ::snt The person is setting fire to the cameras
+(xv0 / set-fire-07
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / camera))
+
+# ::id 110
+# ::snt A person is slicing a carrot into pieces
+(xv0 / slice-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / carrot)
+      :ARG2 (xv3 / piece))
+
+# ::id 111
+# ::snt The man is slicing a potato
+(xv0 / slice-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / potato))
+
+# ::id 112
+# ::snt The woman is holding a whole tomato
+(xv0 / hold-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / tomato
+            :mod (xv3 / unit)))
+
+# ::id 113
+# ::snt There is no one cutting a tomato
+(xv0 / no-one
+      :ARG0-of (xv1 / cut-01
+            :ARG1 (xv2 / tomato)))
+
+# ::id 114
+# ::snt Someone is cutting a tomato
+(xv0 / cut-01
+      :ARG0 (xv1 / mortal)
+      :ARG1 (xv2 / tomato))
+
+# ::id 115
+# ::snt An onion is being sliced with a knife by the woman
+(xv0 / slice-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv2 / onion)
+      :instrument (xv1 / tongue))
+
+# ::id 116
+# ::snt A man is running
+(xv0 / run-02
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 117
+# ::snt A group of people is singing
+(xv0 / sing-01
+      :ARG0 (xv1 / group
+            :consist-of (xv2 / person)))
+
+# ::id 118
+# ::snt A man is playing a trumpet
+(xv0 / play-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / horn))
+
+# ::id 119
+# ::snt People are riding and paddling a raft
+(xv0 / and
+      :op1 (xv3 / ride-01
+            :ARG0 (xv1 / person)
+            :ARG1 (xv4 / raft))
+      :op2 (xv2 / paddle-01
+            :ARG0 xv1
+            :ARG1 xv4))
+
+# ::id 120
+# ::snt Four people are floating on a raft
+(xv0 / float-01
+      :ARG1 (xv1 / person
+            :quant 4)
+      :ARG2 (xv2 / raft))
+
+# ::id 121
+# ::snt A cat is eating some corn
+(xv0 / ingest-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / corn
+            :quant (xv3 / some)))
+
+# ::id 122
+# ::snt Nobody is slicing a tomato
+(xv0 / slice-01
+      :ARG0 (xv1 / nonentity)
+      :ARG1 (xv2 / tomato))
+
+# ::id 123
+# ::snt Someone is playing the guitar
+(xv0 / play-01
+      :ARG0 (xv2 / soul)
+      :ARG1 (xv1 / guitar))
+
+# ::id 124
+# ::snt A few women are dancing
+(xv0 / dance-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair)
+            :quant (xv1 / few)))
+
+# ::id 125
+# ::snt The monkey is brushing a bull dog
+(xv0 / brush-01
+      :ARG0 (xv3 / monkey)
+      :ARG1 (xv2 / dog
+            :mod (xv1 / bull)))
+
+# ::id 126
+# ::snt A bull dog is brushing the monkey
+(xv0 / brush-01
+      :ARG0 (xv2 / dog
+            :mod (xv1 / bull))
+      :ARG1 (xv3 / monkey))
+
+# ::id 127
+# ::snt The lady is slicing up the meat
+(xv0 / slice-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / meat))
+
+# ::id 128
+# ::snt Ferrets are climbing down from a shelf
+(xv0 / ascend-01
+      :ARG0 (xv2 / ferrite)
+      :ARG1 (xv3 / shelf)
+      :direction (xv1 / down))
+
+# ::id 129
+# ::snt A man is getting into a car
+(xv0 / get-05
+      :ARG1 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG2 (xv1 / auto))
+
+# ::id 130
+# ::snt A man is getting into a car
+(xv0 / get-05
+      :ARG1 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG2 (xv1 / machine))
+
+# ::id 131
+# ::snt The person is not slicing a clove of garlic into pieces
+(xv0 / slice-01
+      :ARG0 (xv3 / person)
+      :ARG1 (xv1 / clove
+            :mod (yvi5-2 / garlic)
+            :consist-of (xv2 / ail))
+      :ARG2 (xv4 / piece)
+      :polarity -)
+
+# ::id 132
+# ::snt A woman is boiling noodles in water
+(xv0 / boil-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / noodle)
+      :ARG2 (xv3 / water))
+
+# ::id 133
+# ::snt A karate practitioner is kicking at another man who is wearing protective boxing gloves
+(xv0 / kick-01
+      :ARG0 (xv6 / person
+            :ARG0-of (xv7 / practice-01
+                  :ARG1 (xv4 / karate)))
+      :ARG1 (xv5 / male
+            :mod (yvi9-2 / adult)
+            :mod (xv1 / another)
+            :ARG0-of (xv9 / wear-01
+                  :ARG1 (xv3 / glove
+                        :mod (xv2 / boxing)
+                        :ARG0-of (xv8 / protect-01)))))
+
+# ::id 134
+# ::snt There is no karate practitioner kicking at another man who is wearing protective boxing gloves
+(xv0 / kick-01
+      :ARG0 (xv6 / person
+            :ARG0-of (xv7 / practice-01
+                  :ARG1 (xv4 / karate)))
+      :ARG1 (xv5 / male
+            :mod (yvi9-2 / adult)
+            :mod (xv1 / another)
+            :ARG0-of (xv9 / wear-01
+                  :ARG1 (xv3 / glove
+                        :mod (xv2 / packing)
+                        :ARG0-of (xv8 / protect-01))))
+      :polarity -)
+
+# ::id 135
+# ::snt A karate practitioner is kicking at another man who is wearing protective boxing gloves
+(xv0 / kick-01
+      :ARG0 (xv6 / person
+            :ARG0-of (xv7 / practice-01
+                  :ARG1 (xv4 / karate)))
+      :ARG1 (xv5 / male
+            :mod (yvi9-2 / adult)
+            :mod (xv1 / another)
+            :ARG0-of (xv9 / wear-01
+                  :ARG1 (xv3 / glove
+                        :mod (xv2 / boxing)
+                        :ARG0-of (xv8 / protect-01)))))
+
+# ::id 136
+# ::snt A seated woman is singing a song and playing the guitar
+(xv0 / and
+      :op1 (xv3 / sing-01
+            :ARG0 (xv6 / woman
+                  :ARG1-of (xv4 / seat-01))
+            :ARG1 (xv5 / song))
+      :op2 (xv2 / play-01
+            :ARG0 xv6
+            :ARG1 (xv1 / guitar)))
+
+# ::id 137
+# ::snt A woman is rocking over a blanket lying on someone reading a book
+(xv0 / rock-01
+      :ARG0 (xv7 / woman
+            :ARG1-of (xv3 / lie-07
+                  :ARG2 (xv6 / somebody
+                        :ARG0-of (xv5 / read-01
+                              :ARG1 (xv1 / book)))))
+      :location (xv4 / over
+            :op1 (xv2 / blanket)))
+
+# ::id 138
+# ::snt A man is playing an acoustic guitar
+(xv0 / play-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / guitar
+            :mod (xv1 / acoustic)))
+
+# ::id 139
+# ::snt A man and a woman are eating happily
+(xv0 / ingest-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / male
+                  :mod (yvi5-2 / adult))
+            :op2 (xv4 / woman))
+      :manner (xv2 / happy-01))
+
+# ::id 140
+# ::snt A person is pouring cooking oil into a pot
+(xv0 / pour-01
+      :ARG0 (xv3 / person)
+      :ARG1 (xv2 / oil
+            :purpose (xv1 / cook-01))
+      :ARG2 (xv4 / pot))
+
+# ::id 141
+# ::snt A small guinea pig is gnawing and eating a piece of carrot on the floor
+(xv0 / and
+      :location (xv3 / floor)
+      :op1 (xv1 / gnaw-01
+            :ARG0 (xv5 / pig
+                  :mod (xv7 / small)
+                  :mod (xv8 / country
+                        :name (xv9 / name
+                              :op1 "guinea")))
+            :ARG1 (xv4 / piece
+                  :part-of (xv6 / carrot)))
+      :op2 (xv2 / ingest-01
+            :ARG0 xv5
+            :ARG1 xv4))
+
+# ::id 142
+# ::snt A guinea pig is devouring a carrot
+(xv0 / pig
+      :ARG1 (xv1 / carrot))
+
+# ::id 143
+# ::snt An animated airplane is taking off
+(xv0 / take-off-07
+      :ARG1 (xv1 / aeroplane
+            :ARG1-of (xv2 / animated-03)))
+
+# ::id 144
+# ::snt A woman is preparing an egg in a skillet
+(xv0 / prepare-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / egg)
+      :location (xv2 / pan
+            :mod (yvi7-2 / frying)))
+
+# ::id 145
+# ::snt The woman is penciling on eyeshadow
+(xv0 / pencil-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / eyeshadow))
+
+# ::id 146
+# ::snt A girl is practicing the piano
+(xv0 / practice-01
+      :ARG0 (xv1 / girl)
+      :ARG1 (xv2 / piano))
+
+# ::id 147
+# ::snt The woman is not playing the flute
+(xv0 / play-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / fluting)
+      :polarity -)
+
+# ::id 148
+# ::snt The man is lifting weights
+(xv0 / lift-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / weight))
+
+# ::id 149
+# ::snt There is no woman putting on makeup
+(xv0 / put-on-08
+      :ARG0 (xv2 / womanhood)
+      :ARG1 (xv1 / make-up)
+      :polarity -)
+
+# ::id 150
+# ::snt An onion is being sliced by a woman
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / onion))
+
+# ::id 151
+# ::snt Two men are outside a cattle pen
+(xv0 / be-located-at-91
+      :ARG1 (xv2 / male
+            :mod (yvi3-2 / adult)
+            :quant 2)
+      :ARG2 (xv3 / outside
+            :op1 (xv4 / pen
+                  :mod (xv1 / kine))))
+
+# ::id 152
+# ::snt A big green ball is knocking a potato
+(xv0 / knock-01
+      :ARG0 (xv1 / ball
+            :mod (xv2 / big)
+            :ARG1-of (xv3 / green-02))
+      :ARG1 (xv4 / potato))
+
+# ::id 153
+# ::snt A large green colored ball is hitting a potato
+(xv0 / strike-01
+      :ARG0 (xv1 / ball
+            :mod (xv4 / large)
+            :ARG1-of (xv2 / color-01
+                  :ARG2 (xv3 / green)))
+      :ARG1 (xv5 / potato))
+
+# ::id 154
+# ::snt A large green ball is hitting a potato
+(xv0 / punch-01
+      :ARG0 (xv1 / ball
+            :mod (xv3 / large)
+            :ARG1-of (xv2 / green-02))
+      :ARG1 (xv4 / potato))
+
+# ::id 155
+# ::snt A big green ball is missing a potato
+(xv0 / miss-01
+      :ARG0 (xv1 / ball
+            :mod (xv2 / big)
+            :ARG1-of (xv3 / green-02))
+      :ARG1 (xv4 / potato))
+
+# ::id 156
+# ::snt A man is laying down a guitar
+(xv0 / lay-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / guitar)
+      :direction (xv1 / down))
+
+# ::id 157
+# ::snt A man is laying down a guitar
+(xv0 / lay-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / guitar)
+      :direction (xv1 / down))
+
+# ::id 158
+# ::snt The puppy is playing with a plastic container
+(xv0 / play-01
+      :ARG0 (xv2 / pup)
+      :ARG2 (xv1 / container
+            :consist-of (xv3 / plastic)))
+
+# ::id 159
+# ::snt There is no woman driving a car and talking to the man seated beside her
+(xv0 / and
+      :op1 (xv3 / drive-01
+            :ARG0 (xv7 / woman
+                  :op1-of (xv1 / beside))
+            :ARG1 (xv2 / car)
+            :polarity -)
+      :op2 (xv6 / speak-01
+            :ARG0 xv7
+            :ARG2 (xv4 / male
+                  :mod (yvi15-2 / adult)
+                  :ARG1-of (xv5 / seat-01
+                        :location xv1))
+            :polarity -))
+
+# ::id 160
+# ::snt A man is sitting on the floor in a room and strumming a guitar
+(xv0 / and
+      :op1 (xv5 / sit-01
+            :ARG1 (xv3 / male
+                  :mod (yvi5-2 / adult))
+            :ARG2 (xv1 / floor
+                  :part-of (xv4 / room)))
+      :op2 (xv6 / stoop-01
+            :ARG0 xv3
+            :ARG1 (xv2 / guitar)))
+
+# ::id 161
+# ::snt A woman is applying cosmetics to her eyelid
+(xv0 / apply-02
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair)
+            :part (xv2 / palpebra))
+      :ARG1 (xv1 / cosmetic)
+      :ARG2 xv2)
+
+# ::id 162
+# ::snt A woman is applying cosmetics to her eyelid
+(xv0 / apply-02
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair)
+            :part (xv2 / lid))
+      :ARG1 (xv1 / cosmetic)
+      :ARG2 xv2)
+
+# ::id 163
+# ::snt The monkey is practicing martial arts
+(xv0 / practice-01
+      :ARG0 (xv2 / monkey)
+      :ARG1 (xv1 / art
+            :mod (xv3 / martial)))
+
+# ::id 164
+# ::snt A young boy is playing a wind instrument
+(xv0 / play-01
+      :ARG0 (xv1 / boy
+            :mod (xv4 / youth))
+      :ARG1 (xv2 / instrument
+            :mod (xv3 / wind)))
+
+# ::id 165
+# ::snt The man is not hiking in the woods
+(xv0 / hike-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / woods)
+      :polarity -)
+
+# ::id 166
+# ::snt A boy is walking across a bridge
+(xv0 / walk-01
+      :ARG0 (xv2 / boy)
+      :ARG1 (xv1 / across
+            :op1 (xv3 / bridge)))
+
+# ::id 167
+# ::snt A woman is putting two eggs into a pot of water
+(xv0 / put-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / egg
+            :quant 2)
+      :ARG2 (xv2 / pot
+            :consist-of (xv4 / water)))
+
+# ::id 168
+# ::snt Nobody is playing the guitar
+(xv0 / play-01
+      :ARG0 (xv2 / cypher)
+      :ARG1 (xv1 / guitar))
+
+# ::id 169
+# ::snt A child is running in and out of the ocean waves
+(xv0 / run-02
+      :ARG0 (xv2 / child)
+      :ARG1 (xv6 / wave
+            :mod (xv4 / ocean))
+      :direction (xv1 / and
+            :op1 (xv3 / 49
+                  :mod (yvi11-2 / number
+                        :mod (yvi11-3 / atomic))
+                  :op1 xv6)
+            :op2 (xv5 / out
+                  :op1 xv6)))
+
+# ::id 170
+# ::snt A woman is coating a pork chop
+(xv0 / coat-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / chop
+            :mod (xv2 / pork)))
+
+# ::id 171
+# ::snt A cook is coating a pork chop
+(xv0 / coat-01
+      :ARG0 (xv3 / person
+            :ARG0-of (xv1 / cook-01))
+      :ARG1 (xv2 / chop
+            :mod (xv4 / pork)))
+
+# ::id 172
+# ::snt A woman is cooking a breaded pork chop
+(xv0 / cook-01
+      :ARG0 (xv4 / womanhood)
+      :ARG1 (xv2 / chop
+            :mod (xv3 / pork)
+            :ARG1-of (xv1 / bread-01)))
+
+# ::id 173
+# ::snt A man is standing on a roof top and playing a violin
+(xv0 / and
+      :op1 (xv4 / stand-01
+            :ARG1 (xv1 / male
+                  :mod (yvi12-2 / adult))
+            :ARG2 (xv5 / top
+                  :mod (xv3 / roof)))
+      :op2 (xv2 / play-01
+            :ARG0 xv1
+            :ARG1 (xv6 / fiddle)))
+
+# ::id 174
+# ::snt The woman is cleaning a shrimp
+(xv0 / clean-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / shrimp))
+
+# ::id 175
+# ::snt A woman is riding a scooter for water
+(xv0 / ride-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / scooter
+            :mod (yvi5-2 / water))
+      :purpose (xv3 / water))
+
+# ::id 176
+# ::snt Some bamboo is being eaten by a panda bear
+(xv0 / ingest-01
+      :ARG0 (xv1 / bear
+            :mod (xv3 / bear
+                  :mod (yvi5-2 / panda)))
+      :ARG1 (xv2 / bamboo
+            :mod (xv4 / some)))
+
+# ::id 177
+# ::snt The woman isn't stirring eggs in a bowl
+(xv0 / stir-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv2 / egg)
+      :location (xv1 / bowl)
+      :polarity -)
+
+# ::id 178
+# ::snt A big fish is catching a man
+(xv0 / catch-01
+      :ARG0 (xv2 / fish
+            :mod (xv1 / big))
+      :ARG1 (xv3 / male
+            :mod (yvi7-2 / adult)))
+
+# ::id 179
+# ::snt A person is buttering a tray
+(xv0 / butter-01
+      :ARG0 (xv1 / person)
+      :ARG1 (xv2 / tray))
+
+# ::id 180
+# ::snt A man is chopping a log with an axe
+(xv0 / chop-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / log)
+      :instrument (xv1 / ax))
+
+# ::id 181
+# ::snt The cat perched on the table is looking out the window
+(xv0 / look-01
+      :ARG0 (xv1 / cat
+            :ARG1-of (xv2 / perch-01
+                  :ARG2 (xv3 / table)))
+      :ARG1 (xv4 / window))
+
+# ::id 182
+# ::snt The dog is licking the baby
+(xv0 / lick-01
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv1 / child))
+
+# ::id 183
+# ::snt A woman is chopping up garlic
+(xv0 / chop-01
+      :ARG0 (xv2 / womanhood)
+      :ARG1 (xv1 / ail))
+
+# ::id 184
+# ::snt A woman is dancing
+(xv0 / dance-01
+      :ARG0 (xv1 / womanhood))
+
+# ::id 185
+# ::snt Okra is being cooked in a pan
+(xv0 / cook-01
+      :ARG1 (xv1 / okra)
+      :location (xv2 / pan))
+
+# ::id 186
+# ::snt A man is practicing the drum
+(xv0 / practice-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / drum))
+
+# ::id 187
+# ::snt A man is doing exercises
+(xv0 / exercise-02
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 188
+# ::snt There is no woman putting meat in a pan
+(xv0 / put-01
+      :ARG0 (xv3 / womanhood)
+      :ARG1 (xv1 / meat)
+      :ARG2 (xv2 / pan)
+      :polarity -)
+
+# ::id 189
+# ::snt The meat is being dropped into a pan
+(xv0 / sink-01
+      :ARG1 (xv1 / meat)
+      :ARG2 (xv2 / pan))
+
+# ::id 190
+# ::snt A pitcher is being filled with water by a boy
+(xv0 / fill-01
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv2 / pitcher)
+      :ARG2 (xv3 / water))
+
+# ::id 191
+# ::snt A boy is filling a pitcher with water
+(xv0 / fill-01
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv2 / pitcher)
+      :ARG2 (xv3 / water))
+
+# ::id 192
+# ::snt A man is walking in the rain
+(xv0 / walk-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :location (xv2 / rain-01))
+
+# ::id 193
+# ::snt There are no racers running down a track
+(xv0 / race-01
+      :ARG0 (xv2 / person
+            :ARG0-of (xv3 / run-02
+                  :ARG1 (xv4 / track)
+                  :direction (xv1 / down)))
+      :polarity -)
+
+# ::id 194
+# ::snt A toy train is missing a toy car
+(xv0 / miss-01
+      :ARG0 (xv2 / train
+            :mod (xv3 / toy))
+      :ARG1 (xv1 / car
+            :mod (xv4 / toy)))
+
+# ::id 195
+# ::snt Onions are being sliced by the person
+(xv0 / slice-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 196
+# ::snt Some racers are swimming in a lake
+(xv0 / swim-01
+      :ARG0 (xv2 / person
+            :quant (xv4 / some)
+            :ARG0-of (xv3 / race-01))
+      :ARG2 (xv1 / lake))
+
+# ::id 197
+# ::snt A woman is playing a guitar
+(xv0 / play-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / guitar))
+
+# ::id 198
+# ::snt The person is scrubbing a zucchini
+(xv0 / scrub-01
+      :ARG0 (xv1 / person)
+      :ARG1 (xv2 / courgette))
+
+# ::id 199
+# ::snt A woman is slicing a green pepper
+(xv0 / slice-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / pepper
+            :ARG1-of (xv1 / green-02)))
+
+# ::id 200
+# ::snt A man is walking down a road
+(xv0 / walk-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / road)
+      :direction (xv1 / down))
+
+# ::id 201
+# ::snt A man is walking down a road
+(xv0 / walk-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / road)
+      :direction (xv1 / down))
+
+# ::id 202
+# ::snt A man is lazily walking down a road
+(xv0 / walk-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv4 / road)
+      :direction (xv1 / down)
+      :manner (xv2 / lazy))
+
+# ::id 203
+# ::snt The man is dancing upside-down on the ceiling
+(xv0 / dance-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :location (xv1 / ceiling)
+      :manner (xv3 / upside-down))
+
+# ::id 204
+# ::snt A man is exercising
+(xv0 / exercise-02
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 205
+# ::snt The guitar is being played by a man
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / guitar))
+
+# ::id 206
+# ::snt The man is singing and playing the guitar
+(xv0 / and
+      :op1 (xv4 / sing-01
+            :ARG0 (xv2 / male
+                  :mod (yvi8-2 / adult)))
+      :op2 (xv3 / play-01
+            :ARG0 xv2
+            :ARG1 (xv1 / guitar)))
+
+# ::id 207
+# ::snt Boys are dancing in front of some people
+(xv0 / dance-01
+      :ARG0 (xv1 / boy)
+      :location (xv2 / in-front-of
+            :op1 (xv3 / person
+                  :quant (xv4 / some))))
+
+# ::id 208
+# ::snt There is no boy checking a calendar
+(xv0 / boy
+      :polarity -
+      :ARG0-of (xv1 / check-01
+            :ARG1 (xv2 / calendar)))
+
+# ::id 209
+# ::snt A woman is refrigerating a potato
+(xv0 / refrigerate-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 210
+# ::snt A boy is playing a piano
+(xv0 / play-01
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv2 / piano))
+
+# ::id 211
+# ::snt A man is climbing a rope
+(xv0 / climb-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / rope))
+
+# ::id 212
+# ::snt The man is climbing up a rope
+(xv0 / climb-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / rope)
+      :direction (xv3 / up))
+
+# ::id 213
+# ::snt A man is climbing up a rope
+(xv0 / ascend-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / rope)
+      :direction (xv3 / up))
+
+# ::id 214
+# ::snt The woman is picking up the kangaroo
+(xv0 / pick-up-04
+      :ARG0 (xv2 / womanhood)
+      :ARG1 (xv1 / kangaroo))
+
+# ::id 215
+# ::snt There is no man breaking wooden boards with his hand
+(xv0 / break-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult)
+            :part (xv2 / hand))
+      :ARG1 (xv1 / board
+            :consist-of (xv4 / wood))
+      :instrument xv2
+      :polarity -)
+
+# ::id 216
+# ::snt A dog is running on the road
+(xv0 / run-02
+      :ARG0 (xv1 / dog)
+      :location (xv2 / road))
+
+# ::id 217
+# ::snt A dog is running breathlessly on the road
+(xv0 / run-02
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv3 / road)
+      :manner (xv1 / breathe-01
+            :polarity -))
+
+# ::id 218
+# ::snt The man is throwing knives at a tree
+(xv0 / throw-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / tongue)
+      :ARG2 (xv3 / tree))
+
+# ::id 219
+# ::snt The man is throwing knives at a tree
+(xv0 / throw-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / tongue)
+      :ARG2 (xv3 / tree))
+
+# ::id 220
+# ::snt A man is riding a horse
+(xv0 / ride-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / horse))
+
+# ::id 221
+# ::snt A man is drawing a picture
+(xv0 / draw-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / picture))
+
+# ::id 222
+# ::snt A man is eating a pizza
+(xv0 / ingest-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / pie
+            :mod (yvi5-2 / pizza)))
+
+# ::id 223
+# ::snt A dog is jumping on a trampoline
+(xv0 / jump-03
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv2 / trampoline))
+
+# ::id 224
+# ::snt A man is doing back flips on a trampoline
+(xv0 / do-02
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / flip-01
+            :ARG1 xv3
+            :direction (xv1 / back)
+            :location (xv4 / trampoline)))
+
+# ::id 225
+# ::snt There is no man playing a wooden flute
+(xv0 / male
+      :mod (yvi1-2 / adult)
+      :polarity -
+      :ARG0-of (xv2 / play-01
+            :ARG1 (xv1 / flute
+                  :mod (xv3 / instrument
+                        :mod (yvi8-2 / woodwind)))))
+
+# ::id 226
+# ::snt A man is playing the piano
+(xv0 / play-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / piano))
+
+# ::id 227
+# ::snt The woman is erasing the drawing on the board
+(xv0 / erase-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / draw-01
+            :location (xv1 / board)))
+
+# ::id 228
+# ::snt A dog is eating a doll
+(xv0 / ingest-01
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv2 / doll))
+
+# ::id 229
+# ::snt A dog is playing with a toy
+(xv0 / play-01
+      :ARG0 (xv1 / familiaris
+            :mod (yvi3-2 / canis))
+      :ARG2 (xv2 / dog
+            :mod (yvi5-2 / toy)))
+
+# ::id 230
+# ::snt A man is praying fervently
+(xv0 / pray-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :manner (xv1 / fervent))
+
+# ::id 231
+# ::snt A woman is chopping up an octopus
+(xv0 / chop-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / octopus))
+
+# ::id 232
+# ::snt There is no man drawing
+(xv0 / draw-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :polarity -)
+
+# ::id 233
+# ::snt There is no man drawing
+(xv0 / draw-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :polarity -)
+
+# ::id 234
+# ::snt A man is eating a fruit
+(xv0 / ingest-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / yield))
+
+# ::id 235
+# ::snt A man is cutting a paper
+(xv0 / cut-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / paper))
+
+# ::id 236
+# ::snt There is no one playing a piano
+(xv0 / play-01
+      :ARG0 (xv1 / no-one)
+      :ARG1 (xv2 / piano))
+
+# ::id 237
+# ::snt Two men are competing in a tire rolling race
+(xv0 / compete-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)
+            :quant 2)
+      :ARG2 (xv2 / race-02
+            :ARG1 (xv3 / roll-01
+                  :ARG1 (xv4 / tyre))))
+
+# ::id 238
+# ::snt Some old women are talking
+(xv0 / talk-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair)
+            :mod (xv1 / old)
+            :quant (xv2 / some)))
+
+# ::id 239
+# ::snt A man is mixing the content of a bowl
+(xv0 / mix-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / content
+            :poss (xv1 / bowl)))
+
+# ::id 240
+# ::snt The doctor is helping the patient
+(xv0 / help-01
+      :ARG0 (xv1 / doctor)
+      :ARG1 (xv2 / patient))
+
+# ::id 241
+# ::snt A man is playing a guitar
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / guitar))
+
+# ::id 242
+# ::snt A man is driving a car
+(xv0 / drive-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / car))
+
+# ::id 243
+# ::snt A man is playing a harp
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / harp))
+
+# ::id 244
+# ::snt There is no man cutting a rope with a sword
+(xv0 / male
+      :mod (yvi1-2 / adult)
+      :ARG0-of (xv1 / cut-01
+            :ARG1 (xv2 / rope)
+            :instrument (xv3 / steel))
+      :polarity -)
+
+# ::id 245
+# ::snt A woman is cutting a potato
+(xv0 / cut-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 246
+# ::snt A group of boys is playing soccer on the beach
+(xv0 / play-01
+      :ARG0 (xv3 / group
+            :consist-of (xv1 / boy))
+      :ARG1 (xv4 / football
+            :mod (yvi7-2 / association))
+      :location (xv2 / beach))
+
+# ::id 247
+# ::snt A man is applying a silencer to a gun
+(xv0 / apply-02
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / silencer)
+      :ARG2 (xv1 / gun))
+
+# ::id 248
+# ::snt There is no girl playing the violin on a beach
+(xv0 / girl
+      :polarity -
+      :ARG0-of (xv2 / play-01
+            :ARG1 (xv3 / fiddle)
+            :location (xv1 / beach)))
+
+# ::id 249
+# ::snt There is no man cooking a snake
+(xv0 / cook-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / snake)
+      :polarity -)
+
+# ::id 250
+# ::snt A boy is playing guitar
+(xv0 / play-01
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv2 / guitar))
+
+# ::id 251
+# ::snt A monkey is teasing a dog at the zoo
+(xv0 / tease-01
+      :ARG0 (xv2 / monkey)
+      :ARG1 (xv1 / dog)
+      :location (xv3 / zoo))
+
+# ::id 252
+# ::snt A monkey is teasing a dog at the zoo
+(xv0 / tease-01
+      :ARG0 (xv2 / monkey)
+      :ARG1 (xv1 / dog)
+      :location (xv3 / zoo))
+
+# ::id 253
+# ::snt A person is cutting some ginger
+(xv0 / cut-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / ginger
+            :quant (xv3 / some)))
+
+# ::id 254
+# ::snt A person is slicing an onion
+(xv0 / slice-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 255
+# ::snt A man is not cutting a potato
+(xv0 / cut-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / potato)
+      :polarity -)
+
+# ::id 256
+# ::snt There is no man opening a box with a knife
+(xv0 / open-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / box)
+      :instrument (xv2 / tongue)
+      :polarity -)
+
+# ::id 257
+# ::snt A band is playing some instruments
+(xv0 / play-01
+      :ARG0 (xv1 / band)
+      :ARG1 (xv2 / instrument
+            :quant (xv3 / some)))
+
+# ::id 258
+# ::snt A band is playing some instruments
+(xv0 / play-01
+      :ARG0 (xv1 / band)
+      :ARG1 (xv2 / instrument
+            :quant (xv3 / some)))
+
+# ::id 259
+# ::snt A woman is exercising
+(xv0 / exercise-02
+      :ARG0 (xv1 / womanhood))
+
+# ::id 260
+# ::snt The man is doing exercises in a gym
+(xv0 / exercise-02
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :location (xv1 / gymnasium))
+
+# ::id 261
+# ::snt A man is singing and playing a musical instrument
+(xv0 / and
+      :op1 (xv5 / sing-01
+            :ARG0 (xv2 / male
+                  :mod (yvi8-2 / adult)))
+      :op2 (xv4 / play-01
+            :ARG0 xv2
+            :ARG1 (xv1 / instrument
+                  :mod (xv3 / music))))
+
+# ::id 262
+# ::snt An officer is talking to the recruits
+(xv0 / speak-01
+      :ARG0 (xv1 / officer
+            :mod (yvi3-2 / police))
+      :ARG2 (xv2 / person
+            :ARG1-of (xv3 / recruit-01)))
+
+# ::id 263
+# ::snt A woman is chopping garlic
+(xv0 / chop-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / ail))
+
+# ::id 264
+# ::snt There is no woman slicing a fish
+(xv0 / woman
+      :ARG0-of (xv2 / slice-01
+            :ARG1 (xv1 / fish))
+      :polarity -)
+
+# ::id 265
+# ::snt A horse is being ridden by a woman
+(xv0 / ride-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / horse))
+
+# ::id 266
+# ::snt A cat is opening a drawer and jumping inside
+(xv0 / and
+      :op1 (xv4 / open-01
+            :ARG0 (xv1 / cat)
+            :ARG1 (xv2 / drawer))
+      :op2 (xv3 / jump-01
+            :ARG0 xv1
+            :ARG2 xv2))
+
+# ::id 267
+# ::snt The man is speaking on the telephone
+(xv0 / talk-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :medium (xv2 / telephone))
+
+# ::id 268
+# ::snt A woman is cutting an onion
+(xv0 / cut-01
+      :ARG0 (xv2 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv1 / onion))
+
+# ::id 269
+# ::snt There is no man opening a door
+(xv0 / open-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / door)
+      :polarity -)
+
+# ::id 270
+# ::snt A man is cutting an onion
+(xv0 / cut-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / onion))
+
+# ::id 271
+# ::snt There is no man playing the piano
+(xv0 / male
+      :mod (yvi1-2 / adult)
+      :polarity -
+      :ARG0-of (xv1 / play-01
+            :ARG1 (xv2 / piano)))
+
+# ::id 272
+# ::snt A chef is preparing a meal
+(xv0 / prepare-01
+      :ARG0 (xv1 / chef)
+      :ARG1 (xv2 / meal))
+
+# ::id 273
+# ::snt Two sumo wrestlers are fighting
+(xv0 / struggle-01
+      :ARG0 (xv1 / person
+            :quant 2
+            :ARG0-of (xv3 / wrestle-01
+                  :ARG1 (xv2 / sumo))))
+
+# ::id 274
+# ::snt A man is riding a water toy in the water
+(xv0 / ride-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / toy
+            :mod (xv3 / water))
+      :location (xv4 / water))
+
+# ::id 275
+# ::snt A woman is buttering a piece of bread
+(xv0 / butter-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv2 / piece
+            :part-of (xv1 / life
+                  :mod (yvi7-2 / of
+                        :mod (yvi7-3 / staff)))))
+
+# ::id 276
+# ::snt Pasta is being put into a dish by a woman
+(xv0 / put-01
+      :ARG0 (xv3 / female
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / pasta)
+      :ARG2 (xv1 / dish))
+
+# ::id 277
+# ::snt The woman is not putting pasta into a dish
+(xv0 / put-01
+      :ARG0 (xv3 / female
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / pasta)
+      :ARG2 (xv1 / dish)
+      :polarity -)
+
+# ::id 278
+# ::snt A girl is playing a flute
+(xv0 / play-01
+      :ARG0 (xv2 / girl)
+      :ARG1 (xv1 / fluting))
+
+# ::id 279
+# ::snt A man is playing a flute
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / fluting))
+
+# ::id 280
+# ::snt There is no man playing a flute
+(xv0 / male
+      :mod (yvi1-2 / adult)
+      :polarity -
+      :ARG0-of (xv2 / play-01
+            :ARG1 (xv1 / flute)))
+
+# ::id 281
+# ::snt A woman is slicing an octopus
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / octopus))
+
+# ::id 282
+# ::snt A man is not playing a flute
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / fluting)
+      :polarity -)
+
+# ::id 283
+# ::snt A man is playing a flute
+(xv0 / play-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / fluting))
+
+# ::id 284
+# ::snt A woman is cutting fruit
+(xv0 / cut-01
+      :ARG0 (xv2 / womanhood)
+      :ARG1 (xv1 / yield))
+
+# ::id 285
+# ::snt A group of people are marching
+(xv0 / march-01
+      :ARG0 (xv1 / group
+            :consist-of (xv2 / person)))
+
+# ::id 286
+# ::snt A girl is eating a cupcake
+(xv0 / eat-01
+      :ARG0 (xv2 / girl)
+      :ARG1 (xv1 / cupcake))
+
+# ::id 287
+# ::snt A person is making a bed
+(xv0 / make-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / bed))
+
+# ::id 288
+# ::snt The man is sprinkling cheese on the pizza
+(xv0 / sprinkle-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / cheese)
+      :ARG2 (xv3 / pie
+            :mod (yvi7-2 / pizza)))
+
+# ::id 289
+# ::snt A man is firing a shotgun
+(xv0 / fire-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv2 / scattergun))
+
+# ::id 290
+# ::snt A baby is playing with a doll
+(xv0 / play-01
+      :ARG0 (xv1 / child)
+      :ARG2 (xv2 / doll))
+
+# ::id 291
+# ::snt A baby tiger is playing with a ball
+(xv0 / play-01
+      :ARG0 (xv3 / tiger
+            :mod (xv1 / child))
+      :ARG2 (xv2 / ball))
+
+# ::id 292
+# ::snt A potato is being peeled by a person
+(xv0 / peel-01
+      :ARG0 (xv1 / person)
+      :ARG1 (xv2 / potato))
+
+# ::id 293
+# ::snt A man is rowing a boat
+(xv0 / row-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv1 / boat))
+
+# ::id 294
+# ::snt A man and a woman are driving down the road in an open-air vehicle
+(xv0 / drive-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / male
+                  :mod (yvi5-2 / adult))
+            :op2 (xv7 / woman))
+      :ARG1 (xv6 / vehicle
+            :mod (xv4 / open-air))
+      :direction (xv2 / down
+            :op1 (xv5 / road)))
+
+# ::id 295
+# ::snt The chef is seasoning the oil
+(xv0 / season-01
+      :ARG0 (xv4 / person
+            :ARG0-of (xv2 / have-org-role-91
+                  :ARG2 (xv1 / chef)))
+      :ARG1 (xv3 / oil))
+
+# ::id 296
+# ::snt A person is riding a horse
+(xv0 / ride-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / horse))
+
+# ::id 297
+# ::snt A woman is slicing potatoes
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 298
+# ::snt The man is doing exercises
+(xv0 / exercise-02
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)))
+
+# ::id 299
+# ::snt Two men are fighting
+(xv0 / fight-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)
+            :quant 2))
+
+# ::id 300
+# ::snt Someone is pouring ingredients into a pot
+(xv0 / pour-01
+      :ARG0 (xv3 / mortal)
+      :ARG1 (xv1 / ingredient)
+      :ARG2 (xv2 / pot))
+
+# ::id 301
+# ::snt A dog is chasing a ball through dirt
+(xv0 / chase-01
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv1 / ball)
+      :path (xv3 / dirt))
+
+# ::id 302
+# ::snt A dog with golden fur is in the water
+(xv0 / be-located-at-91
+      :ARG1 (xv1 / dog
+            :ARG0-of (xv4 / possess-01
+                  :ARG1 (xv2 / fur
+                        :mod (xv3 / golden))))
+      :ARG2 (xv5 / water))
+
+# ::id 303
+# ::snt A young girl by a pink sign is holding up a blue shirt and is walking on the sidewalk
+(xv0 / and
+      :op1 (xv4 / hold-up-11
+            :ARG0 (xv3 / girl
+                  :location (xv1 / by
+                        :op1 (xv6 / sign
+                              :mod (xv5 / pink)))
+                  :mod (xv10 / youth))
+            :ARG1 (xv7 / shirt
+                  :mod (xv2 / blue)))
+      :op2 (xv9 / walk-01
+            :ARG0 xv3
+            :location (xv8 / pavement)))
+
+# ::id 304
+# ::snt A young child is splashing in the water
+(xv0 / splash-01
+      :ARG0 (xv1 / youngster
+            :mod (xv3 / young))
+      :ARG2 (xv2 / water))
+
+# ::id 305
+# ::snt A man and a woman are in a beige room, wearing dark colored shirts and a monitor is in the background
+(xv0 / and
+      :op1 (xv2 / be-located-at-91
+            :ARG1 (xv1 / and
+                  :op1 (xv7 / male
+                        :mod (yvi7-2 / adult))
+                  :op2 (xv11 / woman))
+            :ARG2 (xv9 / room
+                  :mod (xv3 / ecru)))
+      :op2 (xv12 / wear-01
+            :ARG0 xv1
+            :ARG1 (xv10 / shirt
+                  :ARG1-of (xv5 / color-01
+                        :ARG2 (xv6 / dark))))
+      :op3 (xv8 / monitor
+            :location (xv4 / background)))
+
+# ::id 306
+# ::snt A woman in jeans is sitting on the saddle of a horse
+(xv0 / sit-01
+      :ARG1 (xv4 / sex
+            :mod (yvi3-2 / fair)
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv2 / jean
+                        :mod (yvi7-2 / blue))))
+      :ARG2 (xv3 / saddle
+            :part-of (xv1 / horse)))
+
+# ::id 307
+# ::snt A black and white dog is dropping a baseball from its mouth
+(xv0 / drop-01
+      :ARG0 (xv3 / dog
+            :part (xv4 / mouth)
+            :ARG1-of (xv1 / black-and-white))
+      :ARG1 (xv2 / baseball)
+      :ARG2 xv4)
+
+# ::id 308
+# ::snt A boy wearing red shorts is jumping into a paddling pool
+(xv0 / jump-03
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv5 / shorts
+                        :ARG1-of (xv4 / red-02))))
+      :ARG1 (xv2 / pool
+            :location-of (xv3 / paddle-01)))
+
+# ::id 309
+# ::snt Nobody is standing in the ocean and watching the sunset
+(xv0 / and
+      :op1 (xv3 / stand-01
+            :ARG1 (xv1 / cypher)
+            :ARG2 (xv2 / ocean))
+      :op2 (xv5 / observe-01
+            :ARG0 xv1
+            :ARG1 (xv4 / sunset)))
+
+# ::id 310
+# ::snt A race car driver is sitting down and is motionless
+(xv0 / and
+      :op1 (xv7 / sit-01
+            :ARG1 (xv5 / person
+                  :ARG0-of (xv2 / drive-01
+                        :ARG1 (xv1 / car
+                              :mod (xv6 / race))))
+            :direction (xv3 / down))
+      :op2 (xv4 / motion-02
+            :ARG1 xv5
+            :polarity -))
+
+# ::id 311
+# ::snt The person in the blue jacket is wearing a colorful helmet
+(xv0 / wear-01
+      :ARG0 (xv5 / person
+            :ARG1 (xv4 / jacket
+                  :mod (xv1 / blue)))
+      :ARG0 xv5
+      :ARG1 (xv3 / helmet
+            :mod (xv2 / colorful)))
+
+# ::id 312
+# ::snt A cyclist is being held over the heads of a group of people with the bike
+(xv0 / hold-01
+      :ARG1 (xv2 / bicyclist)
+      :ARG2 (xv5 / over
+            :op1 (xv4 / head
+                  :part-of (xv3 / group
+                        :consist-of (xv6 / person
+                              :ARG0-of (xv7 / ride-01
+                                    :ARG1 (xv1 / bike)))))))
+
+# ::id 313
+# ::snt A man is standing on a boat in front of the sunset near a flag
+(xv0 / stand-01
+      :ARG1-of (xv5 / neighbor-01
+            :ARG2 (xv2 / flag))
+      :ARG1 (xv4 / male
+            :mod (yvi7-2 / adult))
+      :ARG2 (xv1 / boat)
+      :location (xv3 / in-front-of
+            :op1 (xv6 / sunset)))
+
+# ::id 314
+# ::snt A man is on a boat in front of the sunset
+(xv0 / be-located-at-91
+      :ARG1 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG2 (xv1 / boat)
+      :location (xv2 / in-front-of
+            :op1 (xv4 / sunset)))
+
+# ::id 315
+# ::snt The crowd is watching two racing cars that are leaving the starting line
+(xv0 / observe-01
+      :ARG0 (xv1 / gang)
+      :ARG1 (xv2 / car
+            :quant 2
+            :ARG0-of (xv3 / leave-11
+                  :ARG1 (xv4 / line
+                        :ARG0-of (xv6 / start-01)))
+            :ARG0-of (xv5 / race-02)))
+
+# ::id 316
+# ::snt Two dogs are resting together in the grass
+(xv0 / rest-01
+      :ARG1 (xv1 / dog
+            :quant 2)
+      :ARG2 (xv2 / grass)
+      :manner (xv3 / together))
+
+# ::id 317
+# ::snt A black dog is running in the grass
+(xv0 / run-02
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv1 / black-04))
+      :location (xv3 / grass))
+
+# ::id 318
+# ::snt A black dog is running in the grass
+(xv0 / run-02
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv1 / black-04))
+      :location (xv3 / grass))
+
+# ::id 319
+# ::snt A yellow dog is running on white snow on a sunny day
+(xv0 / run-02
+      :ARG0 (xv1 / dog
+            :mod (xv6 / yellowness))
+      :location (xv3 / snow
+            :ARG1-of (xv5 / white-02))
+      :time (xv2 / day
+            :ARG1-of (xv4 / sunny-03)))
+
+# ::id 320
+# ::snt A little boy in a pink shirt is running under a tree in the desert
+(xv0 / run-02
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv8 / wear-01
+                  :ARG1 (xv5 / shirt
+                        :mod (xv4 / pink)))
+            :mod (xv3 / little))
+      :location (xv7 / under
+            :location (xv2 / desert)
+            :op1 (xv6 / tree)))
+
+# ::id 321
+# ::snt The white reindeer wearing dog ears is near a brown reindeer
+(xv0 / near-02
+      :ARG1 (xv4 / caribou
+            :mod (yvi3-2 / greenland)
+            :ARG1-of (xv6 / white-02)
+            :ARG0-of (xv7 / wear-01
+                  :ARG1 (xv3 / ear
+                        :mod (xv2 / dog))))
+      :ARG2 (xv5 / caribou
+            :mod (yvi13-2 / greenland)
+            :ARG1-of (xv1 / brown-02)))
+
+# ::id 322
+# ::snt The woman in a red costume is not leaning against a brick wall and is not playing an instrument
+(xv0 / and
+      :op1 (xv5 / lean-01
+            :ARG0 (xv8 / woman
+                  :ARG0-of (xv9 / wear-01
+                        :ARG1 (xv3 / costume
+                              :ARG1-of (xv7 / red-02))))
+            :ARG1 (xv1 / against
+                  :op1 (xv10 / wall
+                        :consist-of (xv2 / brick)))
+            :polarity -)
+      :op2 (xv6 / play-01
+            :ARG0 xv8
+            :ARG1 (xv4 / instrument)
+            :polarity -))
+
+# ::id 323
+# ::snt The people are walking on the road beside a beautiful waterfall
+(xv0 / walk-01
+      :ARG0 (xv3 / person)
+      :ARG1 (xv4 / road)
+      :location (xv1 / beside
+            :op1 (xv5 / falls
+                  :ARG1-of (xv2 / beautiful-02))))
+
+# ::id 324
+# ::snt A dog is herding a pack of white sheep on a dusty farm
+(xv0 / herd-01
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv4 / pack
+            :consist-of (xv5 / sheep
+                  :ARG1-of (xv6 / white-02)))
+      :location (xv3 / farm
+            :mod (xv2 / dusty)))
+
+# ::id 325
+# ::snt A laughing boy is in a yellow tank and is wearing a top
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv2 / boy
+                  :ARG0-of (xv3 / laugh-01))
+            :ARG2 (xv4 / tank
+                  :ARG1-of (xv7 / yellow-02)))
+      :op2 (xv6 / wear-01
+            :ARG0 xv2
+            :ARG1 (xv5 / top)))
+
+# ::id 326
+# ::snt A person is standing in a vast field of glacial ice
+(xv0 / stand-01
+      :ARG1 (xv4 / person)
+      :ARG2 (xv1 / field
+            :consist-of (xv3 / ice
+                  :mod (xv2 / glacier))
+            :mod (xv5 / vast)))
+
+# ::id 327
+# ::snt There is no hockey player in a yellow jersey guarding the goal
+(xv0 / guard-01
+      :ARG0 (xv4 / person
+            :ARG0-of (xv5 / play-01
+                  :ARG1 (xv2 / hockey
+                        :mod (yvi7-2 / ice)))
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv3 / jersey
+                        :ARG1-of (xv7 / yellow-02))))
+      :ARG1 (xv1 / goal)
+      :polarity -)
+
+# ::id 328
+# ::snt A woman is parking a blue bicycle and is wearing lots of riding helmets
+(xv0 / and
+      :op1 (xv5 / park-01
+            :ARG0 (xv7 / sex
+                  :mod (yvi5-2 / fair)
+                  :ARG0-of (xv8 / wear-01
+                        :ARG1 (xv3 / helmet
+                              :purpose (xv6 / ride-01)
+                              :quant (xv4 / lot))))
+            :ARG1 (xv1 / wheel
+                  :ARG1-of (xv2 / blue-02)))
+      :op2 xv8)
+
+# ::id 329
+# ::snt A young female is dancing
+(xv0 / dance-01
+      :ARG0 (xv1 / female
+            :mod (xv2 / young)))
+
+# ::id 330
+# ::snt A young girl is dancing
+(xv0 / dance-01
+      :ARG0 (xv1 / girl
+            :mod (xv2 / young)))
+
+# ::id 331
+# ::snt There is no small bee landing on a bunch of yellow flowers
+(xv0 / land-01
+      :ARG1 (xv1 / bee
+            :mod (xv4 / small))
+      :ARG2 (xv2 / bunch
+            :consist-of (xv3 / bloom
+                  :ARG1-of (xv5 / yellow-02)))
+      :polarity -)
+
+# ::id 332
+# ::snt A tan dog is running through the brush
+(xv0 / run-02
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv3 / tan-01))
+      :path (xv1 / brush))
+
+# ::id 333
+# ::snt A horse and its rider are leaping over a barrier
+(xv0 / leap-01
+      :ARG0 (xv1 / and
+            :op1 (xv3 / horse)
+            :op2 (xv5 / person
+                  :ARG0-of (xv6 / ride-01
+                        :ARG1 xv3)))
+      :path (xv4 / over
+            :op1 (xv2 / barrier)))
+
+# ::id 334
+# ::snt Two girls in their teens are wearing fancy dresses at an event
+(xv0 / wear-01
+      :ARG0 (xv4 / girl
+            :age (xv5 / temporal-quantity
+                  :quant 15
+                  :unit (xv6 / year))
+            :quant 2)
+      :ARG1 (xv1 / garb
+            :mod (xv3 / fantasy))
+      :location (xv2 / event))
+
+# ::id 335
+# ::snt A group of students in uniforms is listening attentively at the front of the class
+(xv0 / listen-01
+      :ARG0 (xv4 / group
+            :consist-of (xv5 / person
+                  :ARG0-of (xv6 / study-01)
+                  :ARG0-of (xv8 / wear-01
+                        :ARG1 (xv7 / uniform))))
+      :location (xv3 / movement
+            :mod (yvi13-2 / social)
+            :part-of (xv2 / class))
+      :manner (xv1 / attentive))
+
+# ::id 336
+# ::snt A small child is outdoors climbing steps in a grassy area
+(xv0 / climb-01
+      :ARG0 (xv2 / child
+            :mod (xv5 / small))
+      :ARG1 (xv6 / step)
+      :location (xv1 / area
+            :mod (xv3 / grass))
+      :location (xv4 / air
+            :mod (yvi13-2 / open)))
+
+# ::id 337
+# ::snt A small child is outdoors climbing steps in a grassy area
+(xv0 / climb-01
+      :ARG0 (xv2 / child
+            :mod (xv5 / small))
+      :ARG1 (xv6 / step)
+      :location (xv1 / area
+            :mod (xv3 / grass))
+      :location (xv4 / out-of-doors))
+
+# ::id 338
+# ::snt A snow ball is being made by a child
+(xv0 / produce-01
+      :ARG0 (xv2 / child)
+      :ARG1 (xv1 / ball
+            :mod (xv3 / snow
+                  :mod (yvi7-2 / percy
+                        :mod (yvi7-3 / charles)))))
+
+# ::id 339
+# ::snt Three people are sitting on a bench under some palm trees
+(xv0 / sit-01
+      :ARG1 (xv2 / person
+            :quant 3)
+      :ARG2 (xv1 / bench
+            :location (xv6 / under
+                  :op1 (xv5 / tree
+                        :mod (xv3 / palm)
+                        :quant (xv4 / some)))))
+
+# ::id 340
+# ::snt A big brown dog and a small grey dog are standing on a rocky surface
+(xv0 / stand-01
+      :ARG1 (xv1 / and
+            :op1 (xv4 / dog
+                  :mod (xv2 / big)
+                  :mod (xv3 / brown))
+            :op2 (xv5 / dog
+                  :mod (xv6 / grey)
+                  :mod (xv8 / small)))
+      :ARG2 (xv9 / surface
+            :mod (xv7 / rocky)))
+
+# ::id 341
+# ::snt Three boys are walking on rocks along a river
+(xv0 / walk-01
+      :ARG0 (xv2 / boy
+            :quant 3)
+      :ARG1 (xv1 / along
+            :op1 (xv3 / river))
+      :ARG2 (xv4 / rock))
+
+# ::id 342
+# ::snt A man dressed in black is wearing an elaborate black mask
+(xv0 / wear-01
+      :ARG0 (xv5 / male
+            :mod (yvi3-2 / adult)
+            :ARG1-of (xv3 / dress-01
+                  :ARG2 (xv1 / black-05)))
+      :ARG1 (xv6 / mask
+            :ARG1-of (xv2 / black-05)
+            :mod (xv4 / elaborate)))
+
+# ::id 343
+# ::snt A father is pushing his daughter on a go-kart and another girl is watching
+(xv0 / and
+      :op1 (xv8 / push-01
+            :ARG0 (xv9 / person
+                  :ARG0-of (xv6 / have-rel-role-91
+                        :ARG1 (xv10 / person
+                              :ARG0-of (xv7 / have-rel-role-91
+                                    :ARG1 xv9
+                                    :ARG2 (xv3 / father)))
+                        :ARG2 (xv2 / girl)))
+            :ARG1 xv10
+            :ARG2 (xv4 / go-kart))
+      :op2 (xv11 / watch-01
+            :ARG0 (xv5 / girl
+                  :mod (xv1 / another))
+            :ARG1 xv4))
+
+# ::id 344
+# ::snt There is no brown dog running through tall green grass
+(xv0 / run-02
+      :ARG0 (xv2 / dog
+            :mod (xv1 / brown))
+      :ARG1 (xv5 / through
+            :op1 (xv3 / grass
+                  :mod (xv6 / tall)
+                  :ARG1-of (xv4 / green-03)))
+      :polarity -)
+
+# ::id 345
+# ::snt A woman is wearing a blue shirt with a white vest and a white cap and is talking and marching
+(xv0 / and
+      :op1 (xv9 / wear-01
+            :ARG0 (xv10 / woman)
+            :ARG1 (xv6 / shirt
+                  :accompanier (xv1 / and
+                        :op1 (xv8 / waistcoat
+                              :ARG1-of (xv11 / white-02))
+                        :op2 (xv4 / cap
+                              :ARG1-of (xv12 / white-02)))
+                  :mod (xv3 / blue)))
+      :op2 (xv2 / and
+            :op1 (xv7 / speak-01
+                  :ARG0 xv10)
+            :op2 (xv5 / march-01
+                  :ARG0 xv10)))
+
+# ::id 346
+# ::snt Somebody is jumping in the air on a board
+(xv0 / jump-03
+      :ARG0 (xv3 / person)
+      :ARG1 (xv2 / board)
+      :direction (xv1 / air))
+
+# ::id 347
+# ::snt There is no little girl with blond hair smiling and sitting on a swing
+(xv0 / girl
+      :mod (xv4 / little)
+      :polarity -
+      :ARG0-of (xv2 / own-01
+            :ARG1 (xv3 / hair
+                  :mod (xv1 / blonde)))
+      :ARG0-of (xv5 / smile-01)
+      :ARG0-of (xv6 / sit-01
+            :ARG1 (xv7 / swing)))
+
+# ::id 348
+# ::snt A man in a white hat is playing guitar on stage
+(xv0 / play-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv2 / hat
+                        :ARG1-of (xv6 / white-02))))
+      :ARG1 (xv1 / guitar)
+      :location (xv4 / stage))
+
+# ::id 349
+# ::snt A man in a red uniform is making a jump in a dirt bike race
+(xv0 / jump-03
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv7 / wear-01
+                  :ARG1 (xv6 / uniform
+                        :ARG1-of (xv4 / red-02))))
+      :ARG1 (xv5 / race-02
+            :ARG1 (xv1 / bike
+                  :mod (xv2 / dirt))))
+
+# ::id 350
+# ::snt A soccer player is being tackled by his opponent
+(xv0 / tackle-01
+      :ARG0 (xv2 / person
+            :ARG0-of (xv1 / oppose-01
+                  :ARG1 xv2))
+      :ARG1 (xv3 / person
+            :ARG0-of (xv4 / play-01
+                  :ARG1 (xv5 / football
+                        :mod (yvi12-2 / association)))))
+
+# ::id 351
+# ::snt A white dog is lying on fallen leaves
+(xv0 / lie-07
+      :ARG1 (xv1 / dog
+            :ARG1-of (xv4 / white-02))
+      :ARG2 (xv3 / leaf
+            :ARG1-of (xv2 / fall-01)))
+
+# ::id 352
+# ::snt A child in light colored clothing is standing with his arms extended outward
+(xv0 / stand-01
+      :ARG1 (xv2 / child
+            :ARG0-of (xv8 / wear-01
+                  :ARG1 (xv3 / clothing
+                        :mod (yvi7-2 / of
+                              :mod (yvi7-3 / article))
+                        :ARG1-of (xv4 / color-01
+                              :ARG1-of (xv6 / light-06))))
+            :part (xv1 / system
+                  :mod (yvi13-2 / weapon)
+                  :ARG1-of (xv5 / extend-01
+                        :direction (xv7 / outward)))))
+
+# ::id 353
+# ::snt The boy and girl are playing on the outdoor gym
+(xv0 / play-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / boy)
+            :op2 (xv3 / girl))
+      :location (xv4 / gymnasium
+            :location (xv5 / air
+                  :mod (yvi11-2 / open))))
+
+# ::id 354
+# ::snt A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching
+(xv0 / and
+      :op1 (xv5 / drive-01
+            :ARG0 (xv2 / biker
+                  :ARG0-of (xv7 / have-03
+                        :ARG1 (xv1 / and
+                              :op1 (xv9 / jacket
+                                    :ARG1-of (xv3 / blue-02))
+                              :op2 (xv10 / pant
+                                    :ARG1-of (xv4 / black-05))
+                              :op3 (xv8 / helmet
+                                    :ARG1-of (xv12 / white-02)))))
+            :ARG1 (xv6 / dirt))
+      :op2 (xv13 / watch-01
+            :ARG0 (xv11 / person)
+            :ARG1 xv5))
+
+# ::id 355
+# ::snt A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching
+(xv0 / and
+      :op1 (xv5 / drive-01
+            :ARG0 (xv2 / biker
+                  :ARG0-of (xv7 / possess-01
+                        :ARG1 (xv1 / and
+                              :op1 (xv9 / jacket
+                                    :ARG1-of (xv3 / blue-02))
+                              :op2 (xv10 / pant
+                                    :ARG1-of (xv4 / black-05))
+                              :op3 (xv8 / helmet
+                                    :ARG1-of (xv12 / white-02)))))
+            :ARG1 (xv6 / dirt))
+      :op2 (xv13 / observe-01
+            :ARG0 (xv11 / person)
+            :ARG1 xv5))
+
+# ::id 356
+# ::snt A rollerblader is performing a trick on a ramp
+(xv0 / perform-02
+      :ARG0 (xv1 / rollerblader)
+      :ARG1 (xv3 / trick)
+      :location (xv2 / ramp))
+
+# ::id 357
+# ::snt The crowd is watching a football game
+(xv0 / watch-01
+      :ARG0 (xv1 / gang)
+      :ARG1 (xv3 / game
+            :mod (xv2 / game
+                  :mod (yvi7-2 / football))))
+
+# ::id 358
+# ::snt A group of people is standing together and looking at the camera
+(xv0 / and
+      :op1 (xv5 / stand-01
+            :ARG1 (xv2 / radical
+                  :consist-of (xv4 / person))
+            :manner (xv6 / together))
+      :op2 (xv3 / look-01
+            :ARG0 xv2
+            :ARG1 (xv1 / camera)))
+
+# ::id 359
+# ::snt There is no brown dog running across the yard with a toy in its mouth
+(xv0 / familiaris
+      :mod (yvi1-2 / canis)
+      :mod (xv2 / brown)
+      :part (xv4 / mouth)
+      :polarity -
+      :ARG0-of (xv3 / possess-01
+            :ARG1 (xv6 / toy
+                  :location xv4))
+      :ARG0-of (xv5 / run-02
+            :path (xv1 / across
+                  :op1 (xv7 / yard))))
+
+# ::id 360
+# ::snt A person with a green shirt is jumping high over the grass
+(xv0 / jump-01
+      :ARG0 (xv6 / person
+            :ARG0-of (xv3 / possess-01
+                  :ARG1 (xv7 / shirt
+                        :ARG1-of (xv1 / green-02))))
+      :ARG1 (xv5 / over
+            :degree (xv4 / high)
+            :op1 (xv2 / grass)))
+
+# ::id 361
+# ::snt A man is wearing a straw hat and smoking a cigarette
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv3 / male
+                  :mod (yvi12-2 / adult))
+            :ARG1 (xv2 / hat
+                  :mod (xv4 / straw)))
+      :op2 (xv5 / smoke-02
+            :ARG0 xv3
+            :ARG1 (xv1 / fag)))
+
+# ::id 362
+# ::snt A man is wearing a blue checkered shirt and riding a unicycle in the street
+(xv0 / and
+      :op1 (xv8 / wear-01
+            :ARG0 (xv3 / male
+                  :mod (yvi14-2 / adult))
+            :ARG1 (xv5 / shirt
+                  :mod (xv1 / blue)
+                  :mod (xv2 / checkered)))
+      :op2 (xv4 / ride-01
+            :ARG0 xv3
+            :ARG1 (xv7 / monocycle)
+            :location (xv6 / street)))
+
+# ::id 363
+# ::snt Two children are playing on a statue
+(xv0 / play-01
+      :ARG0 (xv1 / child
+            :quant 2)
+      :location (xv2 / statue))
+
+# ::id 364
+# ::snt A woman is looking at the view of a city
+(xv0 / look-01
+      :ARG0 (xv3 / sex
+            :mod (yvi3-2 / fair))
+      :ARG1 (xv2 / view-01
+            :ARG1 (xv1 / city)))
+
+# ::id 365
+# ::snt Somebody is standing on a mountain top
+(xv0 / stand-01
+      :ARG1 (xv2 / individual)
+      :ARG2 (xv3 / top
+            :mod (xv1 / mountain)))
+
+# ::id 366
+# ::snt A child is swimming underwater in a pool
+(xv0 / swim-01
+      :ARG0 (xv1 / child)
+      :location (xv2 / pool)
+      :mod (xv3 / underwater))
+
+# ::id 367
+# ::snt A football player is wearing black armbands
+(xv0 / wear-01
+      :ARG0 (xv4 / person
+            :ARG0-of (xv5 / play-01
+                  :ARG1 (xv3 / football)))
+      :ARG1 (xv1 / armband
+            :ARG1-of (xv2 / black-04)))
+
+# ::id 368
+# ::snt The girl, who is little, is swinging and the woman is standing behind
+(xv0 / and
+      :op1 (xv4 / swing-01
+            :ARG0 (xv2 / girl
+                  :mod (xv3 / little)))
+      :op2 (xv5 / stand-01
+            :ARG1 (xv6 / female
+                  :mod (yvi11-2 / adult))
+            :ARG2 (xv1 / posterior)))
+
+# ::id 369
+# ::snt The girl, who is little, is swinging and the woman is standing behind
+(xv0 / and
+      :op1 (xv4 / swing-01
+            :ARG0 (xv2 / girl
+                  :mod (xv3 / little)))
+      :op2 (xv5 / stand-01
+            :ARG1 (xv6 / female
+                  :mod (yvi11-2 / adult))
+            :ARG2 (xv1 / buttocks)))
+
+# ::id 370
+# ::snt A man is falling off a surfboard in the water
+(xv0 / fall-01
+      :ARG1 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :ARG3 (xv3 / surfboard)
+      :direction (xv2 / off)
+      :location (xv4 / water))
+
+# ::id 371
+# ::snt The group of people is sitting in a room which is dim
+(xv0 / sit-01
+      :ARG1 (xv2 / group
+            :consist-of (xv3 / person))
+      :ARG2 (xv4 / room
+            :ARG1-of (xv1 / dim-02)))
+
+# ::id 372
+# ::snt The group of people is sitting in a dim room
+(xv0 / sit-01
+      :ARG1 (xv2 / group
+            :consist-of (xv3 / person))
+      :ARG2 (xv4 / room
+            :ARG1-of (xv1 / dim-02)))
+
+# ::id 373
+# ::snt The group of dim people is sitting in a room
+(xv0 / sit-01
+      :ARG1 (xv2 / group
+            :consist-of (xv3 / person
+                  :mod (xv1 / dim)))
+      :ARG2 (xv4 / room))
+
+# ::id 374
+# ::snt A man in a white shirt and sunglasses and a man in a black shirt and sunglasses are sitting at a table with four beer bottles
+(xv0 / sit-01
+      :ARG1 (xv1 / and
+            :op1 (xv7 / male
+                  :mod (yvi5-2 / adult)
+                  :ARG0-of (xv14 / wear-01
+                        :ARG1 (xv2 / and
+                              :op1 (xv9 / shirt
+                                    :ARG1-of (xv15 / white-02))
+                              :op2 (xv10 / sunglass))))
+            :op2 (xv8 / male
+                  :mod (yvi17-2 / adult)
+                  :ARG0-of (xv16 / wear-01
+                        :ARG1 (xv3 / and
+                              :op1 (xv11 / shirt
+                                    :ARG1-of (xv4 / black-05))
+                              :op2 (xv12 / sunglass)))))
+      :ARG2 (xv13 / table)
+      :accompanier (xv5 / bottle
+            :consist-of (xv6 / beer)
+            :quant 4))
+
+# ::id 375
+# ::snt A person is wearing a red jacket and holding a beer
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv4 / person)
+            :ARG1 (xv3 / jacket
+                  :ARG1-of (xv5 / red-02)))
+      :op2 (xv2 / hold-01
+            :ARG0 xv4
+            :ARG1 (xv1 / beer)))
+
+# ::id 376
+# ::snt A boy is holding a hose next to a man and another boy is watching
+(xv0 / and
+      :op1 (xv4 / hold-01
+            :ARG0 (xv2 / boy)
+            :ARG1 (xv5 / hose)
+            :location (xv7 / next-to
+                  :op1 (xv6 / male
+                        :mod (yvi11-2 / adult))))
+      :op2 (xv8 / observe-01
+            :ARG0 (xv3 / boy
+                  :mod (xv1 / another))))
+
+# ::id 377
+# ::snt A football player is running past an official carrying a football
+(xv0 / run-02
+      :ARG0 (xv6 / person
+            :ARG0-of (xv7 / play-01
+                  :ARG1 (xv2 / game
+                        :mod (yvi7-2 / football))))
+      :ARG1 (xv8 / past
+            :op1 (xv9 / person
+                  :ARG0-of (xv1 / carry-01
+                        :ARG1 (xv3 / game
+                              :mod (yvi15-2 / football)))
+                  :ARG0-of (xv4 / have-org-role-91
+                        :ARG2 (xv5 / official)))))
+
+# ::id 378
+# ::snt A football player in a purple jersey is running with the ball for a touchdown
+(xv0 / run-02
+      :ARG0 (xv4 / person
+            :ARG0-of (xv8 / wear-01
+                  :ARG1 (xv3 / jersey
+                        :mod (xv6 / purple)))
+            :ARG0-of (xv5 / play-01
+                  :ARG1 (xv2 / football)))
+      :ARG1 (xv1 / ball)
+      :purpose (xv7 / touchdown))
+
+# ::id 379
+# ::snt A young girl in a leotard colored in blue is jumping in the air
+(xv0 / jump-03
+      :ARG0 (xv4 / girl
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv5 / suit
+                        :mod (yvi7-2 / body)
+                        :ARG1-of (xv3 / color-01
+                              :ARG2 (xv2 / blue))))
+            :mod (xv7 / young))
+      :ARG1 (xv1 / air))
+
+# ::id 380
+# ::snt A young girl in blue is jumping in the air
+(xv0 / jump-03
+      :ARG0 (xv3 / girl
+            :ARG1-of (xv2 / blue-02)
+            :mod (xv4 / youth))
+      :ARG1 (xv1 / air))
+
+# ::id 381
+# ::snt Some men are playing rugby
+(xv0 / play-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult)
+            :quant (xv3 / some))
+      :ARG1 (xv2 / rugger))
+
+# ::id 382
+# ::snt The bike rider is looking at an accident of another bike rider
+(xv0 / look-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv7 / ride-01
+                  :ARG1 (xv3 / bike)))
+      :ARG1 (xv1 / event
+            :mod (yvi9-2 / chance)
+            :poss (xv6 / person
+                  :ARG0-of (xv8 / ride-01
+                        :ARG1 (xv4 / bike)
+                        :mod (xv2 / another)))))
+
+# ::id 383
+# ::snt A little boy is wearing a green soccer strip and is running on the grass
+(xv0 / and
+      :op1 (xv8 / wear-01
+            :ARG0 (xv1 / boy
+                  :mod (xv4 / little))
+            :ARG1 (xv6 / strip
+                  :ARG1-of (xv2 / green-02)
+                  :mod (xv7 / football
+                        :mod (yvi10-2 / association))))
+      :op2 (xv5 / run-02
+            :ARG0 xv1
+            :location (xv3 / grass)))
+
+# ::id 384
+# ::snt The man is doing a handstand on the wet sand at the edge of the water at the beach
+(xv0 / stand-01
+      :ARG0 (xv4 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / hand)
+      :location (xv5 / sand
+            :location (xv2 / edge
+                  :part-of (xv7 / water)
+                  :location (xv1 / beach))
+            :ARG1-of (xv6 / wet-01)))
+
+# ::id 385
+# ::snt A young boy is playing in the park with his mother
+(xv0 / play-01
+      :ARG0 (xv1 / boy
+            :mod (xv6 / young))
+      :accompanier (xv5 / person
+            :ARG0-of (xv2 / have-rel-role-91
+                  :ARG1 xv1
+                  :ARG2 (xv3 / mother)))
+      :location (xv4 / park))
+
+# ::id 386
+# ::snt There is no man spraying a super soaker into the mouth of a dog
+(xv0 / spray-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv6 / thing
+            :ARG0-of (xv4 / soak-01)
+            :mod (xv5 / superintendent))
+      :ARG2 (xv3 / mouth
+            :part-of (xv1 / dog))
+      :polarity -)
+
+# ::id 387
+# ::snt A man is squirting water into the mouth of a white dog with a squirt gun
+(xv0 / squirt-01
+      :ARG0 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv6 / water)
+      :ARG2 (xv4 / mouth
+            :part-of (xv1 / dog
+                  :ARG1-of (xv7 / white-02)))
+      :instrument (xv2 / gun
+            :instrument-of (xv5 / squirt-01)))
+
+# ::id 388
+# ::snt A boy, who is wearing a blue coat, is being held by his father under an umbrella
+(xv0 / hold-01
+      :ARG0 (xv2 / person
+            :ARG0-of (xv4 / have-rel-role-91
+                  :ARG1 (xv1 / boy
+                        :ARG0-of (xv5 / wear-01
+                              :ARG1 (xv8 / coating
+                                    :mod (xv9 / blue))))
+                  :ARG2 (xv7 / father)))
+      :ARG1 xv1
+      :location (xv3 / under
+            :op1 (xv6 / umbrella)))
+
+# ::id 389
+# ::snt A child is experiencing a new world
+(xv0 / experience-01
+      :ARG0 (xv1 / child)
+      :ARG1 (xv3 / reality
+            :ARG1-of (xv2 / new-01)))
+
+# ::id 390
+# ::snt A dog is walking along a snowdrift
+(xv0 / walk-01
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv1 / along
+            :op1 (xv3 / snowdrift)))
+
+# ::id 391
+# ::snt The surfer is riding a small wave
+(xv0 / ride-01
+      :ARG0 (xv1 / person
+            :ARG0-of (xv2 / surf-01))
+      :ARG1 (xv4 / wave
+            :mod (xv3 / small)))
+
+# ::id 392
+# ::snt A tennis player is jumping to the left
+(xv0 / jump-03
+      :ARG0 (xv2 / person
+            :ARG0-of (xv3 / play-01
+                  :ARG1 (xv4 / tennis
+                        :mod (yvi7-2 / lawn))))
+      :direction (xv1 / left-19))
+
+# ::id 393
+# ::snt Some dogs are not playing in a stream
+(xv0 / play-01
+      :ARG0 (xv1 / dog
+            :quant (xv2 / some))
+      :location (xv3 / stream)
+      :polarity -)
+
+# ::id 394
+# ::snt A man in blue is riding a horse on a dirt road
+(xv0 / ride-01
+      :ARG0 (xv4 / male
+            :mod (yvi3-2 / adult)
+            :ARG1-of (xv1 / blue-02))
+      :ARG1 (xv3 / horse)
+      :location (xv5 / road
+            :mod (xv2 / dirt)))
+
+# ::id 395
+# ::snt Two white dogs are playing with a brown dog and a ball
+(xv0 / play-01
+      :ARG0 (xv4 / dog
+            :ARG1-of (xv6 / white-02)
+            :quant 2)
+      :accompanier (xv1 / and
+            :op1 (xv5 / dog
+                  :ARG1-of (xv2 / brown-02))
+            :op2 (xv3 / ball)))
+
+# ::id 396
+# ::snt Four athletes are with a woman in a crowded stadium
+(xv0 / accompany-01
+      :ARG0 (xv1 / jock
+            :quant 4)
+      :ARG1 (xv4 / woman)
+      :location (xv3 / arena
+            :ARG1-of (xv2 / crowd-01)))
+
+# ::id 397
+# ::snt A woman dressed in elegant clothing is inside a crowd of people and is looking down
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv10 / sex
+                  :mod (yvi5-2 / fair)
+                  :ARG1-of (xv4 / dress-01
+                        :ARG2 (xv2 / vesture
+                              :mod (xv6 / elegant))))
+            :ARG2 (xv7 / inside
+                  :op1 (xv3 / crowd
+                        :consist-of (xv9 / person))))
+      :op2 (xv8 / look-01
+            :ARG0 xv10
+            :direction (xv5 / down)))
+
+# ::id 398
+# ::snt An elegant woman is inside a crowd of people and is looking down
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv8 / womanhood
+                  :mod (xv4 / elegant))
+            :ARG2 (xv5 / inside
+                  :op1 (xv2 / crowd
+                        :consist-of (xv7 / person))))
+      :op2 (xv6 / look-01
+            :ARG0 xv8
+            :direction (xv3 / down)))
+
+# ::id 399
+# ::snt A boy is running through the water at the beach
+(xv0 / run-02
+      :ARG0 (xv1 / boy)
+      :location (xv2 / beach)
+      :path (xv3 / water))
+
+# ::id 400
+# ::snt A boy in a white t-shirt is splashing in shallow water
+(xv0 / splash-01
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv4 / wear-01
+                  :ARG1 (xv3 / jersey
+                        :ARG1-of (xv5 / white-02))))
+      :ARG1 (xv6 / water
+            :ARG1-of (xv2 / shallow-02)))
+
+# ::id 401
+# ::snt A boy is running through the water at the beach
+(xv0 / run-02
+      :ARG0 (xv1 / boy)
+      :location (xv2 / beach)
+      :path (xv3 / water))
+
+# ::id 402
+# ::snt Children in swimming suits are playing in the water
+(xv0 / play-01
+      :ARG0 (xv1 / child
+            :ARG0-of (xv4 / wear-01
+                  :ARG1 (xv2 / suit
+                        :purpose (xv3 / swim-01))))
+      :location (xv5 / water))
+
+# ::id 403
+# ::snt A little girl is wearing a blue patterned swim suit, a black and yellow swim cap and has blue swimming goggles on the head
+(xv0 / and
+      :op1 (xv16 / wear-01
+            :ARG0 (xv6 / girl
+                  :mod (xv10 / little))
+            :ARG1 (xv1 / and
+                  :op1 (xv12 / suit
+                        :ARG1-of (xv11 / pattern-01)
+                        :mod (xv2 / blue)
+                        :mod (xv13 / swim-01))
+                  :op2 (xv5 / cap
+                        :ARG1-of (xv3 / black-04)
+                        :mod (xv14 / swim-01)
+                        :mod (xv17 / yellowness))))
+      :op2 (xv8 / possess-01
+            :ARG0 xv6
+            :ARG1 (xv7 / goggles
+                  :location (xv9 / head)
+                  :mod (xv4 / blue)
+                  :purpose (xv15 / swim-01))))
+
+# ::id 404
+# ::snt Some cheerleaders are relaxing
+(xv0 / relax-01
+      :ARG0 (xv1 / cheerleader
+            :quant (xv2 / some)))
+
+# ::id 405
+# ::snt The girl has red hair and eyebrows, several piercings in a ear and a tattoo on the back
+(xv0 / own-01
+      :ARG0 (xv5 / girl)
+      :ARG1 (xv1 / and
+            :op1 (xv6 / hair
+                  :ARG1-of (xv8 / red-02))
+            :op2 (xv3 / brow)
+            :op3 (xv7 / pierce-01
+                  :ARG1 (xv4 / ear)
+                  :quant (xv9 / several))
+            :op4 (xv10 / tattoo
+                  :location (xv2 / back))))
+
+# ::id 406
+# ::snt A girl with red hair and red eyebrows is in midspeech
+(xv0 / be-located-at-91
+      :ARG1 (xv3 / girl
+            :ARG0-of (xv4 / have-03
+                  :ARG1 (xv1 / and
+                        :op1 (xv5 / hair
+                              :ARG1-of (xv7 / red-02))
+                        :op2 (xv2 / supercilium
+                              :ARG1-of (xv8 / red-02)))))
+      :ARG2 (xv6 / midspeech))
+
+# ::id 407
+# ::snt Two people are driving a jeep and a girl is sitting on the top of it
+(xv0 / and
+      :op1 (xv1 / drive-01
+            :ARG0 (xv4 / person
+                  :quant 2)
+            :ARG1 (xv3 / landrover
+                  :part (xv6 / top)))
+      :op2 (xv5 / sit-01
+            :ARG1 (xv2 / girl)
+            :ARG2 xv6))
+
+# ::id 408
+# ::snt The adults and children are being gathered near an outdoor seating arrangement
+(xv0 / gather-02
+      :ARG1 (xv1 / and
+            :op1 (xv2 / adult)
+            :op2 (xv4 / child))
+      :location (xv5 / near-02
+            :ARG1 xv1
+            :ARG2 (xv3 / arrange-01
+                  :ARG1 (xv7 / seat-01)
+                  :location (xv6 / outdoor))))
+
+# ::id 409
+# ::snt A girl is standing in a group and is wearing a black shirt and pink beads
+(xv0 / and
+      :op1 (xv7 / stand-01
+            :ARG1 (xv4 / girl)
+            :ARG2 (xv5 / group))
+      :op2 (xv9 / wear-01
+            :ARG0 xv4
+            :ARG1 (xv1 / and
+                  :op1 (xv8 / shirt
+                        :ARG1-of (xv2 / black-04))
+                  :op2 (xv3 / bead
+                        :mod (xv6 / pink)))))
+
+# ::id 410
+# ::snt Two dogs are running through high grass
+(xv0 / run-02
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :path (xv2 / grass
+            :ARG1-of (xv3 / high-02)))
+
+# ::id 411
+# ::snt Some people and vehicles are on a almost empty street
+(xv0 / be-located-at-91
+      :ARG1 (xv1 / and
+            :op1 (xv4 / person
+                  :quant (xv5 / some))
+            :op2 (xv7 / vehicle
+                  :quant xv5))
+      :ARG2 (xv6 / street
+            :ARG1-of (xv3 / empty-02
+                  :mod (xv2 / almost))))
+
+# ::id 412
+# ::snt Children are being dressed in costumes and playing a game
+(xv0 / and
+      :op1 (xv3 / dress-01
+            :ARG1 (xv1 / child)
+            :ARG2 (xv2 / costume))
+      :op2 (xv5 / play-01
+            :ARG0 xv1
+            :ARG1 (xv4 / game)))
+
+# ::id 413
+# ::snt Two bmx bikers are jumping dirt ramps in front of a body of water
+(xv0 / jump-03
+      :ARG0 (xv7 / person
+            :mod (xv6 / bike
+                  :mod (xv3 / message
+                        :mod (yvi7-2 / commercial)))
+            :quant 2
+            :ARG0-of (xv1 / bike-01))
+      :ARG1 (xv8 / incline
+            :mod (xv4 / dirt))
+      :location (xv5 / in-front-of
+            :op1 (xv2 / body
+                  :consist-of (xv9 / water))))
+
+# ::id 414
+# ::snt A person is doing a trick on a skateboard
+(xv0 / trick-01
+      :ARG0 (xv1 / person)
+      :location (xv2 / skateboard))
+
+# ::id 415
+# ::snt A person in a motocross uniform is wearing a helmet and rides a red motorcycle
+(xv0 / and
+      :ARG1 (xv7 / uniform
+            :mod (xv2 / motocross))
+      :op1 (xv8 / wear-01
+            :ARG0 (xv4 / person
+                  :ARG1 (xv1 / helmet))
+            :ARG0 xv4)
+      :op2 (xv5 / ride-01
+            :ARG0 xv4
+            :ARG1 (xv3 / bike
+                  :ARG1-of (xv6 / red-02))))
+
+# ::id 416
+# ::snt A boy in a striped shirt is jumping in front of a water fountain
+(xv0 / jump-03
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv4 / shirt
+                        :ARG1-of (xv5 / strip-01))))
+      :location (xv3 / in-front-of
+            :op1 (xv2 / fountain
+                  :mod (xv7 / water))))
+
+# ::id 417
+# ::snt Two dogs are leaping through snowy grass and rocks
+(xv0 / leap-01
+      :ARG0 (xv2 / dog
+            :quant 2)
+      :path (xv1 / and
+            :mod (xv5 / snowy)
+            :op1 (xv3 / grass)
+            :op2 (xv4 / rock)))
+
+# ::id 418
+# ::snt The young girl in blue is enjoying a slide
+(xv0 / enjoy-01
+      :ARG0 (xv2 / girl
+            :mod (xv4 / youth)
+            :ARG1-of (xv1 / blue-02))
+      :ARG1 (xv3 / slide-01))
+
+# ::id 419
+# ::snt A black man is walking next to a building in a big city
+(xv0 / walk-01
+      :ARG0 (xv5 / male
+            :mod (yvi3-2 / adult)
+            :ARG1-of (xv1 / black-05))
+      :ARG1 (xv6 / next-to
+            :op1 (xv2 / building
+                  :location (xv4 / city
+                        :mod (xv3 / big)))))
+
+# ::id 420
+# ::snt A man with a backwards hat is sitting on the ground
+(xv0 / sit-01
+      :ARG1 (xv5 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv3 / possess-01
+                  :ARG1 (xv4 / hat
+                        :mod (xv1 / backwards))))
+      :ARG2 (xv2 / ground))
+
+# ::id 421
+# ::snt A girl in blue sweater is holding a multicolor toy and is sitting on the shoulders of a man with grey hair
+(xv0 / and
+      :op1 (xv4 / hold-01
+            :ARG0 (xv2 / girl
+                  :ARG0-of (xv13 / wear-01
+                        :ARG1 (xv9 / sweater
+                              :mod (xv1 / bluing))))
+            :ARG1 (xv12 / toy
+                  :mod (xv7 / multicolor)))
+      :op2 (xv10 / sit-01
+            :ARG1 xv2
+            :ARG2 (xv11 / shoulder
+                  :part-of (xv8 / male
+                        :mod (yvi22-2 / adult)
+                        :ARG0-of (xv5 / own-01
+                              :ARG1 (xv6 / hair
+                                    :ARG1-of (xv3 / grey-02)))))))
+
+# ::id 422
+# ::snt The person is going into the sea
+(xv0 / go-01
+      :ARG1 (xv1 / person)
+      :ARG4 (xv2 / sea))
+
+# ::id 423
+# ::snt Two people are sitting on a park bench on a hot day
+(xv0 / sit-01
+      :ARG1 (xv4 / person
+            :quant 2)
+      :ARG2 (xv1 / bench
+            :mod (xv5 / park))
+      :time (xv2 / day
+            :ARG1-of (xv3 / hot-05)))
+
+# ::id 424
+# ::snt A toddler is making a splash inside a blue paddling pool
+(xv0 / splash-01
+      :ARG0 (xv5 / tot)
+      :location (xv2 / inside
+            :op1 (xv3 / pool
+                  :mod (xv4 / paddle-01)
+                  :ARG1-of (xv1 / blue-02))))
+
+# ::id 425
+# ::snt The brown dog is spotting a black dog lying in the dry grass
+(xv0 / spot-01
+      :ARG0 (xv3 / dog
+            :ARG1-of (xv1 / brown-02))
+      :ARG1 (xv4 / dog
+            :ARG1-of (xv2 / black-05)
+            :ARG1-of (xv7 / lie-07
+                  :ARG2 (xv6 / grass
+                        :ARG1-of (xv5 / dry-03)))))
+
+# ::id 426
+# ::snt A large dog and a small dog are standing next to the kitchen counter and are investigating
+(xv0 / and
+      :op1 (xv9 / stand-01
+            :ARG1 (xv1 / and
+                  :op1 (xv3 / dog
+                        :mod (xv7 / large))
+                  :op2 (xv4 / dog
+                        :mod (xv10 / small)))
+            :ARG2 (xv8 / next-to))
+      :op2 (xv5 / investigate-01
+            :ARG0 xv1
+            :ARG1 (xv2 / counter
+                  :op1-of xv8
+                  :mod (xv6 / kitchen))))
+
+# ::id 427
+# ::snt A man is rock climbing and a city and a bay are in the background
+(xv0 / and
+      :op1 (xv4 / ascend-01
+            :ARG0 (xv6 / male
+                  :mod (yvi5-2 / adult))
+            :ARG1 (xv7 / rock))
+      :op2 (xv2 / background
+            :domain (xv1 / and
+                  :op1 (xv5 / city)
+                  :op2 (xv3 / bay))))
+
+# ::id 428
+# ::snt A man is rock climbing, stopping and calculating the route
+(xv0 / and
+      :op1 (xv1 / ascend-01
+            :ARG0 (xv3 / male
+                  :mod (yvi5-2 / adult))
+            :ARG1 (xv4 / rock))
+      :op2 (xv6 / stop-01
+            :ARG0 xv3)
+      :op3 (xv2 / calculate-01
+            :ARG0 xv3
+            :ARG1 (xv5 / road)))
+
+# ::id 429
+# ::snt The people are standing at a carnival
+(xv0 / stand-01
+      :ARG1 (xv2 / person)
+      :location (xv1 / circus))
+
+# ::id 430
+# ::snt A group of rollerbladers is lining up on the road
+(xv0 / line-up-02
+      :ARG1 (xv1 / group
+            :consist-of (xv2 / person
+                  :ARG0-of (xv3 / rollerblade-01)))
+      :location (xv4 / road))
+
+# ::id 431
+# ::snt A skateboarder is making a jump off a ramp
+(xv0 / jump-03
+      :ARG0 (xv2 / person
+            :ARG0-of (xv4 / skateboard-01))
+      :direction (xv1 / off
+            :op1 (xv3 / ramp)))
+
+# ::id 432
+# ::snt The black bird with a yellow beak is standing in the green grass
+(xv0 / stand-01
+      :ARG1 (xv1 / bird
+            :part (xv3 / beak
+                  :ARG1-of (xv6 / yellow-02))
+            :ARG1-of (xv2 / black-04))
+      :ARG2 (xv4 / grass
+            :ARG1-of (xv5 / green-03)))
+
+# ::id 433
+# ::snt Two white dogs are running together
+(xv0 / run-02
+      :ARG0 (xv1 / dog
+            :ARG1-of (xv3 / white-02)
+            :quant 2)
+      :manner (xv2 / together))
+
+# ::id 434
+# ::snt Some people is looking at sound equipment
+(xv0 / look-01
+      :ARG0 (xv2 / person
+            :mod (xv3 / some))
+      :ARG1 (xv1 / equipment
+            :mod (xv4 / sound)))
+
+# ::id 435
+# ::snt A girl is skipping rope on near a street
+(xv0 / skip-01
+      :ARG0 (xv1 / girl
+            :ARG1-of (xv2 / near-02
+                  :ARG2 (xv4 / street)))
+      :ARG1 (xv3 / circle)
+      :location xv2)
+
+# ::id 436
+# ::snt A girl is skipping rope on near a street
+(xv0 / skip-01
+      :ARG0 (xv1 / girl
+            :ARG1-of (xv2 / near-02
+                  :ARG2 (xv4 / street)))
+      :ARG1 (xv3 / valium
+            :mod (yvi6-2 / mexican))
+      :location xv2)
+
+# ::id 437
+# ::snt An animal is swimming in a body of water
+(xv0 / swim-01
+      :ARG0 (xv1 / animal)
+      :ARG2 (xv2 / body
+            :consist-of (xv3 / water)))
+
+# ::id 438
+# ::snt A man is leaning on the ledge of a balcony
+(xv0 / lean-01
+      :ARG1 (xv3 / male
+            :mod (yvi3-2 / adult))
+      :ARG2 (xv2 / shelf
+            :part-of (xv1 / balcony)))
+
+# ::id 439
+# ::snt A big white dog is running across a lawn
+(xv0 / run-02
+      :ARG0 (xv3 / dog
+            :ARG1-of (xv5 / white-02)
+            :mod (xv2 / big))
+      :ARG1 (xv1 / across
+            :op1 (xv4 / lawn)))
+
+# ::id 440
+# ::snt A black dog on a leash is walking in the water
+(xv0 / walk-01
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv1 / black-04)
+            :location (xv3 / leash))
+      :ARG1 (xv4 / water))
+
+# ::id 441
+# ::snt Two males are standing on a cliff edge and one is jumping into the water
+(xv0 / and
+      :op1 (xv6 / stand-01
+            :ARG1 (xv4 / male
+                  :quant 2)
+            :ARG2 (xv2 / edge
+                  :part-of (xv1 / drop-off)))
+      :op2 (xv3 / jump-03
+            :ARG0 (xv5 / male
+                  :quant 1)
+            :ARG2 (xv7 / water)))
+
+# ::id 442
+# ::snt A group of five young adults are lounging indoors
+(xv0 / lounge-01
+      :ARG0 (xv2 / group
+            :consist-of (xv1 / adult
+                  :mod (xv4 / young)
+                  :quant 5))
+      :location (xv3 / indoor))
+
+# ::id 443
+# ::snt A young girl in swimming suite is jumping on the beach
+(xv0 / jump-03
+      :ARG0 (xv2 / girl
+            :mod (xv6 / youth)
+            :ARG0-of (xv3 / own-01
+                  :ARG1 (xv4 / suite
+                        :mod (xv5 / swim-01))))
+      :ARG1 (xv1 / beach))
+
+# ::id 444
+# ::snt A child with dark hair is going down a slide and throwing up his arms
+(xv0 / and
+      :op1 (xv5 / go-01
+            :ARG1 (xv2 / child
+                  :ARG0-of (xv6 / have-03
+                        :ARG1 (xv7 / hair
+                              :ARG1-of (xv3 / dark-02))))
+            :ARG4 (xv8 / slide)
+            :direction (xv4 / pile))
+      :op2 (xv9 / throw-01
+            :ARG0 xv2
+            :ARG1 (xv1 / arm)
+            :direction (xv10 / up)))
+
+# ::id 445
+# ::snt A brown dog is running after a black dog on a rocky shore
+(xv0 / run-02
+      :ARG0 (xv3 / dog
+            :ARG1-of (xv1 / brown-02))
+      :ARG1 (xv4 / dog
+            :ARG1-of (xv2 / black-05))
+      :location (xv6 / shore
+            :mod (xv5 / rocky)))
+
+# ::id 446
+# ::snt Two dogs are playing on a rocky beach
+(xv0 / play-01
+      :ARG0 (xv2 / dog
+            :quant 2)
+      :location (xv1 / beach
+            :mod (xv3 / rocky)))
+
+# ::id 447
+# ::snt Two kids are sticking out blue and green colored tongues
+(xv0 / stick-01
+      :ARG0 (xv5 / kid
+            :quant 2)
+      :ARG1 (xv7 / tongue
+            :ARG1-of (xv3 / color-01
+                  :ARG2 (xv1 / and
+                        :op1 (xv2 / blue)
+                        :op2 (xv4 / viridity))))
+      :direction (xv6 / out))
+
+# ::id 448
+# ::snt Two boys are laying in the water close to the beach
+(xv0 / lay-01
+      :ARG1-of (xv3 / close-10
+            :ARG2 (xv2 / beach))
+      :ARG1 (xv1 / boy
+            :quant 2)
+      :ARG2 (xv4 / water))
+
+# ::id 449
+# ::snt A veteran is showing different things from a war to some people
+(xv0 / show-01
+      :ARG0 (xv5 / stager)
+      :ARG1 (xv4 / thing
+            :ARG1-of (xv1 / differ-02
+                  :ARG2 (xv6 / war-01)))
+      :ARG2 (xv2 / person
+            :mod (xv3 / some)))
+
+# ::id 450
+# ::snt A grey dog is bouncing a soccer ball on its head in a grass field
+(xv0 / bounce-01
+      :ARG0 (xv2 / dog
+            :part (xv6 / head)
+            :ARG1-of (xv4 / grey-02))
+      :ARG1 (xv1 / ball
+            :mod (xv7 / football
+                  :mod (yvi10-2 / association)))
+      :ARG2 xv6
+      :location (xv3 / field
+            :mod (xv5 / grass)))
+
+# ::id 451
+# ::snt A woman is wearing a colorful shirt and a lot of jewelry
+(xv0 / wear-01
+      :ARG0 (xv6 / woman)
+      :ARG1 (xv1 / and
+            :op1 (xv5 / shirt
+                  :mod (xv2 / colorful))
+            :op2 (xv3 / jewellery
+                  :quant (xv4 / lot))))
+
+# ::id 452
+# ::snt A man in a black jersey is standing in a gym
+(xv0 / stand-01
+      :ARG1 (xv4 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv3 / jersey
+                        :ARG1-of (xv1 / black-04))))
+      :location (xv2 / gymnasium))
+
+# ::id 453
+# ::snt A man is standing in a gym and is wearing a jersey
+(xv0 / and
+      :op1 (xv4 / stand-01
+            :ARG1 (xv3 / male
+                  :mod (yvi5-2 / adult))
+            :location (xv1 / gymnasium))
+      :op2 (xv5 / wear-01
+            :ARG0 xv3
+            :ARG1 (xv2 / jersey)))
+
+# ::id 454
+# ::snt A little brown and white dog is running on the road
+(xv0 / run-02
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv5 / white-02)
+            :ARG1-of (xv1 / brown-02)
+            :mod (xv3 / little))
+      :ARG1 (xv4 / road))
+
+# ::id 455
+# ::snt A yellow dog is chasing a ball
+(xv0 / chase-01
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv3 / yellow-02))
+      :ARG1 (xv1 / ball))
+
+# ::id 456
+# ::snt No lady is standing on the street and is surrounded by school children
+(xv0 / and
+      :op1 (xv3 / stand-01
+            :ARG1 (xv2 / lady)
+            :ARG2 (xv4 / street)
+            :polarity -)
+      :op2 (xv5 / surround-01
+            :ARG1 xv2
+            :ARG2 (xv1 / child
+                  :mod (xv6 / school))))
+
+# ::id 457
+# ::snt A man in blue jeans is standing in front of a group of children beside a stone built house
+(xv0 / stand-01
+      :ARG1 (xv9 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv11 / wear-01
+                  :ARG1 (xv8 / denim
+                        :mod (xv1 / blue))))
+      :ARG2 (xv7 / in-front-of
+            :op1 (xv5 / group
+                  :consist-of (xv4 / child)))
+      :location (xv2 / beside
+            :op1 (xv6 / house
+                  :ARG1-of (xv3 / build-01
+                        :instrument (xv10 / stone)))))
+
+# ::id 458
+# ::snt A guy is leaping into the air in a wooded area
+(xv0 / leap-01
+      :ARG0 (xv3 / guy)
+      :ARG2 (xv1 / air)
+      :location (xv2 / area
+            :ARG1-of (xv4 / wooded-02)))
+
+# ::id 459
+# ::snt The black dog is carrying a blue and white ball in its mouth
+(xv0 / carry-01
+      :ARG0 (xv4 / dog
+            :part (xv5 / mouth)
+            :ARG1-of (xv1 / black-05))
+      :ARG1 (xv2 / ball
+            :ARG1-of (xv6 / white-02)
+            :ARG1-of (xv3 / blue-02))
+      :location xv5)
+
+# ::id 460
+# ::snt A man is standing at the wheel of a classic American car that has its door and trunk open
+(xv0 / stand-01
+      :ARG1 (xv6 / male
+            :mod (yvi3-2 / adult))
+      :ARG2 (xv10 / wheel
+            :part-of (xv2 / car
+                  :ARG0-of (xv8 / open-01
+                        :ARG1 (xv1 / and
+                              :op1 (xv5 / door)
+                              :op2 (xv9 / trunk)))
+                  :mod (xv3 / country
+                        :name (xv7 / name
+                              :op1 "America"))
+                  :mod (xv4 / classic))))
+
+# ::id 461
+# ::snt A man is snowboarding down a railing in the snow
+(xv0 / snowboard-01
+      :ARG0 (xv2 / male
+            :mod (yvi3-2 / adult))
+      :ARG1 (xv3 / railing)
+      :direction (xv1 / down)
+      :location (xv4 / snow
+            :mod (yvi9-2 / percy
+                  :mod (yvi9-3 / charles))))
+
+# ::id 462
+# ::snt A skateboarder is jumping in the air
+(xv0 / jump-03
+      :ARG0 (xv2 / person
+            :ARG0-of (xv3 / skate-01))
+      :ARG1 (xv1 / air))
+
+# ::id 463
+# ::snt A person is doing acrobatics on a snowboard
+(xv0 / acrobate-01
+      :ARG0 (xv1 / person)
+      :instrument (xv2 / snowboard))
+
+# ::id 464
+# ::snt Four people are walking along a city sidewalk and the one in the green hat is phoning someone
+(xv0 / and
+      :op1 (xv10 / walk-01
+            :ARG0 (xv5 / person
+                  :quant 4)
+            :path (xv1 / along
+                  :op1 (xv8 / pavement
+                        :mod (xv2 / city))))
+      :op2 (xv6 / phone-01
+            :ARG0 (xv7 / person
+                  :ARG0-of (xv11 / wear-01
+                        :ARG1 (xv4 / hat
+                              :ARG1-of (xv3 / green-03))))
+            :ARG1 (xv9 / individual)))
+
+# ::id 465
+# ::snt A surfer is surfing a huge wave
+(xv0 / surf-01
+      :ARG0 (xv2 / person
+            :ARG0-of (xv3 / surf-01))
+      :ARG1 (xv4 / wave
+            :mod (xv1 / huge)))
+
+# ::id 466
+# ::snt A man in a red jacket and khaki pants is walking through an European state
+(xv0 / walk-01
+      :ARG0 (xv5 / male
+            :mod (yvi3-2 / adult)
+            :ARG0-of (xv10 / wear-01
+                  :ARG1 (xv1 / and
+                        :op1 (xv3 / jacket
+                              :ARG1-of (xv8 / red-02))
+                        :op2 (xv7 / pant
+                              :mod (xv4 / khaki)))))
+      :ARG1 (xv9 / state
+            :mod (xv2 / continent
+                  :name (xv6 / name
+                        :op1 "Europe"))))
+
+# ::id 467
+# ::snt A man in green is kicking a soccer ball and a man in purple and white is rising up
+(xv0 / and
+      :op1 (xv3 / kick-01
+            :ARG0 (xv4 / male
+                  :mod (yvi5-2 / adult)
+                  :ARG1-of (xv2 / green-02))
+            :ARG1 (xv1 / ball
+                  :mod (xv8 / football
+                        :mod (yvi11-2 / association))))
+      :op2 (xv7 / gain-01
+            :ARG1 (xv5 / male
+                  :mod (yvi15-2 / adult)
+                  :ARG1-of (xv10 / white-02)
+                  :ARG1-of (xv6 / purple-02))
+            :direction (xv9 / up)))
+
+# ::id 468
+# ::snt A man is wearing a purple shirt and black leather chaps and is posing for the camera
+(xv0 / and
+      :op1 (xv10 / wear-01
+            :ARG0 (xv6 / male
+                  :mod (yvi20-2 / adult))
+            :ARG1 (xv1 / and
+                  :op1 (xv9 / shirt
+                        :mod (xv7 / purple))
+                  :op2 (xv3 / chap
+                        :mod (xv5 / leather
+                              :ARG1-of (xv2 / black-04)))))
+      :op2 (xv8 / pose-01
+            :ARG0 xv6
+            :ARG2 (xv4 / camera)))
+
+# ::id 469
+# ::snt A dog is in the sand that is blowing in the air
+(xv0 / be-located-at-91
+      :ARG1 (xv3 / dog)
+      :ARG2 (xv4 / sand
+            :ARG1-of (xv2 / blow-01
+                  :ARG2 (xv1 / air))))
+
+# ::id 470
+# ::snt A dog is in a sandy area with the sand that is being stirred up into the air and several plants are in the background
+(xv0 / and
+      :op1 (xv3 / be-located-at-91
+            :ARG1 (xv5 / dog)
+            :ARG2 (xv1 / area
+                  :mod (xv7 / sand
+                        :ARG1-of (xv8 / stir-up-02
+                              :ARG2 (xv2 / air)))))
+      :op2 (xv4 / background
+            :poss (xv6 / plant
+                  :quant (xv9 / several))))
+
+# ::id 471
+# ::snt A black and white dog is running outdoors
+(xv0 / run-02
+      :ARG0 (xv2 / dog
+            :ARG1-of (xv1 / black-and-white))
+      :location (xv3 / out-of-doors))
+
+# ::id 472
+# ::snt A dog is jumping in the shade of some trees
+(xv0 / jump-03
+      :ARG0 (xv1 / dog)
+      :location (xv2 / shade-01
+            :ARG1 (xv4 / tree
+                  :quant (xv3 / some))))
+
+# ::id 473
+# ::snt A cat is jumping high into the air in the country
+(xv0 / jump-03
+      :ARG0 (xv2 / cat)
+      :ARG1 (xv4 / high-02
+            :ARG2 (xv1 / air))
+      :location (xv3 / country))
+
+# ::id 474
+# ::snt Four dogs are not playing in a grassy area
+(xv0 / play-01
+      :ARG0 (xv2 / dog
+            :quant 4)
+      :location (xv1 / area
+            :mod (xv3 / grassy))
+      :polarity -)
+
+# ::id 475
+# ::snt The dog is having a nap in the park
+(xv0 / nap-01
+      :ARG0 (xv1 / dog)
+      :location (xv2 / park))
+
+# ::id 476
+# ::snt The rider dressed in orange is driving a motorcycle on one wheel
+(xv0 / drive-01
+      :ARG0 (xv4 / person
+            :ARG1-of (xv1 / dress-01
+                  :ARG2 (xv3 / orange))
+            :ARG0-of (xv5 / ride-01))
+      :ARG1 (xv2 / bike)
+      :instrument (xv6 / wheel
+            :quant 1))
+
+# ::id 477
+# ::snt An elderly man is sitting on a bench
+(xv0 / sit-01
+      :ARG1 (xv3 / male
+            :mod (yvi3-2 / adult)
+            :mod (xv2 / aged))
+      :ARG2 (xv1 / bench))
+
+# ::id 478
+# ::snt The lady is holding the paintbrush next to the artist's easel
+(xv0 / hold-01
+      :ARG0 (xv3 / lady)
+      :ARG1 (xv5 / paintbrush)
+      :location (xv4 / next-to
+            :op1 (xv2 / easel
+                  :poss (xv1 / person
+                        :mod (yvi11-2 / creative)))))
+
+# ::id 479
+# ::snt A woman is wearing a blue shirt and walking barefoot on a tennis court
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv7 / sex
+                  :mod (yvi5-2 / fair)
+                  :ARG0-of (xv8 / walk-01
+                        :location (xv3 / court
+                              :mod (xv5 / tennis
+                                    :mod (yvi16-2 / lawn)))
+                        :manner (xv2 / barefoot)))
+            :ARG1 (xv4 / shirt
+                  :mod (xv1 / blue)))
+      :op2 xv8)
+
+# ::id 480
+# ::snt A young girl is playing on the edge of a fountain and an older woman is watching her
+(xv0 / and
+      :op1 (xv7 / play-01
+            :ARG0 (xv3 / girl
+                  :mod (xv10 / youth))
+            :location (xv1 / edge
+                  :part-of (xv2 / outflow)))
+      :op2 (xv8 / watch-01
+            :ARG0 (xv9 / woman
+                  :ARG1-of (xv4 / have-degree-91
+                        :ARG2 (xv6 / old)
+                        :ARG3 (xv5 / more)))
+            :ARG1 xv3))
+
+# ::id 481
+# ::snt A little girl and a woman wearing a yellow shirt are getting splashed by a city fountain
+(xv0 / splash-01
+      :ARG0 (xv3 / spring
+            :mod (yvi3-2 / natural)
+            :mod (xv2 / city))
+      :ARG1 (xv1 / and
+            :op1 (xv4 / girl
+                  :mod (xv5 / little))
+            :op2 (xv7 / female
+                  :mod (yvi13-2 / adult)
+                  :ARG0-of (xv8 / wear-01
+                        :ARG1 (xv6 / shirt
+                              :mod (xv9 / yellowness))))))
+
+# ::id 482
+# ::snt A black and white dog with a large branch is running in the field
+(xv0 / run-02
+      :ARG0 (xv3 / dog
+            :ARG1-of (xv1 / black-and-white)
+            :ARG0-of (xv5 / possess-01
+                  :ARG1 (xv2 / branch
+                        :mod (xv6 / large))))
+      :location (xv4 / field))
+
+# ::id 483
+# ::snt A black and white dog with a large branch is running in the field
+(xv0 / run-02
+      :ARG0 (xv3 / dog
+            :ARG1-of (xv1 / black-and-white)
+            :ARG0-of (xv5 / have-03
+                  :ARG1 (xv2 / branch
+                        :mod (xv6 / large))))
+      :location (xv4 / field))
+
+# ::id 484
+# ::snt A boy wearing a striped shirt is running barefoot on the sandy hill
+(xv0 / run-02
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv7 / wear-01
+                  :ARG1 (xv4 / shirt
+                        :ARG1-of (xv5 / strip-01))))
+      :location (xv3 / mound
+            :mod (xv6 / sandy))
+      :manner (xv2 / barefoot))
+
+# ::id 485
+# ::snt The little boy is sticking his tongue out for the camera and another boy is looking on
+(xv0 / and
+      :op1 (xv8 / stick-01
+            :ARG0 (xv2 / boy
+                  :mod (xv5 / little)
+                  :part xv9)
+            :ARG1 (xv9 / tongue)
+            :ARG2 (xv7 / out)
+            :purpose (xv4 / camera))
+      :op2 (xv6 / look-01
+            :ARG0 (xv3 / boy
+                  :mod (xv1 / another))
+            :ARG1 xv2))
+
+# ::id 486
+# ::snt Two kids are looking up at the camera and one is sticking out his tongue
+(xv0 / and
+      :op1 (xv4 / look-01
+            :ARG0 (xv2 / kid
+                  :part (xv7 / tongue)
+                  :quant 2)
+            :ARG1 (xv1 / camera
+                  :mod (yvi9-2 / photographic))
+            :direction (xv8 / up))
+      :op2 (xv6 / stick-01
+            :ARG0 (xv3 / kid
+                  :quant 1)
+            :ARG1 xv7
+            :ARG2 (xv5 / out)))
+
+# ::id 487
+# ::snt A person in a blue jacket is jumping onto a tall cement wall
+(xv0 / jump-03
+      :ARG0 (xv4 / person
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv3 / jacket
+                        :mod (xv1 / blueing))))
+      :ARG1 (xv7 / wall
+            :mod (xv2 / cement)
+            :mod (xv5 / tall)))
+
+# ::id 488
+# ::snt The elephant is being ridden by the woman
+(xv0 / ride-01
+      :ARG0 (xv2 / womanhood)
+      :ARG1 (xv1 / elephant))
+
+# ::id 489
+# ::snt A dog is running through a field and is chasing a toy
+(xv0 / and
+      :op1 (xv4 / run-02
+            :ARG0 (xv2 / familiaris
+                  :mod (yvi10-2 / canis))
+            :path (xv3 / field))
+      :op2 (xv1 / chase-01
+            :ARG0 xv2
+            :ARG1 (xv5 / toy)))
+
+# ::id 490
+# ::snt A group of people is holding drinks and pointing at the camera
+(xv0 / and
+      :op1 (xv4 / hold-01
+            :ARG0 (xv3 / group
+                  :consist-of (xv5 / person))
+            :ARG1 (xv2 / drink))
+      :op2 (xv6 / point-01
+            :ARG0 xv3
+            :ARG2 (xv1 / camera)))
+
+# ::id 491
+# ::snt A man is squatting in brush and taking a photo
+(xv0 / and
+      :op1 (xv4 / squat-01
+            :ARG0 (xv2 / male
+                  :mod (yvi10-2 / adult))
+            :ARG1 (xv1 / brush))
+      :op2 (xv3 / photograph-01
+            :ARG0 xv2))
+
+# ::id 492
+# ::snt A practicing jumper is tossing a person's snowboard into the air
+(xv0 / toss-01
+      :ARG0 (xv3 / person
+            :ARG0-of (xv2 / jump-01)
+            :ARG0-of (xv4 / practice-01))
+      :ARG1 (xv6 / snowboard
+            :poss (xv5 / person))
+      :ARG2 (xv1 / air))
+
+# ::id 493
+# ::snt A young, topless woman is covered in paint
+(xv0 / cover-01
+      :ARG1 (xv3 / womanhood
+            :ARG1-of (xv2 / top-01
+                  :polarity -)
+            :mod (xv4 / youth))
+      :ARG2 (xv1 / paint))
+
+# ::id 494
+# ::snt A man in a suit is standing at a microphone and singing
+(xv0 / and
+      :op1 (xv3 / stand-01
+            :ARG1 (xv1 / male
+                  :mod (yvi5-2 / adult)
+                  :ARG0-of (xv6 / wear-01
+                        :ARG1 (xv4 / suit)))
+            :ARG2 (xv2 / mike))
+      :op2 (xv5 / sing-01
+            :ARG0 xv1))
+
+# ::id 495
+# ::snt A person is riding a dirt bike down a dirt hill
+(xv0 / ride-01
+      :ARG0 (xv5 / person)
+      :ARG1 (xv1 / bike
+            :mod (xv2 / dirt))
+      :path (xv3 / down
+            :op1 (xv4 / hill
+                  :mod xv2)))
+
+# ::id 496
+# ::snt A man is dancing on the road
+(xv0 / dance-01
+      :ARG0 (xv1 / male
+            :mod (yvi3-2 / adult))
+      :location (xv2 / road))
+
+# ::id 497
+# ::snt A kid is playing guitar
+(xv0 / play-01
+      :ARG0 (xv2 / kid)
+      :ARG1 (xv1 / guitar))
+
+# ::id 498
+# ::snt The cop is sitting on a police bike
+(xv0 / sit-01
+      :ARG1 (xv2 / pig)
+      :ARG2 (xv1 / bike
+            :mod xv2))
+
+# ::id 499
+# ::snt A girl in a band is playing an instrument
+(xv0 / play-01
+      :ARG0 (xv2 / girl
+            :ARG0-of (xv3 / have-org-role-91
+                  :ARG1 (xv1 / band)))
+      :ARG1 (xv4 / instrument))
+
+# ::id 500
+# ::snt A dog is swimming after a tennis ball
+(xv0 / swim-01
+      :ARG0 (xv3 / dog)
+      :time (xv1 / after
+            :op1 (xv2 / ball
+                  :mod (xv4 / tennis
+                        :mod (yvi9-2 / lawn)))))
+
+# ::id 501
+# ::snt Empty line
+(xv0 / line
+      :ARG1-of (xv1 / empty-02))

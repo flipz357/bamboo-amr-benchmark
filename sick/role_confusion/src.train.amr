@@ -1,0 +1,2031 @@
+# ::id 0
+# ::snt NA
+(xv0 / jump-03
+      :ARG0 (xv4 / person
+            :mod (xv3 / lone)
+            :ARG0-of (xv2 / bike-01))
+      :location (xv1 / air))
+
+# ::id 1
+# ::snt NA
+(xv0 / jump-03
+      :ARG0 (xv4 / person
+            :mod (xv3 / lone)
+            :ARG0-of (xv2 / bike-01))
+      :location (xv1 / air))
+
+# ::id 2
+# ::snt NA
+(xv0 / and
+      :op1 (xv12 / wear-01
+            :ARG0 (xv6 / lady
+                  :ARG0-of (xv4 / have-03
+                        :ARG1 (xv5 / hair
+                              :ARG1-of (xv2 / brown-02
+                                    :ARG1-of (xv7 / light-06))))
+                  :mod (xv13 / young))
+            :ARG1 (xv1 / and
+                  :op1 (xv8 / necklace
+                        :ARG1-of (xv9 / red-02))
+                  :op2 (xv10 / sweatshirt)
+                  :op3 (xv3 / earring)))
+      :op2 (xv11 / smile-01
+            :ARG0 xv6))
+
+# ::id 3
+# ::snt NA
+(xv0 / and
+      :op1 (xv12 / wear-01
+            :ARG0 (xv6 / lady
+                  :ARG0-of (xv4 / have-03
+                        :ARG1 (xv5 / hair
+                              :ARG1-of (xv2 / brown-02
+                                    :ARG1-of (xv7 / light-06))))
+                  :mod (xv13 / young))
+            :ARG1 (xv1 / and
+                  :op1 (xv8 / necklace
+                        :ARG1-of (xv9 / red-02))
+                  :op2 (xv10 / sweatshirt)
+                  :op3 (xv3 / earring)))
+      :op2 (xv11 / smile-01
+            :ARG0 xv6))
+
+# ::id 4
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv6 / dog
+                  :ARG1-of (xv2 / black-05)
+                  :ARG1-of (xv7 / furry-02))
+            :ARG2 (xv3 / backyard))
+      :op2 (xv5 / carry-01
+            :ARG0 (xv8 / mouth)
+            :ARG1 (xv4 / basket)
+            :location xv6))
+
+# ::id 5
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv6 / dog
+                  :ARG1-of (xv2 / black-05)
+                  :ARG1-of (xv7 / furry-02))
+            :ARG2 (xv3 / backyard))
+      :op2 (xv5 / carry-01
+            :ARG0 xv6
+            :ARG1 (xv4 / basket)
+            :location (xv8 / mouth)))
+
+# ::id 6
+# ::snt NA
+(xv0 / look-01
+      :ARG0 (xv6 / man
+            :ARG1-of (xv11 / wear-01
+                  :ARG0 (xv9 / shirt
+                        :ARG1-of (xv2 / dye-01
+                              :ARG2 (xv8 / purple)))))
+      :ARG1 (xv7 / man
+            :ARG1-of (xv12 / wear-01
+                  :ARG0 (xv10 / shirt
+                        :ARG1-of (xv1 / black-04)))
+            :ARG1-of (xv3 / do-02
+                  :ARG0 (xv4 / face
+                        :ARG1-of (xv5 / funny-02)))))
+
+# ::id 7
+# ::snt NA
+(xv0 / look-01
+      :ARG0 (xv6 / man
+            :ARG0-of (xv11 / wear-01
+                  :ARG1 (xv9 / shirt
+                        :ARG1-of (xv2 / dye-01
+                              :ARG2 (xv8 / purple)))))
+      :ARG1 (xv7 / man
+            :ARG0-of (xv12 / wear-01
+                  :ARG1 (xv10 / shirt
+                        :ARG1-of (xv1 / black-04)))
+            :ARG0-of (xv3 / do-02
+                  :ARG1 (xv4 / face
+                        :ARG1-of (xv5 / funny-02)))))
+
+# ::id 8
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / and
+            :op1 (xv4 / man)
+            :op2 (xv2 / boy))
+      :location (xv3 / bottom
+            :part-of (xv6 / stair
+                  :location (xv5 / outdoors))))
+
+# ::id 9
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / and
+            :op1 (xv4 / man)
+            :op2 (xv2 / boy))
+      :location (xv3 / bottom
+            :part-of (xv6 / stair
+                  :location (xv5 / outdoors))))
+
+# ::id 10
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / wear-01
+            :ARG0 (xv9 / woman)
+            :ARG1 (xv6 / sunglasses
+                  :mod (xv7 / size
+                        :mod (xv4 / large))))
+      :op2 (xv2 / hold-01
+            :ARG0 xv9
+            :ARG1 (xv5 / newspaper)
+            :ARG2 (xv3 / hand
+                  :mod (xv1 / both))))
+
+# ::id 11
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / wear-01
+            :ARG0 (xv9 / woman)
+            :ARG1 (xv6 / sunglasses
+                  :mod (xv7 / size
+                        :mod (xv4 / large))))
+      :op2 (xv2 / hold-01
+            :ARG0 xv9
+            :ARG1 (xv5 / newspaper)
+            :ARG2 (xv3 / hand
+                  :mod (xv1 / both))))
+
+# ::id 12
+# ::snt NA
+(xv0 / rinse-01
+      :ARG0 (xv1 / person)
+      :ARG1 (xv2 / steak)
+      :ARG2 (xv3 / water))
+
+# ::id 13
+# ::snt NA
+(xv0 / rinse-01
+      :ARG0 (xv1 / person)
+      :ARG1 (xv2 / steak)
+      :ARG2 (xv3 / water))
+
+# ::id 14
+# ::snt NA
+(xv0 / chop-01
+      :ARG0 (xv3 / man)
+      :ARG1 (xv1 / butter)
+      :location (xv2 / container))
+
+# ::id 15
+# ::snt NA
+(xv0 / chop-01
+      :ARG0 (xv3 / man)
+      :ARG1 (xv1 / butter)
+      :location (xv2 / container))
+
+# ::id 16
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / piano)
+      :ARG1 (xv2 / somebody))
+
+# ::id 17
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / somebody)
+      :ARG1 (xv1 / piano))
+
+# ::id 18
+# ::snt NA
+(xv0 / play-01
+      :ARG0-of (xv2 / happy-01)
+      :ARG0 (xv3 / piano)
+      :ARG1 (xv1 / boy))
+
+# ::id 19
+# ::snt NA
+(xv0 / play-01
+      :ARG0-of (xv2 / happy-01)
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv3 / piano))
+
+# ::id 20
+# ::snt NA
+(xv0 / talk-01
+      :ARG0 (xv2 / girl)
+      :ARG2 (xv4 / man
+            :quant 1)
+      :instrument (xv1 / camera
+            :mod (xv3 / internet)))
+
+# ::id 21
+# ::snt NA
+(xv0 / talk-01
+      :ARG0 (xv4 / man
+            :quant 1)
+      :ARG2 (xv2 / girl)
+      :instrument (xv1 / camera
+            :mod (xv3 / internet)))
+
+# ::id 22
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / beat-01
+            :ARG0 (xv3 / egg
+                  :quant 2)
+            :ARG1 (xv6 / woman)
+            :location (xv2 / bowl))
+      :op2 (xv5 / use-01
+            :ARG0 (xv7 / whisk
+                  :ARG1-of (xv4 / make-01
+                        :ARG2 (xv8 / wire)))
+            :ARG1 xv6))
+
+# ::id 23
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / beat-01
+            :ARG0 (xv6 / woman)
+            :ARG1 (xv3 / egg
+                  :quant 2)
+            :location (xv2 / bowl))
+      :op2 (xv5 / use-01
+            :ARG0 xv6
+            :ARG1 (xv7 / whisk
+                  :ARG1-of (xv4 / make-01
+                        :ARG2 (xv8 / wire)))))
+
+# ::id 24
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / potato)
+      :ARG1 (xv2 / woman))
+
+# ::id 25
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 26
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / potato
+            :quant (xv3 / some))
+      :ARG1 (xv1 / man))
+
+# ::id 27
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / potato
+            :quant (xv3 / some)))
+
+# ::id 28
+# ::snt NA
+(xv0 / crack-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / egg)
+      :ARG2 (xv1 / bowl))
+
+# ::id 29
+# ::snt NA
+(xv0 / crack-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / egg)
+      :ARG2 (xv1 / bowl))
+
+# ::id 30
+# ::snt NA
+(xv0 / push-01
+      :ARG0 (xv3 / kid
+            :quant 2)
+      :ARG1 (xv1 / crocodile
+            :ARG1-of (xv2 / inflatable-02))
+      :location (xv4 / pool))
+
+# ::id 31
+# ::snt NA
+(xv0 / push-01
+      :ARG0 (xv3 / kid
+            :quant 2)
+      :ARG1 (xv1 / crocodile
+            :ARG1-of (xv2 / inflatable-02))
+      :location (xv4 / pool))
+
+# ::id 32
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / cat
+            :quant 1)
+      :ARG2 (xv2 / watermelon))
+
+# ::id 33
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / cat
+            :quant 1)
+      :ARG2 (xv2 / watermelon))
+
+# ::id 34
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv1 / somebody)
+      :ARG1 (xv2 / tomato))
+
+# ::id 35
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv1 / somebody)
+      :ARG1 (xv2 / tomato))
+
+# ::id 36
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / motorbike)
+      :ARG1 (xv1 / man))
+
+# ::id 37
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / motorbike))
+
+# ::id 38
+# ::snt NA
+(xv0 / eat-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / corn
+            :quant (xv3 / some)))
+
+# ::id 39
+# ::snt NA
+(xv0 / eat-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / corn
+            :quant (xv3 / some)))
+
+# ::id 40
+# ::snt NA
+(xv0 / brush-01
+      :ARG0 (xv2 / monkey)
+      :ARG1 (xv1 / dog))
+
+# ::id 41
+# ::snt NA
+(xv0 / brush-01
+      :ARG0 (xv2 / monkey)
+      :ARG1 (xv1 / dog))
+
+# ::id 42
+# ::snt NA
+(xv0 / dicing-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / onion))
+
+# ::id 43
+# ::snt NA
+(xv0 / dicing-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / onion))
+
+# ::id 44
+# ::snt NA
+(xv0 / dance-01
+      :ARG0 (xv4 / man
+            :ARG1-of (xv1 / have-03
+                  :ARG0 (xv2 / hat
+                        :mod (xv3 / hard)))))
+
+# ::id 45
+# ::snt NA
+(xv0 / dance-01
+      :ARG0 (xv4 / man
+            :ARG0-of (xv1 / have-03
+                  :ARG1 (xv2 / hat
+                        :mod (xv3 / hard)))))
+
+# ::id 46
+# ::snt NA
+(xv0 / boil-01
+      :ARG0 (xv1 / noodle)
+      :ARG1 (xv2 / person))
+
+# ::id 47
+# ::snt NA
+(xv0 / boil-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / noodle))
+
+# ::id 48
+# ::snt NA
+(xv0 / crack-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / egg)
+      :location (xv1 / bowl))
+
+# ::id 49
+# ::snt NA
+(xv0 / crack-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / egg)
+      :location (xv1 / bowl))
+
+# ::id 50
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / onion))
+
+# ::id 51
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / onion))
+
+# ::id 52
+# ::snt NA
+(xv0 / cook-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / egg))
+
+# ::id 53
+# ::snt NA
+(xv0 / cook-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / egg))
+
+# ::id 54
+# ::snt NA
+(xv0 / put-on-08
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / makeup))
+
+# ::id 55
+# ::snt NA
+(xv0 / put-on-08
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / makeup))
+
+# ::id 56
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / guitar
+            :mod (xv1 / electric))
+      :ARG1 (xv3 / woman))
+
+# ::id 57
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv2 / guitar
+            :mod (xv1 / electric)))
+
+# ::id 58
+# ::snt NA
+(xv0 / brush-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / person))
+
+# ::id 59
+# ::snt NA
+(xv0 / brush-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / cat))
+
+# ::id 60
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv3 / tape
+            :location (xv1 / box))
+      :ARG1 (xv2 / man))
+
+# ::id 61
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv3 / tape
+            :location (xv1 / box)))
+
+# ::id 62
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / hang-01
+            :ARG0 (xv1 / boy)
+            :ARG1 (xv7 / rod
+                  :mod (xv2 / fish-01)))
+      :op2 (xv6 / run-02
+            :ARG0 xv1
+            :location (xv5 / in-front-of
+                  :op1 (xv3 / fish))))
+
+# ::id 63
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / hang-01
+            :ARG0 (xv1 / boy)
+            :ARG1 (xv7 / rod
+                  :mod (xv2 / fish-01)))
+      :op2 (xv6 / run-02
+            :ARG0 xv1
+            :location (xv5 / in-front-of
+                  :op1 (xv3 / fish))))
+
+# ::id 64
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / guitar)
+      :ARG1 (xv2 / man))
+
+# ::id 65
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 66
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 67
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 68
+# ::snt NA
+(xv0 / grate-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / carrot))
+
+# ::id 69
+# ::snt NA
+(xv0 / grate-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / carrot))
+
+# ::id 70
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 71
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / potato))
+
+# ::id 72
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / harp))
+
+# ::id 73
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / harp))
+
+# ::id 74
+# ::snt NA
+(xv0 / hand-01
+      :ARG1 (xv2 / volleyball)
+      :ARG0 (xv4 / woman)
+      :ARG2 (xv3 / woman
+            :mod (xv1 / another)))
+
+# ::id 75
+# ::snt NA
+(xv0 / hand-01
+      :ARG0 (xv3 / woman
+            :mod (xv1 / another))
+      :ARG1 (xv2 / volleyball)
+      :ARG2 (xv4 / woman))
+
+# ::id 76
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv4 / in-front-of
+            :op1 (xv3 / car
+                  :ARG1-of (xv2 / burn-01)))
+      :ARG2 (xv1 / boy))
+
+# ::id 77
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / boy)
+      :ARG2 (xv4 / in-front-of
+            :op1 (xv3 / car
+                  :ARG1-of (xv2 / burn-01))))
+
+# ::id 78
+# ::snt NA
+(xv0 / stroll-01
+      :ARG0 (xv2 / rain-01)
+      :location (xv1 / man))
+
+# ::id 79
+# ::snt NA
+(xv0 / stroll-01
+      :ARG0 (xv1 / man)
+      :location (xv2 / rain-01))
+
+# ::id 80
+# ::snt NA
+(xv0 / put-on-08
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / eyeshadow))
+
+# ::id 81
+# ::snt NA
+(xv0 / put-on-08
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / eyeshadow))
+
+# ::id 82
+# ::snt NA
+(xv0 / study-01
+      :ARG0 (xv2 / calendar)
+      :ARG1 (xv1 / boy))
+
+# ::id 83
+# ::snt NA
+(xv0 / study-01
+      :ARG0 (xv1 / boy)
+      :ARG1 (xv2 / calendar))
+
+# ::id 84
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / harp)
+      :ARG1 (xv3 / man
+            :ARG1-of (xv4 / wear-01
+                  :ARG0 (xv1 / cap))))
+
+# ::id 85
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv3 / man
+            :ARG0-of (xv4 / wear-01
+                  :ARG1 (xv1 / cap)))
+      :ARG1 (xv2 / harp))
+
+# ::id 86
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / flute)
+      :ARG1 (xv2 / woman))
+
+# ::id 87
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / flute))
+
+# ::id 88
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / keyboard))
+
+# ::id 89
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / cat)
+      :ARG1 (xv2 / keyboard))
+
+# ::id 90
+# ::snt NA
+(xv0 / do-02
+      :ARG0 (xv7 / skit
+            :mod (xv3 / funny))
+      :ARG1 (xv5 / man
+            :quant 2)
+      :accompanier (xv1 / boxer)
+      :location (xv4 / in-front-of
+            :op1 (xv2 / crowd
+                  :consist-of (xv6 / person))))
+
+# ::id 91
+# ::snt NA
+(xv0 / do-02
+      :ARG0 (xv5 / man
+            :quant 2)
+      :ARG1 (xv7 / skit
+            :mod (xv3 / funny))
+      :accompanier (xv1 / boxer)
+      :location (xv4 / in-front-of
+            :op1 (xv2 / crowd
+                  :consist-of (xv6 / person))))
+
+# ::id 92
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / jetski)
+      :location (xv3 / wave))
+
+# ::id 93
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / jetski)
+      :location (xv3 / wave))
+
+# ::id 94
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / seadoo)
+      :ARG1 (xv2 / woman))
+
+# ::id 95
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / seadoo))
+
+# ::id 96
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / horse)
+      :ARG1 (xv2 / man))
+
+# ::id 97
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / horse))
+
+# ::id 98
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man
+            :quant 1)
+      :ARG1 (xv1 / horse))
+
+# ::id 99
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man
+            :quant 1)
+      :ARG1 (xv1 / horse))
+
+# ::id 100
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / horse)
+      :ARG1 (xv2 / man))
+
+# ::id 101
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / horse))
+
+# ::id 102
+# ::snt NA
+(xv0 / jump-03
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv2 / trampoline))
+
+# ::id 103
+# ::snt NA
+(xv0 / jump-03
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv2 / trampoline))
+
+# ::id 104
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / flute
+            :consist-of (xv3 / wood))
+      :ARG1 (xv2 / man))
+
+# ::id 105
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / flute
+            :consist-of (xv3 / wood)))
+
+# ::id 106
+# ::snt NA
+(xv0 / tie-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / shoe))
+
+# ::id 107
+# ::snt NA
+(xv0 / tie-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / shoe))
+
+# ::id 108
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / plate
+            :consist-of (xv3 / paper)))
+
+# ::id 109
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / plate
+            :consist-of (xv3 / paper)))
+
+# ::id 110
+# ::snt NA
+(xv0 / mix-01
+      :ARG0 (xv3 / man)
+      :ARG1 (xv2 / content
+            :poss (xv1 / bowl)))
+
+# ::id 111
+# ::snt NA
+(xv0 / mix-01
+      :ARG0 (xv3 / man)
+      :ARG1 (xv2 / content
+            :poss (xv1 / bowl)))
+
+# ::id 112
+# ::snt NA
+(xv0 / pour-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / oil)
+      :ARG2 (xv2 / pan))
+
+# ::id 113
+# ::snt NA
+(xv0 / pour-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / oil)
+      :ARG2 (xv2 / pan))
+
+# ::id 114
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / horse)
+      :ARG1 (xv2 / man))
+
+# ::id 115
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / horse))
+
+# ::id 116
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / horse))
+
+# ::id 117
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / horse))
+
+# ::id 118
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / keyboard)
+      :ARG1 (xv2 / man))
+
+# ::id 119
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / keyboard))
+
+# ::id 120
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / kid)
+      :ARG1 (xv1 / guitar))
+
+# ::id 121
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / kid)
+      :ARG1 (xv1 / guitar))
+
+# ::id 122
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 123
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / person)
+      :ARG1 (xv1 / onion))
+
+# ::id 124
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 125
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 126
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / fish))
+
+# ::id 127
+# ::snt NA
+(xv0 / cut-02
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / fish))
+
+# ::id 128
+# ::snt NA
+(xv0 / open-01
+      :ARG0 (xv1 / door)
+      :ARG1 (xv2 / man))
+
+# ::id 129
+# ::snt NA
+(xv0 / open-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / door))
+
+# ::id 130
+# ::snt NA
+(xv0 / fry-01
+      :ARG0 (xv1 / food
+            :quant (xv2 / some))
+      :ARG1 (xv3 / woman))
+
+# ::id 131
+# ::snt NA
+(xv0 / fry-01
+      :ARG0 (xv3 / woman)
+      :ARG1 (xv1 / food
+            :quant (xv2 / some)))
+
+# ::id 132
+# ::snt NA
+(xv0 / pull-01
+      :ARG0 (xv5 / woman)
+      :ARG1 (xv2 / goo
+            :ARG1-of (xv3 / sticky-03)
+            :mod (xv4 / some))
+      :ARG2 (xv1 / bowl))
+
+# ::id 133
+# ::snt NA
+(xv0 / pull-01
+      :ARG0 (xv5 / woman)
+      :ARG1 (xv2 / goo
+            :ARG1-of (xv3 / sticky-03)
+            :mod (xv4 / some))
+      :ARG2 (xv1 / bowl))
+
+# ::id 134
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / potato))
+
+# ::id 135
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / potato))
+
+# ::id 136
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / potato))
+
+# ::id 137
+# ::snt NA
+(xv0 / peel-01
+      :ARG0 (xv1 / lady)
+      :ARG1 (xv2 / potato))
+
+# ::id 138
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / guitar)
+      :ARG1 (xv2 / man))
+
+# ::id 139
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / guitar))
+
+# ::id 140
+# ::snt NA
+(xv0 / fry-01
+      :ARG0 (xv1 / fish)
+      :ARG1 (xv2 / woman))
+
+# ::id 141
+# ::snt NA
+(xv0 / fry-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / fish))
+
+# ::id 142
+# ::snt NA
+(xv0 / mow-01
+      :ARG0 (xv1 / grass)
+      :ARG1 (xv2 / man))
+
+# ::id 143
+# ::snt NA
+(xv0 / mow-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / grass))
+
+# ::id 144
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / tomato))
+
+# ::id 145
+# ::snt NA
+(xv0 / cut-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / tomato))
+
+# ::id 146
+# ::snt NA
+(xv0 / stir-01
+      :ARG0 (xv3 / someone)
+      :ARG1 (xv2 / pot
+            :consist-of (xv1 / chili))
+      :instrument (xv4 / spoon))
+
+# ::id 147
+# ::snt NA
+(xv0 / stir-01
+      :ARG0 (xv3 / someone)
+      :ARG1 (xv2 / pot
+            :consist-of (xv1 / chili))
+      :instrument (xv4 / spoon))
+
+# ::id 148
+# ::snt NA
+(xv0 / lie-07
+      :ARG1 (xv2 / dog
+            :mod (xv3 / small))
+      :ARG2 (xv1 / bed))
+
+# ::id 149
+# ::snt NA
+(xv0 / lie-07
+      :ARG1 (xv2 / dog
+            :mod (xv3 / small))
+      :ARG2 (xv1 / bed))
+
+# ::id 150
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / tofu))
+
+# ::id 151
+# ::snt NA
+(xv0 / slice-01
+      :ARG0 (xv2 / woman)
+      :ARG1 (xv1 / tofu))
+
+# ::id 152
+# ::snt NA
+(xv0 / put-01
+      :ARG0 (xv1 / cheese
+            :mod (xv4 / some))
+      :ARG1 (xv2 / man)
+      :ARG2 (xv3 / pizza))
+
+# ::id 153
+# ::snt NA
+(xv0 / put-01
+      :ARG0 (xv2 / man)
+      :ARG1 (xv1 / cheese
+            :mod (xv4 / some))
+      :ARG2 (xv3 / pizza))
+
+# ::id 154
+# ::snt NA
+(xv0 / eat-01
+      :ARG0 (xv2 / hay)
+      :ARG1 (xv1 / cow))
+
+# ::id 155
+# ::snt NA
+(xv0 / eat-01
+      :ARG0 (xv1 / cow)
+      :ARG1 (xv2 / hay))
+
+# ::id 156
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / motorcycle)
+      :ARG1 (xv1 / man))
+
+# ::id 157
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv1 / man)
+      :ARG1 (xv2 / motorcycle))
+
+# ::id 158
+# ::snt NA
+(xv0 / bite-01
+      :ARG0 (xv1 / animal)
+      :ARG1 (xv2 / finger
+            :part-of (xv3 / person)))
+
+# ::id 159
+# ::snt NA
+(xv0 / bite-01
+      :ARG0 (xv1 / animal)
+      :ARG1 (xv2 / finger
+            :part-of (xv3 / person)))
+
+# ::id 160
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv6 / person
+                  :ARG0-of (xv7 / pack-01
+                        :mod (xv2 / back))
+                  :ARG1-of (xv10 / top-01
+                        :polarity -))
+            :ARG2 (xv5 / in-front-of
+                  :op1 (xv8 / pile
+                        :consist-of (xv9 / rock))))
+      :op2 (xv4 / cloud
+            :location (xv3 / background)))
+
+# ::id 161
+# ::snt NA
+(xv0 / and
+      :op1 (xv1 / be-located-at-91
+            :ARG1 (xv6 / person
+                  :ARG0-of (xv7 / pack-01
+                        :mod (xv2 / back))
+                  :ARG1-of (xv10 / top-01
+                        :polarity -))
+            :ARG2 (xv5 / in-front-of
+                  :op1 (xv8 / pile
+                        :consist-of (xv9 / rock))))
+      :op2 (xv4 / cloud
+            :location (xv3 / background)))
+
+# ::id 162
+# ::snt NA
+(xv0 / catch-01
+      :ARG0 (xv1 / ball)
+      :ARG1 (xv2 / dog))
+
+# ::id 163
+# ::snt NA
+(xv0 / catch-01
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv1 / ball))
+
+# ::id 164
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / hold-up-10
+            :ARG0 (xv5 / man
+                  :location (xv3 / city
+                        :mod (xv1 / big))
+                  :quant 1)
+            :ARG1 (xv7 / sign))
+      :op2 (xv2 / beg-01
+            :ARG0 xv5
+            :ARG2 (xv6 / money)))
+
+# ::id 165
+# ::snt NA
+(xv0 / and
+      :op1 (xv4 / hold-up-10
+            :ARG0 (xv5 / man
+                  :location (xv3 / city
+                        :mod (xv1 / big))
+                  :quant 1)
+            :ARG1 (xv7 / sign))
+      :op2 (xv2 / beg-01
+            :ARG0 xv5
+            :ARG2 (xv6 / money)))
+
+# ::id 166
+# ::snt NA
+(xv0 / and
+      :op1 (xv3 / stand-01
+            :ARG1 (xv2 / person
+                  :quant 2)
+            :ARG2 (xv1 / ocean))
+      :op2 (xv5 / watch-01
+            :ARG0 xv2
+            :ARG1 (xv4 / sunset)))
+
+# ::id 167
+# ::snt NA
+(xv0 / and
+      :op1 (xv3 / stand-01
+            :ARG1 (xv2 / person
+                  :quant 2)
+            :ARG2 (xv1 / ocean))
+      :op2 (xv5 / watch-01
+            :ARG0 xv2
+            :ARG1 (xv4 / sunset)))
+
+# ::id 168
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv5 / person
+            :ARG1 (xv4 / jacket
+                  :mod (xv1 / blue)))
+      :ARG0 xv5
+      :ARG1 (xv3 / helmet
+            :mod (xv2 / colorful)))
+
+# ::id 169
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv5 / person
+            :ARG1 (xv4 / jacket
+                  :mod (xv1 / blue)))
+      :ARG0 xv5
+      :ARG1 (xv3 / helmet
+            :mod (xv2 / colorful)))
+
+# ::id 170
+# ::snt NA
+(xv0 / and
+      :op1 (xv7 / sit-01
+            :ARG1 (xv3 / group
+                  :consist-of (xv5 / person))
+            :ARG2 (xv4 / ledge
+                  :mod (xv6 / rocky)))
+      :op2 (xv1 / be-located-at-91
+            :ARG1 (xv9 / view
+                  :mod (xv8 / scenic))
+            :ARG2 (xv2 / behind
+                  :op1 xv3)))
+
+# ::id 171
+# ::snt NA
+(xv0 / and
+      :op1 (xv7 / sit-01
+            :ARG1 (xv3 / group
+                  :consist-of (xv5 / person))
+            :ARG2 (xv4 / ledge
+                  :mod (xv6 / rocky)))
+      :op2 (xv1 / be-located-at-91
+            :ARG1 (xv9 / view
+                  :mod (xv8 / scenic))
+            :ARG2 (xv2 / behind
+                  :op1 xv3)))
+
+# ::id 172
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / stand-01
+            :ARG1 (xv1 / dog
+                  :part xv4
+                  :ARG0-of (xv5 / look-02
+                        :ARG1 (xv6 / malnourished-01)))
+            :location (xv4 / leg
+                  :mod (xv2 / hind)))
+      :op2 (xv7 / prepare-02
+            :ARG0 xv1
+            :ARG1 (xv3 / jump-01
+                  :ARG0 xv1)))
+
+# ::id 173
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / stand-01
+            :ARG1 (xv1 / dog
+                  :part xv4
+                  :ARG0-of (xv5 / look-02
+                        :ARG1 (xv6 / malnourished-01)))
+            :location (xv4 / leg
+                  :mod (xv2 / hind)))
+      :op2 (xv7 / prepare-02
+            :ARG0 xv1
+            :ARG1 (xv3 / jump-01
+                  :ARG0 xv1)))
+
+# ::id 174
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv1 / man)
+      :ARG2 (xv4 / under
+            :op1 (xv5 / umbrella
+                  :mod (xv3 / purple)))
+      :location (xv2 / outside))
+
+# ::id 175
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv1 / man)
+      :ARG2 (xv4 / under
+            :op1 (xv5 / umbrella
+                  :mod (xv3 / purple)))
+      :location (xv2 / outside))
+
+# ::id 176
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / park)
+      :accompanier (xv1 / boy
+            :mod (xv4 / young)
+            :quant 2)
+      :location (xv3 / woman))
+
+# ::id 177
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv3 / woman)
+      :accompanier (xv1 / boy
+            :mod (xv4 / young)
+            :quant 2)
+      :location (xv2 / park))
+
+# ::id 178
+# ::snt NA
+(xv0 / lean-01
+      :ARG0 (xv1 / person
+            :ARG0-of (xv2 / surf-01))
+      :ARG1 (xv3 / surfboard))
+
+# ::id 179
+# ::snt NA
+(xv0 / lean-01
+      :ARG0 (xv1 / person
+            :ARG0-of (xv2 / surf-01))
+      :ARG1 (xv3 / surfboard))
+
+# ::id 180
+# ::snt NA
+(xv0 / herd-01
+      :ARG1 (xv4 / group
+            :consist-of (xv5 / sheep
+                  :ARG1-of (xv6 / white-02)))
+      :ARG0 (xv3 / farm
+            :mod (xv2 / dusty))
+      :location (xv1 / dog))
+
+# ::id 181
+# ::snt NA
+(xv0 / herd-01
+      :ARG0 (xv1 / dog)
+      :ARG1 (xv4 / group
+            :consist-of (xv5 / sheep
+                  :ARG1-of (xv6 / white-02)))
+      :location (xv3 / farm
+            :mod (xv2 / dusty)))
+
+# ::id 182
+# ::snt NA
+(xv0 / group-01
+      :ARG0 (xv2 / sheepdog)
+      :ARG1 (xv1 / herd
+            :consist-of (xv3 / sheep)))
+
+# ::id 183
+# ::snt NA
+(xv0 / group-01
+      :ARG0 (xv2 / sheepdog)
+      :ARG1 (xv1 / herd
+            :consist-of (xv3 / sheep)))
+
+# ::id 184
+# ::snt NA
+(xv0 / stand-01
+      :ARG2 (xv3 / hand
+            :mod (xv6 / one))
+      :ARG1 (xv4 / in-front-of
+            :op1 (xv1 / building
+                  :ARG1-of (xv8 / yellow-02)))
+      :location (xv5 / male
+            :ARG1-of (xv7 / skin-01
+                  :ARG1-of (xv2 / dark-02))))
+
+# ::id 185
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv5 / male
+            :ARG1-of (xv7 / skin-01
+                  :ARG1-of (xv2 / dark-02)))
+      :ARG2 (xv3 / hand
+            :mod (xv6 / one))
+      :location (xv4 / in-front-of
+            :op1 (xv1 / building
+                  :ARG1-of (xv8 / yellow-02))))
+
+# ::id 186
+# ::snt NA
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv4 / top
+                  :ARG1-of (xv7 / yellow-02)
+                  :mod (xv5 / tank))
+            :ARG1 (xv1 / boy
+                  :mod (xv2 / little)))
+      :op2 (xv3 / laugh-01
+            :ARG0 xv1))
+
+# ::id 187
+# ::snt NA
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv1 / boy
+                  :mod (xv2 / little))
+            :ARG1 (xv4 / top
+                  :ARG1-of (xv7 / yellow-02)
+                  :mod (xv5 / tank)))
+      :op2 (xv3 / laugh-01
+            :ARG0 xv1))
+
+# ::id 188
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / boy
+            :mod (xv3 / small))
+      :location (xv2 / forest))
+
+# ::id 189
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / boy
+            :mod (xv3 / small))
+      :location (xv2 / forest))
+
+# ::id 190
+# ::snt NA
+(xv0 / and
+      :op1 (xv7 / wear-01
+            :ARG0 (xv8 / woman)
+            :ARG1 (xv3 / helmet
+                  :mod (xv1 / blue)))
+      :op2 (xv6 / ride-01
+            :ARG0 xv8
+            :ARG1 (xv2 / bicycle)
+            :location (xv4 / lot
+                  :location-of (xv5 / park-01))))
+
+# ::id 191
+# ::snt NA
+(xv0 / and
+      :op1 (xv7 / wear-01
+            :ARG0 (xv8 / woman)
+            :ARG1 (xv3 / helmet
+                  :mod (xv1 / blue)))
+      :op2 (xv6 / ride-01
+            :ARG0 xv8
+            :ARG1 (xv2 / bicycle)
+            :location (xv4 / lot
+                  :location-of (xv5 / park-01))))
+
+# ::id 192
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / group
+            :consist-of (xv3 / kid))
+      :location (xv4 / structure
+            :mod (xv1 / colorful)))
+
+# ::id 193
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv2 / group
+            :consist-of (xv3 / kid))
+      :location (xv4 / structure
+            :mod (xv1 / colorful)))
+
+# ::id 194
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv6 / in-front-of
+            :op1 (xv3 / can
+                  :consist-of (xv10 / soda)
+                  :quant (xv9 / some)))
+      :ARG2 (xv7 / man
+            :ARG0-of (xv4 / have-03
+                  :ARG1 (xv1 / and
+                        :op1 (xv5 / hair
+                              :ARG1-of (xv2 / brown-02
+                                    :ARG1 (xv8 / shade)))
+                        :op2 xv8))
+            :mod (xv11 / young)))
+
+# ::id 195
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv7 / man
+            :ARG0-of (xv4 / have-03
+                  :ARG1 (xv1 / and
+                        :op1 (xv5 / hair
+                              :ARG1-of (xv2 / brown-02
+                                    :ARG1 (xv8 / shade)))
+                        :op2 xv8))
+            :mod (xv11 / young))
+      :ARG2 (xv6 / in-front-of
+            :op1 (xv3 / can
+                  :consist-of (xv10 / soda)
+                  :quant (xv9 / some))))
+
+# ::id 196
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / dog
+            :ARG1-of (xv4 / white-02))
+      :ARG2 (xv3 / leaf
+            :location (xv2 / ground)))
+
+# ::id 197
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / dog
+            :ARG1-of (xv4 / white-02))
+      :ARG2 (xv3 / leaf
+            :location (xv2 / ground)))
+
+# ::id 198
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv4 / gym
+            :location (xv5 / outdoors))
+      :location (xv1 / and
+            :op1 (xv2 / boy)
+            :op2 (xv3 / girl)))
+
+# ::id 199
+# ::snt NA
+(xv0 / play-01
+      :ARG0 (xv1 / and
+            :op1 (xv2 / boy)
+            :op2 (xv3 / girl))
+      :location (xv4 / gym
+            :location (xv5 / outdoors)))
+
+# ::id 200
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv8 / ride-01
+                  :ARG1 (xv4 / motocross)))
+      :ARG1 (xv1 / and
+            :op1 (xv6 / pants
+                  :ARG1-of (xv2 / blue-02))
+            :op2 (xv7 / pants
+                  :ARG1-of (xv3 / black-05))))
+
+# ::id 201
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv5 / person
+            :ARG0-of (xv8 / ride-01
+                  :ARG1 (xv4 / motocross)))
+      :ARG1 (xv1 / and
+            :op1 (xv6 / pants
+                  :ARG1-of (xv2 / blue-02))
+            :op2 (xv7 / pants
+                  :ARG1-of (xv3 / black-05))))
+
+# ::id 202
+# ::snt NA
+(xv0 / watch-01
+      :ARG0 (xv3 / game
+            :mod (xv2 / football))
+      :ARG1 (xv1 / crowd))
+
+# ::id 203
+# ::snt NA
+(xv0 / watch-01
+      :ARG0 (xv1 / crowd)
+      :ARG1 (xv3 / game
+            :mod (xv2 / football)))
+
+# ::id 204
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / dog
+            :part (xv4 / paw
+                  :mod (xv2 / front)
+                  :quant 2))
+      :ARG2 (xv5 / rock
+            :location (xv3 / field))
+      :accompanier xv4)
+
+# ::id 205
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / dog
+            :part (xv4 / paw
+                  :mod (xv2 / front)
+                  :quant 2))
+      :ARG2 (xv5 / rock
+            :location (xv3 / field))
+      :accompanier xv4)
+
+# ::id 206
+# ::snt NA
+(xv0 / smoke-02
+      :ARG0 (xv1 / cigarette)
+      :ARG1 (xv3 / man
+            :ARG1-of (xv5 / wear-01
+                  :ARG0 (xv2 / hat
+                        :consist-of (xv4 / straw)))))
+
+# ::id 207
+# ::snt NA
+(xv0 / smoke-02
+      :ARG0 (xv3 / man
+            :ARG0-of (xv5 / wear-01
+                  :ARG1 (xv2 / hat
+                        :consist-of (xv4 / straw))))
+      :ARG1 (xv1 / cigarette))
+
+# ::id 208
+# ::snt NA
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv2 / hat
+                  :mod (xv4 / straw))
+            :ARG1 (xv3 / man
+                  :ARG1-of xv5))
+      :op2 (xv5 / smoke-02
+            :ARG0 (xv1 / cigarette)))
+
+# ::id 209
+# ::snt NA
+(xv0 / and
+      :op1 (xv6 / wear-01
+            :ARG0 (xv3 / man)
+            :ARG1 (xv2 / hat
+                  :mod (xv4 / straw)))
+      :op2 (xv5 / smoke-02
+            :ARG0 xv3
+            :ARG1 (xv1 / cigarette)))
+
+# ::id 210
+# ::snt NA
+(xv0 / chase-01
+      :ARG0 (xv1 / ball)
+      :ARG1 (xv2 / dog))
+
+# ::id 211
+# ::snt NA
+(xv0 / chase-01
+      :ARG0 (xv2 / dog)
+      :ARG1 (xv1 / ball))
+
+# ::id 212
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / wear-01
+            :ARG0 (xv5 / man
+                  :ARG1 (xv7 / t-shirt
+                        :ARG1-of (xv10 / white-02)))
+            :ARG0 (xv9 / woman)
+            :ARG1 (xv4 / jacket
+                  :ARG1-of (xv6 / red-02)))
+      :op2 (xv2 / hold-01
+            :ARG0 xv9
+            :ARG1 (xv1 / glass)
+            :location (xv3 / in-front-of
+                  :op1 xv5)))
+
+# ::id 213
+# ::snt NA
+(xv0 / and
+      :op1 (xv8 / wear-01
+            :ARG0 (xv5 / man
+                  :ARG1 (xv7 / t-shirt
+                        :ARG1-of (xv10 / white-02)))
+            :ARG0 (xv9 / woman)
+            :ARG1 (xv4 / jacket
+                  :ARG1-of (xv6 / red-02)))
+      :op2 (xv2 / hold-01
+            :ARG0 xv9
+            :ARG1 (xv1 / glass)
+            :location (xv3 / in-front-of
+                  :op1 xv5)))
+
+# ::id 214
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv4 / wave
+            :mod (xv1 / big))
+      :ARG1 (xv2 / person
+            :ARG0-of (xv3 / surf-01)))
+
+# ::id 215
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv2 / person
+            :ARG0-of (xv3 / surf-01))
+      :ARG1 (xv4 / wave
+            :mod (xv1 / big)))
+
+# ::id 216
+# ::snt NA
+(xv0 / drive-01
+      :ARG0 (xv3 / vehicle
+            :name (xv1 / name
+                  :op1 "ATV"))
+      :ARG1 (xv2 / person
+            :quant 3))
+
+# ::id 217
+# ::snt NA
+(xv0 / drive-01
+      :ARG0 (xv2 / person
+            :quant 3)
+      :ARG1 (xv3 / vehicle
+            :name (xv1 / name
+                  :op1 "ATV")))
+
+# ::id 218
+# ::snt NA
+(xv0 / hold-01
+      :ARG0 (xv5 / woman
+            :mod (xv1 / continent
+                  :name (xv3 / name
+                        :op1 "Asia")))
+      :ARG1 (xv4 / scarf
+            :consist-of (xv2 / fur)))
+
+# ::id 219
+# ::snt NA
+(xv0 / hold-01
+      :ARG0 (xv5 / woman
+            :mod (xv1 / continent
+                  :name (xv3 / name
+                        :op1 "Asia")))
+      :ARG1 (xv4 / scarf
+            :consist-of (xv2 / fur)))
+
+# ::id 220
+# ::snt NA
+(xv0 / dive-01
+      :ARG0 (xv2 / lake
+            :mod (xv3 / still))
+      :ARG1 (xv1 / boy
+            :mod (xv4 / young)))
+
+# ::id 221
+# ::snt NA
+(xv0 / dive-01
+      :ARG0 (xv1 / boy
+            :mod (xv4 / young))
+      :ARG1 (xv2 / lake
+            :mod (xv3 / still)))
+
+# ::id 222
+# ::snt NA
+(xv0 / group-01
+      :ARG1 (xv1 / and
+            :op1 (xv2 / adult)
+            :op2 (xv4 / child))
+      :ARG2-of (xv5 / near-02
+            :ARG1 (xv3 / arrange-01
+                  :ARG1 (xv7 / seat-01
+                        :location (xv6 / outdoor)))))
+
+# ::id 223
+# ::snt NA
+(xv0 / group-01
+      :ARG1 (xv1 / and
+            :op1 (xv2 / adult)
+            :op2 (xv4 / child))
+      :ARG1-of (xv5 / near-02
+            :ARG2 (xv3 / arrange-01
+                  :ARG1 (xv7 / seat-01
+                        :location (xv6 / outdoor)))))
+
+# ::id 224
+# ::snt NA
+(xv0 / move-01
+      :ARG1 (xv1 / and
+            :op1 (xv6 / pedestrian)
+            :op2 (xv3 / car))
+      :location (xv4 / city
+            :mod (xv2 / big))
+      :path (xv5 / jam
+            :mod (xv7 / traffic)))
+
+# ::id 225
+# ::snt NA
+(xv0 / move-01
+      :ARG1 (xv1 / and
+            :op1 (xv6 / pedestrian)
+            :op2 (xv3 / car))
+      :location (xv4 / city
+            :mod (xv2 / big))
+      :path (xv5 / jam
+            :mod (xv7 / traffic)))
+
+# ::id 226
+# ::snt NA
+(xv0 / hold-01
+      :ARG0 (xv1 / football)
+      :ARG1 (xv3 / man
+            :ARG0-of (xv2 / have-03
+                  :ARG1 (xv4 / shirt)
+                  :polarity -)))
+
+# ::id 227
+# ::snt NA
+(xv0 / hold-01
+      :ARG0 (xv3 / man
+            :ARG0-of (xv2 / have-03
+                  :ARG1 (xv4 / shirt)
+                  :polarity -))
+      :ARG1 (xv1 / football))
+
+# ::id 228
+# ::snt NA
+(xv0 / hold-01
+      :ARG0 (xv2 / afghan
+            :mod (xv6 / rainbow))
+      :ARG1 (xv3 / girl
+            :ARG1-of (xv7 / wear-01
+                  :ARG0 (xv1 / and
+                        :op1 (xv4 / gold)
+                        :op2 (xv5 / purple)))))
+
+# ::id 229
+# ::snt NA
+(xv0 / hold-01
+      :ARG0 (xv3 / girl
+            :ARG0-of (xv7 / wear-01
+                  :ARG1 (xv1 / and
+                        :op1 (xv4 / gold)
+                        :op2 (xv5 / purple))))
+      :ARG1 (xv2 / afghan
+            :mod (xv6 / rainbow)))
+
+# ::id 230
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv3 / man
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv1 / beret)))
+      :ARG1 (xv2 / bicycle)
+      :location (xv5 / trail
+            :purpose (xv4 / recreation)))
+
+# ::id 231
+# ::snt NA
+(xv0 / ride-01
+      :ARG0 (xv3 / man
+            :ARG0-of (xv6 / wear-01
+                  :ARG1 (xv1 / beret)))
+      :ARG1 (xv2 / bicycle)
+      :location (xv5 / trail
+            :purpose (xv4 / recreation)))
+
+# ::id 232
+# ::snt NA
+(xv0 / run-02
+      :ARG1-of (xv3 / quick-02)
+      :ARG0 (xv2 / park)
+      :ARG1 (xv1 / dog
+            :quant 2))
+
+# ::id 233
+# ::snt NA
+(xv0 / run-02
+      :ARG1-of (xv3 / quick-02)
+      :ARG0 (xv1 / dog
+            :quant 2)
+      :ARG1 (xv2 / park))
+
+# ::id 234
+# ::snt NA
+(xv0 / have-03
+      :ARG0 (xv2 / dog
+            :part (xv5 / head))
+      :ARG1 xv5
+      :location (xv6 / inside
+            :op1 (xv1 / bag
+                  :ARG1-of (xv7 / red-02)
+                  :mod (xv3 / gift)
+                  :mod (xv4 / green))))
+
+# ::id 235
+# ::snt NA
+(xv0 / have-03
+      :ARG0 (xv2 / dog
+            :part (xv5 / head))
+      :ARG1 xv5
+      :location (xv6 / inside
+            :op1 (xv1 / bag
+                  :ARG1-of (xv7 / red-02)
+                  :mod (xv3 / gift)
+                  :mod (xv4 / green))))
+
+# ::id 236
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv4 / run-02
+                  :location (xv2 / beach)))
+      :ARG1 (xv3 / hat
+            :ARG1-of (xv5 / white-02)))
+
+# ::id 237
+# ::snt NA
+(xv0 / wear-01
+      :ARG0 (xv1 / boy
+            :ARG0-of (xv4 / run-02
+                  :location (xv2 / beach)))
+      :ARG1 (xv3 / hat
+            :ARG1-of (xv5 / white-02)))
+
+# ::id 238
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv5 / shop
+            :mod (xv1 / accessory
+                  :mod (xv4 / military)))
+      :ARG2 (xv3 / man
+            :mod (xv2 / large)))
+
+# ::id 239
+# ::snt NA
+(xv0 / sit-01
+      :ARG1 (xv3 / man
+            :mod (xv2 / large))
+      :ARG2 (xv5 / shop
+            :mod (xv1 / accessory
+                  :mod (xv4 / military))))
+
+# ::id 240
+# ::snt NA
+(xv0 / jump-off-02
+      :ARG0 (xv3 / snow)
+      :ARG1 (xv1 / person
+            :ARG0-of (xv2 / snowboard-01)))
+
+# ::id 241
+# ::snt NA
+(xv0 / jump-off-02
+      :ARG0 (xv1 / person
+            :ARG0-of (xv2 / snowboard-01))
+      :ARG1 (xv3 / snow))
+
+# ::id 242
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv3 / next-to
+            :op1 (xv4 / open-01
+                  :ARG1 (xv2 / fountain)))
+      :ARG2 (xv1 / boy))
+
+# ::id 243
+# ::snt NA
+(xv0 / stand-01
+      :ARG1 (xv1 / boy)
+      :ARG2 (xv3 / next-to
+            :op1 (xv4 / open-01
+                  :ARG1 (xv2 / fountain))))
+
+# ::id 244
+# ::snt NA
+(xv0 / make-01
+      :ARG0 (xv5 / person
+            :quant 3
+            :ARG0-of (xv4 / have-rel-role-91
+                  :ARG2 (xv2 / friend)))
+      :ARG1 (xv3 / face)
+      :purpose (xv1 / camera))
+
+# ::id 245
+# ::snt NA
+(xv0 / make-01
+      :ARG0 (xv5 / person
+            :quant 3
+            :ARG0-of (xv4 / have-rel-role-91
+                  :ARG2 (xv2 / friend)))
+      :ARG1 (xv3 / face)
+      :purpose (xv1 / camera))
