@@ -110,13 +110,16 @@ def safe_evaluate_with_function(xs, ys, fun):
     return mp
 
 
-def eval_rep(scores):
+def eval_rep(scores, weights):
+    weights = weights / weights.sum()
+    wam = np.sum(scores * weights)
     am = np.mean(scores)
-    gm = gmean(scores)
     hm = hmean(scores)
+    gm = gmean(scores)
     scores.append(am)
     scores.append(gm)
     scores.append(hm)
+    scores.append(wam)
     ls = [str(round(sc*100, 2)) for sc in scores]
     ls = [x + "0" if len(x.split(".")[1]) == 1 else x for x in ls]
     return " & ".join(ls)
@@ -128,15 +131,17 @@ if __name__ == "__main__":
     human_para = load_human_scores_para()
     parser = get_arg_parser()
     args = parser.parse_args()
-    scores = []
     
+    scores = [] 
+    weights = [] 
+    evalfun = lambda x, y: pearsonr(x,y)[0]
+
     path = args.path_sts_prediction_file_main
     pred = get_predicted_scores(readl(path), index=STS[1])
     evalfun = lambda x, y: pearsonr(x,y)[0]
-    
-
     mp = safe_evaluate_with_function(human_sts, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -144,6 +149,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=SICK[1])
     mp = safe_evaluate_with_function(human_sick, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -151,6 +157,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=PARA[1])
     mp = safe_evaluate_with_function(human_para, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -158,6 +165,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=STS[1])
     mp = safe_evaluate_with_function(human_sts, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
     
     
@@ -165,6 +173,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=SICK[1])
     mp = safe_evaluate_with_function(human_sick, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
 
@@ -172,6 +181,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=PARA[1])
     mp = safe_evaluate_with_function(human_para, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -179,6 +189,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=STS[1])
     mp = safe_evaluate_with_function(human_sts, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -186,6 +197,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=SICK[1])
     mp = safe_evaluate_with_function(human_sick, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -193,6 +205,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=PARA[1])
     mp = safe_evaluate_with_function(human_para, pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
 
@@ -200,6 +213,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=[0, 158])
     mp = safe_evaluate_with_function([0,1]*int(len(pred)/2), pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
     
@@ -207,6 +221,7 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=[0,  238])
     mp = safe_evaluate_with_function([0,1]*int(len(pred)/2), pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
 
@@ -214,10 +229,11 @@ if __name__ == "__main__":
     pred = get_predicted_scores(readl(path), index=[0, 2242]) 
     mp = safe_evaluate_with_function([0,1]*int(len(pred)/2), pred, fun=evalfun)
     scores.append(mp)
+    weights.append(len(pred))
     print(path, mp)
 
-    print("Latex --->",  "\multicolumn{12}{c}{Pearson's $\\rho$} & amean & gmean & hmean" )
-    print("Latex --->",  eval_rep(scores))
+    print("Latex --->",  "\multicolumn{12}{c}{Pearson's $\\rho$} & amean & gmean & hmean & SAMPLE WEIGHTED MEAN" )
+    print("Latex --->",  eval_rep(scores, weights=np.array(weights)))
 
 
 
