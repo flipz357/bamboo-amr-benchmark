@@ -109,10 +109,24 @@ def safe_evaluate_with_function(xs, ys, fun):
         mp = "NA"
     return mp
 
+def pair_accuracy(gold, ys):
+    correct = 0
+    alls = 0
+    for i in range(0, len(gold), 2):
+        deltag = gold[i] - gold[i + 1]
+        deltap = ys[i] - ys[i + 1]
+        if deltag * deltap > 0:
+            correct += 1
+        alls += 1
+    return correct / alls
 
-def eval_rep(scores, weights):
+
+def eval_rep(scores_in, weights, combiner=" & "):
+    scores = list(scores_in)
+    
     weights = weights / weights.sum()
     wam = np.sum(scores * weights)
+    
     am = np.mean(scores)
     hm = hmean(scores)
     gm = gmean(scores)
@@ -120,9 +134,11 @@ def eval_rep(scores, weights):
     scores.append(gm)
     scores.append(hm)
     scores.append(wam)
+    
     ls = [str(round(sc*100, 2)) for sc in scores]
     ls = [x + "0" if len(x.split(".")[1]) == 1 else x for x in ls]
-    return " & ".join(ls)
+    
+    return combiner.join(ls)
 
 
 if __name__ == "__main__":
@@ -208,10 +224,11 @@ if __name__ == "__main__":
     weights.append(len(pred))
     print(path, mp)
 
+    evalfun = pair_accuracy
 
     path = args.path_sts_prediction_file_roleconf
     pred = get_predicted_scores(readl(path), index=[0, 158])
-    mp = safe_evaluate_with_function([0,1]*int(len(pred)/2), pred, fun=evalfun)
+    mp = safe_evaluate_with_function([0, 1]*int(len(pred)/2), pred, fun=evalfun)
     scores.append(mp)
     weights.append(len(pred))
     print(path, mp)
@@ -219,7 +236,7 @@ if __name__ == "__main__":
     
     path = args.path_sick_prediction_file_roleconf
     pred = get_predicted_scores(readl(path), index=[0,  238])
-    mp = safe_evaluate_with_function([0,1]*int(len(pred)/2), pred, fun=evalfun)
+    mp = safe_evaluate_with_function([0, 1]*int(len(pred)/2), pred, fun=evalfun)
     scores.append(mp)
     weights.append(len(pred))
     print(path, mp)
@@ -227,13 +244,14 @@ if __name__ == "__main__":
 
     path = args.path_para_prediction_file_roleconf
     pred = get_predicted_scores(readl(path), index=[0, 2242]) 
-    mp = safe_evaluate_with_function([0,1]*int(len(pred)/2), pred, fun=evalfun)
+    mp = safe_evaluate_with_function([0, 1]*int(len(pred)/2), pred, fun=evalfun)
     scores.append(mp)
     weights.append(len(pred))
     print(path, mp)
 
-    print("Latex --->",  "\multicolumn{12}{c}{Pearson's $\\rho$} & amean & gmean & hmean & SAMPLE WEIGHTED MEAN" )
+    print("Latex --->",  "\multicolumn{9}{c}{Pearson's $\\rho$} & \multicolumn{9}{c}{Accuracy} & amean & gmean & hmean & SAMPLE WEIGHTED MEAN" )
     print("Latex --->",  eval_rep(scores, weights=np.array(weights)))
+    print(" | --->",  eval_rep(scores, weights=np.array(weights), combiner=" | "))
 
 
 

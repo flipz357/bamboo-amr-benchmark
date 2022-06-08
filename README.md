@@ -14,6 +14,11 @@ See `evaluation-suite/README.md`
 
 Alternatively, metrics can be tested on parts of benchmark, such as, e.g., STS MAIN.
 
+## Version notes
+
+- 0.1: release
+- 0.2: Changed default evaluation of role switch. Recall that role switch makes two equivalent graphs (in meaning, not necessarily in structure) different. Previous evaluation calculates Pearsonr of predictions and [0, 1, 0, 1, 0, 1, 0...] where 0 stands for a SRL switch pair and 1 is the original pair. Old evaluation is not ideal since the metric shouldn't be expected to predict 0 (which implies totally different graphs). Instead, the metric should assign just a score that is lower. This is solved now by calculating accuracy of pairs, e.g. if gold pair is [0, 1] and pred pair is [x, y] with y > x then it is a correct pair, otherwise not. Accuarcy is sum of correct divided by all pairs.
+
 ## Citation
 
 ```
