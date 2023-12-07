@@ -19,7 +19,7 @@ Alternatively, metrics can be tested on parts of benchmark, such as, e.g., STS M
 
 ## Benchmark Results of Current Metrics and Evaluation Setup
 
-latest update: 07/12/2023, using metrics with recent updates, with improved role confusion evaluation (see above), reproting arithmetic mean as average 
+latest update: 07/12/2023, using metrics with recent updates, with improved role confusion evaluation (see above), reporting arithmetic mean as average 
 
 | Metric        | STS   | SICK  | PARA  | STS(reify) | SICK(reify) | PARA(reify)| STS(Syno) | SICK(Syno) | PARA(Syno) | STS(role) | SICK(role) | PARA(role) | AMEAN |
 |---------------|-------|-------|-------|------------|-------------|------------|------------|------------|-----------|-----------|------------|------------|-------|
