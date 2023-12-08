@@ -1,4 +1,4 @@
-# BAMBOO Meaning Graph Similarity Benchmark
+# 🎋BAMBOO Meaning Graph Similarity Benchmark
 
 ➡️ [Here's](https://github.com/flipz357/bamboo-amr-benchmark#benchmark-results-of-current-metrics-and-evaluation-setup) updated results on BAMBOO.
 
