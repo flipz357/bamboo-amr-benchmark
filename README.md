@@ -55,7 +55,7 @@ Metric version:
 | Metric                                                             | commit  |
 | -------------------------------------------------------------------| ------- |
 | [SemBleu](https://github.com/freesunshine0316/sembleu)             | 530bc05 |
-| [Sema](https://github.com/freesunshine0316/sembleu)                | 9a4911c |
+| [Sema](https://github.com/rafaelanchieta/sema)                     | 9a4911c |
 | [Smatch, S2match](https://github.com/flipz357/amr-metric-suite)    | 711a231 |
 | [SmatchPP](https://github.com/flipz357/smatchpp)                   | f7e206d |
 | [(W)WLK](https://github.com/flipz357/weisfeiler-leman-amr-metrics) | 51624e2 |
