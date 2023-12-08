@@ -1,6 +1,8 @@
 # Bamboo AMR Similarity Benchmark
 
-## What do you need?
+➡️ [Here's](https://github.com/flipz357/bamboo-amr-benchmark#benchmark-results-of-current-metrics-and-evaluation-setup) updated results on BAMBOO, please feel file an issue or a pull request to update the table.
+
+## What do you need for evaluation on BAMBOO? It's simple
 
 You need a metric that can input two files with n parallel AMR graphs each (in ususal AMR SemBank Penman format) and output n scores of meaning similarity (one per line). That's it.
 
