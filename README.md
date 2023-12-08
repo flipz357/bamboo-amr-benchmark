@@ -4,10 +4,10 @@
 
 Contribute your results:
 
-- evaluate your metric
-- open an issue or a pull request
-- pull request: update both tables below
-- issue: report evaluation results, link to your metric, commit number (optional: paper link)
+1. evaluate your metric
+2. open an issue or a pull request
+     - pull request: update both tables below
+     - issue: report evaluation results, link to your metric, commit number (optional: paper link)
 
 ## What do you need for evaluation on BAMBOO? It's simple
 
