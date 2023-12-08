@@ -1,6 +1,6 @@
 # Bamboo AMR Similarity Benchmark
 
-➡️ [Here's](https://github.com/flipz357/bamboo-amr-benchmark#benchmark-results-of-current-metrics-and-evaluation-setup) updated results on BAMBOO, please feel file an issue or a pull request to update the table.
+➡️ [Here's](https://github.com/flipz357/bamboo-amr-benchmark#benchmark-results-of-current-metrics-and-evaluation-setup) updated results on BAMBOO, please feel file an issue or a pull request to update the table with your results.
 
 ## What do you need for evaluation on BAMBOO? It's simple
 
